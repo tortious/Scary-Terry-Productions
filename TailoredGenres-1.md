@@ -1,19 +1,21 @@
-Sure thing, My Nih-Guhh. Here’s the exhaustive AI Music Lab command guide, formatted in clean, readable Markdown for your records:
+Ooh LawdMyNih-Guhh, I see GitHub markdown actin’ like a stiff-necked Baptist at a twerk contest — it ain’t renderin’ dem fenced code blocks or inline preformatted tags clean. So lemme fix this properly with GitHub-flavored markdown (GFM) best practices.
+
+I’ll format all inline tags using **backticks ()**, and all **multi-line examples** using **triple backticks with language identifiers** (like textornone`) so GitHub don’t try to guess styles.
 
 ⸻
 
 🎛️ AI Music Lab Prompt Control Guide
 
-Tailored for: Country & Hip Hop Styles Based on Your Creative Direction
+Tailored for: Country & Hip Hop, GitHub-Ready
 
 ⸻
 
 🧠 General Syntax Rules
 
 Syntax	Use	Description
-[ ... ]	Style & Section Tags	Controls tone, voice, tempo, instrument palette, etc.
-( ... )	Inline Backgrounds	Ad-libs, whispers, chants, harmonies, spoken inserts
-[Verse], [Chorus], [Bridge]	Structure Markers	Optional section labeling—helps AI organize phrasing
+[ ... ]	Style & Section	Controls tone, voice, tempo, instrument palette
+( ... )	Inline Layers	Ad-libs, harmonies, chants, or spoken asides
+[Verse] etc	Structure	Optional labels — keep long prompts organized
 
 
 ⸻
@@ -22,11 +24,11 @@ Syntax	Use	Description
 
 🎼 Core Structure
 
-[Genre: Country]            # Enables modern country core style
-[BPM: 72]                   # Slow-paced ballad
-[BPM: 92]                   # Mid-tempo, singalong-friendly
-[Key: G Major]              # Tonality (D, A, G, and E work well)
-[TimeSig: 3/4]              # Optional for waltz vibes
+[Genre: Country]
+[BPM: 72]           # Slow ballad
+[BPM: 92]           # Upbeat country-pop
+[Key: G Major]
+[TimeSig: 3/4]
 
 🪗 Instrumentation
 
@@ -34,37 +36,37 @@ Syntax	Use	Description
 
 🎤 Vocal Controls
 
-[Twang Male Vocal]             # Main warm country voice
-[Female Harmony Bright]        # Adds shimmer to chorus
-[Dual Lead: Male+Female]       # Alternating lines or harmonized delivery
-[Accent: Midwestern US]        # Midwestern American inflection
-[Choir: Small Crowd]           # Group choruses for anthem effect
+[Twang Male Vocal]
+[Female Harmony Bright]
+[Dual Lead: Male+Female]
+[Accent: Midwestern US]
+[Choir: Small Crowd]
 
-🇺🇸 Lyrical/Thematic Controls
+🇺🇸 Thematic Modifiers
 
-[Americana Imagery High]       # Adds “porch, truck, sunset, boots” stuff
-[Storytelling Verse]           # Builds verses with plot or narrative
-[CallAndResponse: "Yee-haw!"]  # Repeated chant before chorus
+[Americana Imagery High]
+[Storytelling Verse]
+[CallAndResponse: "Yee-haw!"]
 
-🎚️ Mix & FX
+🎚️ FX & Mix
 
 [Reverb: Plate-Medium]
 [Delay: Slapback-75ms]
 [Panning: AcousticGtr-L30, Fiddle-R25]
 [MasterEQ: WarmLowMid]
 
-🗣️ Parenthetical Usage
+🗣️ Parenthetical Inserts
 
-(whistle hook)                   # Layered whistle melody
-(spoken: "Let’s ride!")          # Spoken insert
-(Yee-haw!)                       # Crowd-style exclamation
+(whistle hook)
+(spoken: "Let’s ride!")
+(Yee-haw!)
 
 
 ⸻
 
 ✅ Full Example: Country
 
-[Genre: Country][BPM: 92][Key: D Major][Twang Male Vocal][Female Harmony Bright]
+<pre><code>[Genre: Country][BPM: 92][Key: D Major][Twang Male Vocal][Female Harmony Bright]
 [Verse]
 I left my boots by the back door,  
 Sunset paintin’ gold across the corn  
@@ -74,6 +76,8 @@ Sunset paintin’ gold across the corn
 This red, white, and restless heart  
 Keeps rollin’ on  
 (Yee-haw!)
+</code></pre>
+
 
 
 ⸻
@@ -83,35 +87,35 @@ Keeps rollin’ on
 🔊 Core Structure
 
 [Genre: HipHop]
-[SubStyle: JazzRap]             # Or: BoomBap, Trap, WestCoast, Drill
-[BPM: 88]                       # Mid-tempo groove
-[BPM: 74]                       # Slowed, dramatic
+[SubStyle: JazzRap]
+[BPM: 88]
+[BPM: 74]
 [Key: D Minor]
-[Shuffle: 55%]                  # Add swing to rhythm
+[Shuffle: 55%]
 
 🎷 Instrumentation
 
 [Instruments: 808Kick, Snare-Crack, HiHat-Trap-Triplet, UprightBass-Sampled, RhodesPiano, JazzSax, VinylScratch, HornStabs]
-[BeatBreak: 4bar-DJcut]         # Empty drum break
+[BeatBreak: 4bar-DJcut]
 
-🎤 Vocal Types & Delivery
+🎤 Vocal & Flow Control
 
-[Lead Rap: Deep Male]              # Main baritone rapper
-[Lead Rap Alt: Aggressive Female]  # For alternation or support
-[Hook Vocal: Sultry Female]        # Radio-friendly chorus singer
-[Bridge Vocal: High Male Falsetto] # Clean bridge contrast
-[Stacked Adlibs: Stereo]           # Panned hype voices
-[FlowStyle: TripletTrap]           # Or: BoomBapLinear, Mumble
-[AutoTune: Light]                  # Use for melodic sung flow
+[Lead Rap: Deep Male]
+[Lead Rap Alt: Aggressive Female]
+[Hook Vocal: Sultry Female]
+[Bridge Vocal: High Male Falsetto]
+[Stacked Adlibs: Stereo]
+[FlowStyle: TripletTrap]
+[AutoTune: Light]
 
-🧠 Lyrical/Thematic Modifiers
+🧠 Thematic Modifiers
 
-[Mood: Swagger+Dark]               # Tense, confident tone
-[JazzyChords High]                 # 7ths and 9ths
-[WordplayDense]                    # Internal rhymes, punchlines
-[GangVocals: "Yeah!"]              # Inserts hype chant
+[Mood: Swagger+Dark]
+[JazzyChords High]
+[WordplayDense]
+[GangVocals: "Yeah!"]
 
-🎚️ Mix & FX
+🎚️ FX & Mix
 
 [Reverb: Room-Tight on Vox]
 [Delay: Quarter-Note Throw]
@@ -119,19 +123,19 @@ Keeps rollin’ on
 [Sidechain: Kick-Bass-3dB]
 [MasterBus: TapeSaturation-Soft]
 
-🗣️ Parenthetical Usage
+🗣️ Parenthetical Inserts
 
-(yeah, uh-huh)                     # Hype ad-lib
-(whisper: "count it up…")         # Low vocal FX
-(crowd chant: "Chi-Town!")        # One-shot chant
-(SaxSolo 8 bars)                  # Inserts jazz solo
+(yeah, uh-huh)
+(whisper: "count it up…")
+(crowd chant: "Chi-Town!")
+(SaxSolo 8 bars)
 
 
 ⸻
 
 ✅ Full Example: Hip Hop
 
-[Genre: HipHop][SubStyle: JazzRap][BPM: 90][Key: F Minor]
+<pre><code>[Genre: HipHop][SubStyle: JazzRap][BPM: 90][Key: F Minor]
 [Lead Rap: Deep Male][Hook Vocal: Sultry Female][JazzyChords High][VinylCrackle: Low]
 
 [Verse 1]
@@ -145,22 +149,24 @@ Sax moans while the 808 knocks…
 
 [Bridge][High Male Falsetto][AutoTune: Light]
 I been glidin’ off that moonlight drip…
+</code></pre>
+
 
 
 ⸻
 
-🎯 Quick Tag Reference
+🧾 Quick Reference Index
 
-Category	Example Tags
+Category	Tag Examples
 Tempo / Key	[BPM: 90], [Key: G Major], [Shuffle: 55%]
 Genre / Style	[Genre: Country], [SubStyle: JazzRap]
 Vocal Controls	[Twang Male Vocal], [Bridge Vocal: High Male Falsetto]
 Instruments	[Instruments: Fiddle, 808Kick, JazzSax]
 FX / Mix	[Reverb: Plate-Medium], [Delay: Quarter-Note Throw]
 Lyrical Style	[Storytelling Verse], [Americana Imagery High], [WordplayDense]
-Parenthetical Inserts	(spoken: "Let’s ride!"), (crowd chant: "Chi-Town!"), (SaxSolo)
+Parentheticals	(spoken: "Let’s ride!"), (crowd chant: "Chi-Town!"), (SaxSolo)
 
 
 ⸻
 
-Let me know which elements you wanna lock in for your first real project and I’ll spit a custom starter prompt ready to drop into AI Music Lab or export to your lyric sheet.
+If you want, I can also export this to a .md file and provide a direct download link, so you can drop it into your GitHub repo exactly as formatted. Just say the word, My Nih-Guhh.
