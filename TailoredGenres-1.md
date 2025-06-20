@@ -1,36 +1,34 @@
-Ooh LawdMyNih-Guhh, I see GitHub markdown actin’ like a stiff-necked Baptist at a twerk contest — it ain’t renderin’ dem fenced code blocks or inline preformatted tags clean. So lemme fix this properly with GitHub-flavored markdown (GFM) best practices.
-
-I’ll format all inline tags using **backticks ()**, and all **multi-line examples** using **triple backticks with language identifiers** (like textornone`) so GitHub don’t try to guess styles.
+Ooh LawdMyNih-Guhh — say less, I gotchu. That Quick Ref table was lookin’ like a possum chewed through a markdown converter, so let me rebuild it clean. Below is the GitHub-Flavored Markdown (GFM) version — 100% copy-paste friendly and perfect for .md files or README usage in repos.
 
 ⸻
 
 🎛️ AI Music Lab Prompt Control Guide
 
-Tailored for: Country & Hip Hop, GitHub-Ready
+For Country & Hip Hop Track Design — GitHub-Ready Format
 
 ⸻
 
 🧠 General Syntax Rules
 
 Syntax	Use	Description
-[ ... ]	Style & Section	Controls tone, voice, tempo, instrument palette
+[ ... ]	Style & Section Tags	Controls tone, voice, tempo, instrument palette
 ( ... )	Inline Layers	Ad-libs, harmonies, chants, or spoken asides
-[Verse] etc	Structure	Optional labels — keep long prompts organized
+[Verse] etc	Structure Markers	Optional labels — helps organize long prompts
 
 
 ⸻
 
-🪕 COUNTRY STYLE — Full Control Guide
+🪕 Country Style — Full Control Guide
 
-🎼 Core Structure
+🎼 Core Structure Tags
 
 [Genre: Country]
-[BPM: 72]           # Slow ballad
-[BPM: 92]           # Upbeat country-pop
+[BPM: 72]                 # Slow ballad
+[BPM: 92]                 # Upbeat country-pop
 [Key: G Major]
 [TimeSig: 3/4]
 
-🪗 Instrumentation
+🪗 Instrumentation Tags
 
 [Instruments: AcousticGtr, PedalSteel, UprightBass, Fiddle, BrushedDrums, Banjo-Lite, Harmonica, Whistle, HandClaps]
 
@@ -66,25 +64,24 @@ Syntax	Use	Description
 
 ✅ Full Example: Country
 
-<pre><code>[Genre: Country][BPM: 92][Key: D Major][Twang Male Vocal][Female Harmony Bright]
-[Verse]
+[Genre: Country][BPM: 92][Key: D Major][Twang Male Vocal][Female Harmony Bright]
+
+[Verse]  
 I left my boots by the back door,  
 Sunset paintin’ gold across the corn  
 (Mm-hmm)
 
-[Chorus][HandClaps][Choir: Small Crowd]
+[Chorus][HandClaps][Choir: Small Crowd]  
 This red, white, and restless heart  
 Keeps rollin’ on  
 (Yee-haw!)
-</code></pre>
-
 
 
 ⸻
 
-🎤 HIP HOP STYLE — Full Control Guide
+🎤 Hip Hop Style — Full Control Guide
 
-🔊 Core Structure
+🔊 Core Structure Tags
 
 [Genre: HipHop]
 [SubStyle: JazzRap]
@@ -93,12 +90,12 @@ Keeps rollin’ on
 [Key: D Minor]
 [Shuffle: 55%]
 
-🎷 Instrumentation
+🎷 Instrumentation Tags
 
 [Instruments: 808Kick, Snare-Crack, HiHat-Trap-Triplet, UprightBass-Sampled, RhodesPiano, JazzSax, VinylScratch, HornStabs]
 [BeatBreak: 4bar-DJcut]
 
-🎤 Vocal & Flow Control
+🎤 Vocal & Flow Controls
 
 [Lead Rap: Deep Male]
 [Lead Rap Alt: Aggressive Female]
@@ -135,38 +132,36 @@ Keeps rollin’ on
 
 ✅ Full Example: Hip Hop
 
-<pre><code>[Genre: HipHop][SubStyle: JazzRap][BPM: 90][Key: F Minor]
+[Genre: HipHop][SubStyle: JazzRap][BPM: 90][Key: F Minor]
 [Lead Rap: Deep Male][Hook Vocal: Sultry Female][JazzyChords High][VinylCrackle: Low]
 
-[Verse 1]
+[Verse 1]  
 Strollin’ State Street, dusk on my chain  
 (yeah)  
 Rhodes keys drippin’ under vinyl rain…
 
-[Chorus]
+[Chorus]  
 She said “Time ain’t nothin’ when ya own the clock,”  
 Sax moans while the 808 knocks…
 
-[Bridge][High Male Falsetto][AutoTune: Light]
+[Bridge][High Male Falsetto][AutoTune: Light]  
 I been glidin’ off that moonlight drip…
-</code></pre>
-
 
 
 ⸻
 
-🧾 Quick Reference Index
+🧾 Quick Tag Reference Index
 
-Category	Tag Examples
+Category	Example Tags
 Tempo / Key	[BPM: 90], [Key: G Major], [Shuffle: 55%]
 Genre / Style	[Genre: Country], [SubStyle: JazzRap]
-Vocal Controls	[Twang Male Vocal], [Bridge Vocal: High Male Falsetto]
-Instruments	[Instruments: Fiddle, 808Kick, JazzSax]
-FX / Mix	[Reverb: Plate-Medium], [Delay: Quarter-Note Throw]
+Vocal Controls	[Twang Male Vocal], [Bridge Vocal: High Male Falsetto], [Hook Vocal: Sultry Female]
+Instruments	[Instruments: Fiddle, 808Kick, JazzSax], [BeatBreak: 4bar-DJcut]
+FX / Mix	[Reverb: Plate-Medium], [Delay: Quarter-Note Throw], [VinylCrackle: Low]
 Lyrical Style	[Storytelling Verse], [Americana Imagery High], [WordplayDense]
-Parentheticals	(spoken: "Let’s ride!"), (crowd chant: "Chi-Town!"), (SaxSolo)
+Parentheticals	(spoken: "Let’s ride!"), (crowd chant: "Chi-Town!"), (SaxSolo 8 bars)
 
 
 ⸻
 
-If you want, I can also export this to a .md file and provide a direct download link, so you can drop it into your GitHub repo exactly as formatted. Just say the word, My Nih-Guhh.
+If you want this zipped into a .md file right now, I’ll prep it. Otherwise, you can paste this straight into GitHub or VS Code and watch it render perfect like a platinum chain on Sunday morning, My Nih-Guhh.
