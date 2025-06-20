@@ -1,154 +1,166 @@
-Below is a consolidated reference sheet you can keep on-hand while prompting AI Music Lab.
-It is split into Country and Hip Hop sections and shows every practical knob you can turn with [square-bracket tags] (global or sectional instructions) and (parenthetical inserts) (ad-libs, spoken asides, background parts).
-Examples use neutral wording; swap in your own lyrics after the tags.
+Sure thing, My Nih-Guhh. Here’s the exhaustive AI Music Lab command guide, formatted in clean, readable Markdown for your records:
 
 ⸻
 
-1  General Tagging Rules
+🎛️ AI Music Lab Prompt Control Guide
 
-Convention	What the engine does	Notes
-[ … ]	Sets style, instrumentation, mix, or performance for the section that follows until the next tag	Works at song level if placed before the first line
-( … )	Generates simultaneous or “layer-behind” vocals, ad-libs, crowd shouts, FX, or spoken lines	Good for call-and-response, hype tracks, or harmony pads
-[Verse] / [Chorus] / [Bridge] / [Solo]	Explicitly marks structure; engine respects the label when arranging	Optional but helps keep long prompts organized
-Multiple tags	Stackable; engine applies all (e.g., [BPM:95][Key:G][Twang Male Vocal])	Order does not matter
-Capitalization	Tag names are case-insensitive	
-
-(Parentheses as backing vocal markers are confirmed behaviour in tools like Suno; brackets override tone and mix settings.)  ￼ ￼
+Tailored for: Country & Hip Hop Styles Based on Your Creative Direction
 
 ⸻
 
-2  Country – Exhaustive Capability Menu
+🧠 General Syntax Rules
 
-a) Core Style / Tempo / Key
+Syntax	Use	Description
+[ ... ]	Style & Section Tags	Controls tone, voice, tempo, instrument palette, etc.
+( ... )	Inline Backgrounds	Ad-libs, whispers, chants, harmonies, spoken inserts
+[Verse], [Chorus], [Bridge]	Structure Markers	Optional section labeling—helps AI organize phrasing
 
-[Genre: Country]        # forces Nashville / modern country palette  
-[BPM: 72]               # slow ballad range (65-80)  
-[BPM: 96]               # mid-upbeat radio feel (85-100)  
-[Key: G Major]          # specify tonality; works with minor keys too  
-[TimeSig: 3/4]          # for a waltz - optional  
 
-b) Instrumentation Tags
+⸻
 
-[Instruments: AcousticGtr, ElectricGtr-Clean, PedalSteel, Fiddle, Banjo-Lite, UprightBass, BrushedDrums, HandClaps, Whistle]  
+🪕 COUNTRY STYLE — Full Control Guide
 
-You can list any mix; leave out Banjo to avoid bluegrass.
+🎼 Core Structure
 
-c) Lead & Harmony Vocal Controls
+[Genre: Country]            # Enables modern country core style
+[BPM: 72]                   # Slow-paced ballad
+[BPM: 92]                   # Mid-tempo, singalong-friendly
+[Key: G Major]              # Tonality (D, A, G, and E work well)
+[TimeSig: 3/4]              # Optional for waltz vibes
 
-[Twang Male Vocal]               # warm, lightly nasal delivery  
-[Female Harmony Bright]          # high third-above harmony on choruses  
-[Dual Lead: Male+Female]         # trades lines  
-[Choir: Small Crowd]             # gang-style singalong refrains  
-[Accent: Midwestern US]          # adjusts phonetics  
+🪗 Instrumentation
 
-d) Lyrical / Thematic Modifiers
+[Instruments: AcousticGtr, PedalSteel, UprightBass, Fiddle, BrushedDrums, Banjo-Lite, Harmonica, Whistle, HandClaps]
 
-[Americana Imagery High]         # engine peppers porch, highway, small-town lines  
-[Storytelling Verse]             # narrative phrasing, vivid detail  
-[CallAndResponse: “Yee-haw!”]    # auto-injects shout before each chorus  
+🎤 Vocal Controls
 
-e) Mix & FX
+[Twang Male Vocal]             # Main warm country voice
+[Female Harmony Bright]        # Adds shimmer to chorus
+[Dual Lead: Male+Female]       # Alternating lines or harmonized delivery
+[Accent: Midwestern US]        # Midwestern American inflection
+[Choir: Small Crowd]           # Group choruses for anthem effect
 
-[Reverb: Plate-Medium]  
-[Delay: Slapback-75ms]           # classic Sun Records slap  
-[Panning: AcousticGtr-L30, Fiddle-R25]  
-[MasterEQ: WarmLowMid]  
+🇺🇸 Lyrical/Thematic Controls
 
-f) Background / Ad-Lib Syntax
+[Americana Imagery High]       # Adds “porch, truck, sunset, boots” stuff
+[Storytelling Verse]           # Builds verses with plot or narrative
+[CallAndResponse: "Yee-haw!"]  # Repeated chant before chorus
 
-(whistle hook)                  # a melodic whistle layer  
-(spoken: “Let’s ride!”)         # one-shot voice-over  
-(Yee-haw!)                      # crowd shout on beat  
+🎚️ Mix & FX
 
-g) Full Prompt Template (swap in your own lyrics)
+[Reverb: Plate-Medium]
+[Delay: Slapback-75ms]
+[Panning: AcousticGtr-L30, Fiddle-R25]
+[MasterEQ: WarmLowMid]
 
-[Genre: Country][BPM:92][Key:D Major][Twang Male Vocal][Female Harmony Bright]
+🗣️ Parenthetical Usage
+
+(whistle hook)                   # Layered whistle melody
+(spoken: "Let’s ride!")          # Spoken insert
+(Yee-haw!)                       # Crowd-style exclamation
+
+
+⸻
+
+✅ Full Example: Country
+
+[Genre: Country][BPM: 92][Key: D Major][Twang Male Vocal][Female Harmony Bright]
 [Verse]
-I left my boots by the back door, sunrise paintin’ gold across the corn
+I left my boots by the back door,  
+Sunset paintin’ gold across the corn  
 (Mm-hmm)
-[Pre-Chorus][HandClaps][CallAndResponse:"Hey!"]
-[Chorus]
-(Choir: Small Crowd)  
-This red, white, and restless heart keeps rollin’ on  
-...
-[Bridge][PedalSteel Solo]
-...
+
+[Chorus][HandClaps][Choir: Small Crowd]
+This red, white, and restless heart  
+Keeps rollin’ on  
+(Yee-haw!)
 
 
 ⸻
 
-3  Hip Hop – Exhaustive Capability Menu
+🎤 HIP HOP STYLE — Full Control Guide
 
-a) Core Style / Tempo / Key
+🔊 Core Structure
 
-[Genre: HipHop]                # default modern kit  
-[SubStyle: BoomBap]            # or JazzRap / Trap / WestCoast / Drill  
-[BPM: 88]                      # radio mid-tempo (80-95)  
-[BPM: 74]                      # slow head-nod pocket  
-[Key: D Minor]  
-[Shuffle: 55%]                 # swing feel for drums  
+[Genre: HipHop]
+[SubStyle: JazzRap]             # Or: BoomBap, Trap, WestCoast, Drill
+[BPM: 88]                       # Mid-tempo groove
+[BPM: 74]                       # Slowed, dramatic
+[Key: D Minor]
+[Shuffle: 55%]                  # Add swing to rhythm
 
-b) Instrumentation & Beat Elements
+🎷 Instrumentation
 
-[Instruments: 808Kick, Snare-Crack, HiHat-Trap-Triplet, UprightBass-Sampled, RhodesPiano, JazzSax, VinylScratch, HornStabs, StringPad]  
-[BeatBreak: 4bar-DJcut]        # inserts drumless break for rap focus  
+[Instruments: 808Kick, Snare-Crack, HiHat-Trap-Triplet, UprightBass-Sampled, RhodesPiano, JazzSax, VinylScratch, HornStabs]
+[BeatBreak: 4bar-DJcut]         # Empty drum break
 
-c) Vocal & Flow Controls
+🎤 Vocal Types & Delivery
 
-[Lead Rap: Deep Male]              # baritone flow  
-[Lead Rap Alt: Aggressive Female]  # swap or double verses  
-[Hook Vocal: Sultry Female]        # R&B style sung chorus  
-[Bridge Vocal: High Male Falsetto] # radio yet soulful  
-[Stacked Adlibs: Stereo]           # panned hype echoes  
-[FlowStyle: TripletTrap]           # vs BoomBapLinear / Mumble / FastDoubleTime  
-[AutoTune: Light]                  # subtle pitch correction on sung parts  
+[Lead Rap: Deep Male]              # Main baritone rapper
+[Lead Rap Alt: Aggressive Female]  # For alternation or support
+[Hook Vocal: Sultry Female]        # Radio-friendly chorus singer
+[Bridge Vocal: High Male Falsetto] # Clean bridge contrast
+[Stacked Adlibs: Stereo]           # Panned hype voices
+[FlowStyle: TripletTrap]           # Or: BoomBapLinear, Mumble
+[AutoTune: Light]                  # Use for melodic sung flow
 
-d) Lyrical / Thematic Modifiers
+🧠 Lyrical/Thematic Modifiers
 
-[Mood: Swagger+Dark]               # tonal vocabulary shift  
-[JazzyChords High]                 # extended 7ths & 9ths in keys  
-[GangVocals: “Yeah!”]              # crowd stabs every 2 bars  
-[WordplayDense]                    # multisyllabic, internal rhyme focus  
+[Mood: Swagger+Dark]               # Tense, confident tone
+[JazzyChords High]                 # 7ths and 9ths
+[WordplayDense]                    # Internal rhymes, punchlines
+[GangVocals: "Yeah!"]              # Inserts hype chant
 
-e) Mix & FX
+🎚️ Mix & FX
 
-[Sidechain: Kick-Bass-3dB]  
-[Reverb: Room-Tight on Vox]  
-[Delay: Quarter-Note Throw on last word]  
-[VinylCrackle: Low]  
-[MasterBus: TapeSaturation-Soft]  
+[Reverb: Room-Tight on Vox]
+[Delay: Quarter-Note Throw]
+[VinylCrackle: Low]
+[Sidechain: Kick-Bass-3dB]
+[MasterBus: TapeSaturation-Soft]
 
-f) Background / Ad-Lib Syntax
+🗣️ Parenthetical Usage
 
-(yeah, uh-huh)                 # hype ad-lib  
-(whisper: “count it up…”)      # panned whisper  
-(crowd chant: “Chi-Town!”)     # one-shot chant sample  
-(SaxSolo 8 bars)               # inserts improvised sax riff  
+(yeah, uh-huh)                     # Hype ad-lib
+(whisper: "count it up…")         # Low vocal FX
+(crowd chant: "Chi-Town!")        # One-shot chant
+(SaxSolo 8 bars)                  # Inserts jazz solo
 
-g) Full Prompt Template
 
-[Genre: HipHop][SubStyle: JazzRap][BPM:90][Key:F Minor]
-[Lead Rap: Deep Male][Hook Vocal: Sultry Female][JazzyChords High][VinylCrackle:Low]
+⸻
+
+✅ Full Example: Hip Hop
+
+[Genre: HipHop][SubStyle: JazzRap][BPM: 90][Key: F Minor]
+[Lead Rap: Deep Male][Hook Vocal: Sultry Female][JazzyChords High][VinylCrackle: Low]
+
 [Verse 1]
-Strollin’ State Street, dusk on my chain—
-(yeah)
+Strollin’ State Street, dusk on my chain  
+(yeah)  
 Rhodes keys drippin’ under vinyl rain…
-[Hook]
-(gospel choir pad)
-She said “time ain’t nothin’ when ya own the clock,”
+
+[Chorus]
+She said “Time ain’t nothin’ when ya own the clock,”  
 Sax moans while the 808 knocks…
-[Bridge][High Male Falsetto][AutoTune:Light]
-...
+
+[Bridge][High Male Falsetto][AutoTune: Light]
+I been glidin’ off that moonlight drip…
 
 
 ⸻
 
-4  Quick Reference – All Tag Categories at a Glance
-	•	Global/Section Tags: [Genre:] [SubStyle:] [BPM:] [Key:] [TimeSig:] [Mood:] [Storytelling:] [WordplayDense]
-	•	Instrumentation: [Instruments: …] [SaxSolo] [BeatBreak] [GuitarSolo] [PedalSteel Solo]
-	•	Voices: [Lead Rap: …] [Twang Male Vocal] [Female Harmony Bright] [Hook Vocal: …] [Choir: Small Crowd]
-	•	Flow/Tone: [FlowStyle:] [AutoTune:] [Accent:] [CallAndResponse:]
-	•	Mix/FX: [Reverb:] [Delay:] [Sidechain:] [Panning:] [MasterEQ:] [VinylCrackle:] [TapeSaturation:]
-	•	Parenthetical Inserts: (spoken: …) (whisper: …) (crowd chant: …) (Yee-haw!) (yeah!)
+🎯 Quick Tag Reference
 
-Use these menus to build prompts that hit precisely the pace, instrumentation, vocal texture, and Americana or jazzy swagger you outlined. Drop me the sections you want expanded or any new style mash-ups, and I can draft full prompts or troubleshoot further.
+Category	Example Tags
+Tempo / Key	[BPM: 90], [Key: G Major], [Shuffle: 55%]
+Genre / Style	[Genre: Country], [SubStyle: JazzRap]
+Vocal Controls	[Twang Male Vocal], [Bridge Vocal: High Male Falsetto]
+Instruments	[Instruments: Fiddle, 808Kick, JazzSax]
+FX / Mix	[Reverb: Plate-Medium], [Delay: Quarter-Note Throw]
+Lyrical Style	[Storytelling Verse], [Americana Imagery High], [WordplayDense]
+Parenthetical Inserts	(spoken: "Let’s ride!"), (crowd chant: "Chi-Town!"), (SaxSolo)
+
+
+⸻
+
+Let me know which elements you wanna lock in for your first real project and I’ll spit a custom starter prompt ready to drop into AI Music Lab or export to your lyric sheet.
