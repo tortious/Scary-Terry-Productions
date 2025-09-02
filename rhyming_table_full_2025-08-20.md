@@ -1,62 +1,88 @@
-# 📜 Full Rhyming Table (Alphabetized)
+Perfect — thanks for clarifying.
+I’ll now create one long master table, with all your requested words/phrases, grouped thematically but output as a single continuous table so you can copy it straight out and paste it elsewhere.
 
-> Updated 2025-08-20
+This will be long and detailed, but it will follow your format exactly:
 
-| Word/Phrase | Pronunciation | Perfect Rhymes | Near/Slant Rhymes | Multi‑word Slant Phrases | Synonyms/Imagery | Notes |
-|---|---|---|---|---|---|---|
-| 2 shakes of a lamb’s tail | — (idiom) | — | quick as a gale, fast as rail, swift detail | “gone in 2 shakes of a lamb’s tail” | instantly, quickly | Idiom |
-| Alleged | uh-LEJD (2 syl; alt: uh-LEJ-id) | pledged, dredged | edged, hedged | “alleged crime,” “alleged facts” | supposed, claimed, asserted |  |
-| Allegedly | uh-LEJ-id-lee (4 syl) | steadily, readily | unsteadily, incredibly | “allegedly guilty,” “allegedly said” | purportedly, reportedly |  |
-| auspicious | aw-SPISH-us (3 syl) | fictitious, judicious, malicious, delicious, suspicious, capricious (close) | ambitious, nutritious, officious, repetitious, expeditious | “it’s suspicious,” “be ambitious,” “sounds delicious,” “omen’s auspicious” | favorable, promising, propitious, lucky, green shoots |  |
-| blossom | BLOSS-um (2 syl) | possum | awesome, opossum, floss ’em, toss ’em, boss ’em | “floss ’em,” “cross ’em,” “lost them,” “cost ’em” | bloom, flower, flourish, unfold, springtime |  |
-| broken | BROH-kin (2 syl) | spoken, unspoken, token, woken, awoken | oaken, open, smokin’ | “word unspoken,” “just a token,” “spirit’s broken” | shattered, cracked, ruined, fractured, in pieces |  |
-| Cantankerous | kan-TANG-ker-us (4 syl) | rancorous (near), rancidous (archaic) | dangerous, scandalous | “cantankerous and dangerous,” “old cantankerous man” | irritable, cranky, quarrelsome |  |
-| capricious | cuh-PREE-shus (3 syl) | vicious, judicious, malicious, delicious, suspicious, officious | ambitious, auspicious, repetitious, nutritious | “move judicious,” “vibes malicious,” “it’s suspicious” | whimsical, fickle, mercurial, unpredictable |  |
-| carnivorous | car-NIV-er-ous (4 syl) | herbivorous, omnivorous, frugivorous, folivorous, granivorous, piscivorous, fungivorous, sanguivorous, insectivorous, nectarivorous, larvivorous | vigorous, odorous, thunderous, cavernous, ravenous (loose), perilous (loose), venomous (loose) | “deliver us,” “forgive us,” “live for us,” “give to us,” “spit vigorous” | meat‑eating, predatory, raptorial, wolfish, ravenous, bloodthirsty | Keep for AI Music Lab prompting. |
-| cataclysmic | kat-uh-KLIZ-mik (4 syl) | — | seismic, algorithmic, euphemistic (loose), anarchistic (loose) | “scene is seismic,” “shock is systemic,” “rhythm is algorithmic” | disastrous, apocalyptic, world‑shaking, seismic |  |
-| Chicago | shi-KAH-go (3 syl) | embargo, Largo | indigo, amigo | “Chicago flow,” “windy Chicago” | Chi‑Town, Windy City | Proper noun |
-| critical | KRIT-ih-kul (3 syl) | hypocritical, non‑critical | political, analytical, cylindrical (loose), pivotal (loose) | “stage is critical,” “data is political,” “mind analytical” | vital, crucial, key, decisive |  |
-| Cunnilingus | kuh-nuh-LING-gus (4 syl) | (rare) lingus (as stem), dingus (slant) | bring us, sing us | “cunnilingus bring us,” “freaky cunnilingus” | oral sex (female) |  |
-| dominoes | DOM-uh-nohz (3 syl) | those, nose, shows, clothes (close) | vámonos, adiós, overdose, comatose, apropos | “fall like dominoes, ” “row of dominoes, ” “here we go—vámonos”, “knock ’em down—vámonos, ” “stack ’em like dominoes, ” “vámonos pronto” | tiles, chain reaction, topple effect | Pairs nicely as a slant with “vámonos.” |
-| elegant | EL-uh-gent (3 syl) | — | relevant, benevolent, prevalent, intelligent, eminent (loose) | “elevate elegant,” “evidence relevant,” “presence benevolent” | graceful, refined, classy, tasteful |  |
-| Elk Grove Village | ELK GROHV VIL-ij | pillage, spillage, tillage | privilege, verbiage | “Elk Grove Village pillage,” “flow from Elk Grove Village” | suburb of Chicago | Proper noun |
-| elope | ee-LOHP (2 syl) | hope, cope, rope, slope, lope | envelope, antelope, telescope, interlope (archaic) | “elope with me,” “hangin’ by a rope,” “cope with hope” | run away, secret wedding, getaway |  |
-| exquisite | ex-KWI-zit (3 syl) | — | explicit, illicit, revisit, revisit it, inquisit‑ (stems) | “explicit/exquisite,” “live it, revisit,” “this is exquisite” | refined, superb, delicate, finely made |  |
-| Fellatio | feh-LAY-shee-oh (4 syl) | ratio, patio, brio | scenario, portfolio | “fellatio scenario,” “ratio of fellatio” | oral sex (male) |  |
-| Felonious | feh-LOH-nee-us (4 syl) | erroneous, harmonious | ceremonious, acrimonious | “felonious deeds,” “felonious harmonious” | criminal, unlawful |  |
-| flamboyant | flam-BOY-unt (3 syl) | clairvoyant | buoyant, appointment (loose), enjoyment (loose), poignant (dialectal) | “clairvoyant flamboyant,” “move buoyant,” “style flamboyant” | flashy, showy, dramatic, colorful |  |
-| futility | fyoo-TIL-i-tee (4 syl) | utility (near‑perfect), gentility (loose) | agility, fragility, hostility, stability, humility | “pure futility,” “brute utility,” “move with agility” | pointlessness, uselessness, vanity, dead end |  |
-| hold hands | HOHLD HANDZ (2+1 syl) | cold hands, old hands, fold hands | gold bands, bold plans, whole plans | “cold hands, warm heart,” “fold hands and pray,” “gold bands” | interlace fingers, support, unity, couple |  |
-| homosexual | ho-mo-SEX-shoo-uhl (4 syl) | bisexual, pansexual, transsexual, intersexual | contextual, intellectual, ineffectual | “purely contextual,” “mind intellectual,” “seems ineffectual” | gay, same‑sex; orientation context only | Keep neutral/clinical tone if used. |
-| Infallible | in-FAL-uh-bul (4 syl) | malleable (near), fallible, valuable, palpable | admirable, accountable, incompatible | “unshakably infallible,” “fallible fable” | flawless, unerring, impeccable |  |
-| innocuous | in-NOCK-you-us (4 syl) | — (extremely rare) | ubiquitous, conspicuous, unctuous (loose), ridiculous (loose) | “stick with us,” “in God we trust,” “ridicule us” | harmless, benign, inoffensive, mild |  |
-| Italiano | ee-tah-lee-AH-no (5 syl) | soprano, mano (Sp.), Urbano | piano, Albano, guano | “ciao Italiano,” “flow Italiano” | Italian |  |
-| Jugular | JUG-yuh-lur (3 syl) | circular, muscular (slant) | particular, vernacular | “grab the jugular,” “jugular vernacular” | throat, vein |  |
-| kaleidoscopic | kuh-LIE-duh-SKAW-pik (5 syl) | microscopic, telescopic | fiber‑optic (loose), topic, myopic | “vision kaleidoscopic,” “detail microscopic,” “scope telescopic” | colorful, shifting, prismatic, ever‑changing |  |
-| kleptomaniac | klep-toh-MAY-nee-ak (5 syl) | brainiac, insomniac, zodiac (near‑perfect), cardiac (near) | hypochondriac, maniac, Pontiac (proper) | “call me a brainiac,” “up like an insomniac,” “signs of a maniac” | compulsive thief, urge to steal |  |
-| libations | lye-BAY-shuns (3 syl) | vibrations, temptations, sensations, foundations, donations, vacations | rotations, quotations, creations | “sober sensations,” “weekend vacations,” “cheers and libations” | drinks, toasts, pours, Champagne, ritual |  |
-| libertine | LIH-ber-teen (3 syl) | canteen, routine, marine, obscene, morphine (near) | evergreen, Halloween, between, unseen | “free as a libertine,” “habits routine,” “vibes obscene” | playboy, rake, hedonist, free‑liver |  |
-| lothario | loh-THAR-ee-oh (4 syl) | Mario, barrio, scenario, impresario, Rosario | Ontario, stereo (slant), rodeo (loose) | “tales of a Lothario,” “flip the scenario,” “smooth impresario” | seducer, charmer, ladies’ man |  |
-| marijuana | mare-uh-WAH-nuh (4 syl) | iguana, Tijuana | nirvana, lasagna, persona (loose), mañana (Spanish) | “puff marijuana,” “down in Tijuana,” “pet my iguana” | cannabis, weed, ganja, flower, smoke |  |
-| mayhem | MAY-hem (2 syl) | — (none common) | A.M., amen (common), cavemen, playpen, break‑in, Ray‑Ban, say when; contractions: slay ’em, play ’em, spray ’em, weigh ’em, delay ’em, betray ’em, obey ’em, flay ’em, filet ’em | “say when,” “8 A.M.,” “raise hell and mayhem,” “spray ’em,” “lay ’em all,” “create mayhem” | chaos, pandemonium, bedlam, havoc, riot, melee; sirens, shattered glass, stampede | Keep for AI Music Lab prompting. |
-| Middle East | MID-ul EEST (2+1 syl) | feast, least, beast, released (near) | police (slant), peace (slant), deceased | “war and peace,” “oil feast,” “from west to east” | Western Asia, Arabian Peninsula; desert, dunes, oil fields, souks |  |
-| misanthrope | mis-AN-thrope (3 syl) | — (none common) | antelope, telescope, elope, hope, cope, isotope | “nope, I won’t elope,” “scope like a telescope,” “lose hope, misanthrope” | recluse, cynic, hater of mankind |  |
-| misanthropic | mis-an-THROP-ik (4 syl) | — | catatonic (loose), cyclonic (loose), philanthropic (slant), isotopic | “cold, misanthropic,” “mind kaleidoscopic,” “flow philanthropic (slant)” | antisocial, cynical, withdrawn |  |
-| opulent | OP-yuh-lent (3 syl) | — | succulent, turbulent, corpulent, truculent, affluent (near) | “opulent, truculent,” “soft yet succulent,” “move so affluent” | luxurious, lavish, rich, gilded, plush |  |
-| ostentatious | os-ten-TAY-shus (4 syl) | fallacious, loquacious, audacious, tenacious (near), spacious (near) | voracious, vivacious, salacious, bodacious | “claims fallacious,” “talk loquacious,” “moves audacious,” “drip bodacious” | showy, flashy, pretentious, flamboyant |  |
-| psychopathy | sigh-KOP-uh-thee (4 syl) | — (very rare) | myopathy, neuropathy, homeopathy, allopathy, sociopathy | “no empathy—psychopathy,” “nerve neuropathy,” “homegrown homeopathy” | antisocial traits, lack of empathy, cold affect |  |
-| reactive | ree-AK-tiv (3 syl) | proactive, inactive, attractive, retroactive, radioactive, hyperactive | interactive, extractive, refractive | “stop bein’ reactive, go proactive,” “radioactive, hyperactive” | responsive, reflexive, knee‑jerk vs proactive |  |
-| redacted | ree-DAK-ted (3 syl) | contracted, protracted, refracted, impacted, enacted, exacted (near) | detracted, abstracted, compacted | “pages redacted,” “facts contracted,” “truth refracted” | blacked‑out text, censored, withheld |  |
-| sadism | SAY-diz-um (3 syl) | — (none common) | schism, prism, cynicism (loose), masochism (concept pair) | “slay this ’em,” “play this one,” “prism of sadism (slant)” | cruelty, pleasure‑in‑pain, ruthless streak |  |
-| sadistic | suh-DIS-tik (3 syl) | statistic, ballistic, logistic, realistic, altruistic (near), heuristic | linguistic, narcissistic, pessimistic, synergistic | “ballistic/sadistic,” “stats so statistic,” “mind realistic” | cruel, brutal, enjoys others’ pain |  |
-| Sandwiches | SAND-wich-ez (3 syl) | riches, pitches, glitches | stitches, switches, niches | “stacked sandwiches,” “riches and sandwiches” | subs, hoagies, grinders |  |
-| Schaumburg | SHAWM-berg (2 syl) | iceberg, Hamburg | St. Petersburg, Goldberg | “flow from Schaumburg,” “Schaumburg iceberg” | suburb of Chicago | Proper noun |
-| sociopathic | so-see-oh-PATH-ik (5 syl) | telepathic, psychopathic, idiopathic, hydropathic (rare) | empathic, antipathic, homopathic (rare), chiropractic (slant) | “cold and psychopathic,” “no feel—telepathic,” “zero empathic” | antisocial, callous, rule‑breaking |  |
-| surreptitious | sur-up-TISH-us (4 syl) | fictitious, repetitious, expeditious, nutritious | capricious, officious, suspicious, malicious (near) | “moves surreptitious,” “plans ambitious,” “taste delicious” | secret, stealthy, covert, on the low |  |
-| sycophant | SIK-uh-fant (3 syl; alt: SIK-uh-fuhnt) | — (none common) | elephant, savant, confidant (slant), supplicant (slant) | “sick of it—sycophant,” “kiss‑up confidant,” “elephant/sycophant” | toady, flatterer, bootlicker, yes‑man |  |
-| tropical | TROP-i-kul (3 syl) | topical | optical, methodical (loose), rhetorical (loose) | “topic is tropical,” “optics are optical,” “breeze so tropical” | islands, palms, humid, beach, vibrant |  |
-| Tutankhamun (Tutenkamen) | too-tən-KAH-mən (4 syl) | — | common, ramen, solemn, Golem (loose), sultan (loose) | “tombs in common,” “mummy with ramen,” “curse feel solemn” | pharaoh, sarcophagus, Valley of Kings, gold mask | Alternate spellings: Tutankhamen/Tutankhamun. |
-| tutelage | TOO-tuh-lij (3 syl) | tutorage (alt form; near‑perfect) | village, pillage, spillage, millage (mileage), tillage | “under your tutelage,” “burn every village,” “knowledge pillage” | instruction, mentorship, guardianship |  |
-| viscosity | vis-KAW-sit-ee (4 syl) | — | velocity, ferocity, atrocity, monstrosity, porosity | “high viscosity,” “full ferocity,” “sin atrocity” | thickness, stickiness, gooey flow, syrupy |  |
-| vámonos | VAH-moh-nohs (3 syl, Spanish) | — | dominoes, adiós, overdose, comatose, morose (loose) | “vámonos, adiós, ” “vámonos, let’s go, ” “vámonos—dominoes”, “knock ’em down—vámonos, ” “stack ’em like dominoes, ” “vámonos pronto” | let’s go, move out, roll out | Spanish term; pairs well with English -oʊz endings as slants. |
-| Wasted | WAY-stid (2 syl) | tasted, pasted, waisted (homophone) | blasted, fasted, contrasted; faded, jaded | “getting wasted,” “time wasted,” “faded and wasted” | drunk, intoxicated, squandered |  |
+⸻
+
+🔥 MASTER TABLE (All Thematically Grouped Words/Phrases)
+
+Word/Phrase	Pronunciation	Perfect Rhymes	Near/Slant Rhymes	Multi-word Slant Phrases	Synonyms/Imagery	Notes
+Superlative	soo-PUR-luh-tiv (4 syl)	imperative, comparative	derivative, narrative, declarative	“comparative, superlative,” “imperative superlative”	supreme, unmatched, ultimate	Grammar/poetic
+Lament	luh-MENT (2 syl)	cement, torment, ferment	repent, relent, ascent	“songs of lament,” “cry in torment”	mourn, grieve, sorrow, dirge	Poetic/mournful
+Canterbury Tales	KAN-ter-buh-ree TAYLZ (5 syl)	sails, tales, veils	travails, details, entails	“like Canterbury Tales,” “medieval tales”	Chaucer, pilgrimage, medieval	Literary
+Dante Divine Comedy	DAHN-tay di-VINE KOM-uh-dee (7 syl)	—	oddity, odyssey, prodigy (slant)	“Dante’s comedy,” “divine odyssey”	Inferno, Purgatorio, Paradiso	Epic literature
+Ad hominem	AD HOM-ih-nem (4 syl)	—	synonym, pseudonym	“fallacy ad hominem”	personal attack, logical fallacy	Rhetorical term
+Deity	DEE-uh-tee (3 syl)	—	gaiety, society	“pagan deity,” “ancient deity”	god, divinity	Religious/mythic
+Demigod	DEM-ee-god (3 syl)	rod, nod, squad	facade, outlawed	“half-blood demigod,” “mortal and god”	hero, half-divine	Mythic archetype
+Totenkopf	TOH-ten-kopf (3 syl, Ger.)	—	cough, scoff (loose)	“Totenkopf insignia,” “skull and crossbones”	Nazi SS skull symbol	Dark history
+Gestapo	guh-STAH-po (3 syl)	—	fiasco, tobacco, psycho	“Gestapo raid,” “Gestapo shadow”	secret police, Nazi terror	Historical
+Warrior	WAR-ee-ur (3 syl)	worrier (loose)	barrier, carrier	“ancient warrior,” “warrior spirit”	fighter, knight, soldier	Archetypal
+Marauder	muh-RAW-dur (3 syl)	—	slaughter, fodder, otter	“sea marauder,” “night marauder”	raider, pillager, pirate	Dark imagery
+Mercenary	MUR-suh-nary (4 syl)	visionary, missionary	arbitrary, revolutionary	“mercenary soldier,” “visionary mercenary”	hired soldier, profiteer	War/business tie
+Lauded	LAW-did (2 syl)	applauded, applauded	frauded (slant)	“praised and lauded,” “applauded and lauded”	praised, honored, extolled	Formal
+Highfalutin	HAI-fuh-LOO-tin (4 syl)	—	bootin’, shootin’, salutin’	“talk highfalutin,” “style salutin’”	pompous, pretentious	Southern/Americana flavor
+Incendiary	in-SEN-dee-air-ee (5 syl)	arbitrary, missionary, revolutionary	contrary, visionary	“incendiary words,” “visionary incendiary”	explosive, inflammatory, fiery	Political/violent
+Abominable	uh-BOM-in-uh-bul (5 syl)	phenomenal (loose), nominal	formidable, commendable	“abominable snowman,” “abominable crime”	monstrous, hateful, vile	Gothic/dark
+Diabolical	die-uh-BOL-i-kul (5 syl)	symbolical, canonical	methodical, ironical	“diabolical plan,” “ironic and diabolical”	devilish, wicked	Strong adjective
+Exhibitionism	ek-si-BISH-uh-niz-um (5 syl)	—	criticism, voyeurism, hedonism	“caught in exhibitionism,” “fetish and voyeurism”	showing off, exposure	Psych/sexual
+Masquerade	MAS-kuh-rayd (3 syl)	parade, blade, trade, shade	evade, cascade, crusade	“dance masquerade,” “truth in shade”	disguise, concealment	Carnival/Venetian
+Faggotry	FAG-uh-tree (3 syl)	—	bigotry, mockery	“spewing faggotry,” “hatred and bigotry”	pejorative/slur	Offensive term
+Lascivious	luh-SIV-ee-us (4 syl)	—	mischievous, ambitious	“lascivious glance,” “ambitious/lascivious”	lewd, lustful, licentious	Erotic
+Capricious	kuh-PREE-shus (3 syl)	malicious, suspicious, judicious	ambitious, nutritious	“capricious vibes,” “sounds suspicious”	fickle, whimsical, mercurial	Already in your table too
+Capacious	kuh-PAY-shus (3 syl)	audacious, loquacious, voracious	spacious, gracious	“mind capacious,” “spacious and capacious”	roomy, vast, expansive	Intellectual tone
+Salacious	suh-LAY-shus (3 syl)	voracious, loquacious, audacious	flirtatious, spacious	“salacious tale,” “audacious/salacious”	obscene, scandalous	Sexual
+Faceted	FAS-uh-tid (3 syl)	—	serrated, plated	“multi-faceted gem,” “story faceted”	multi-sided, complex	Jewel imagery
+Faucet	FAW-sit (2 syl)	closet, deposit (loose)	pause it, cause it	“turn on faucet,” “couldn’t pause it”	tap, spout, flow	Everyday imagery
+Indentured Servitude	in-DEN-churd SUR-vih-tood (6 syl)	—	gratitude, attitude	“indentured servitude,” “shifting attitude”	bonded labor, slavery	Historical
+Testicular Fortitude	tes-TIK-yuh-lur FOR-ti-tood (7 syl)	—	gratitude, platitude	“testicular fortitude,” “bold attitude”	courage, guts, bravery	Colloquial
+Emasculated	ee-MAS-kyuh-lay-tid (5 syl)	fabricated, elaborated, salivated	castrated, frustrated	“emasculated man,” “elaborated/emasculated”	weakened, unmanned, powerless	Strong tone
+Fabricated	FAB-ri-kay-tid (4 syl)	elaborated, emasculated	cultivated, complicated	“fabricated lie,” “elaborated tale”	invented, falsified	Rhetorical
+Elaborated	ih-LAB-uh-ray-tid (5 syl)	fabricated, emasculated	orchestrated, celebrated	“elaborated scheme,” “celebrated, elaborated”	detailed, expanded	Academic
+Salivated	SAL-uh-vay-tid (4 syl)	fabricated, elaborated	captivated, agitated	“crowd salivated,” “dog salivated”	drooled, hungered	Sensual/animal
+Masturbated	MAS-tur-bay-tid (4 syl)	fabricated, elaborated, salivated	captivated, agitated	“he masturbated,” “frustrated/masturbated”	self-pleasured	Erotic
+As hominem	(see: Ad hominem)	—	—	—	—	Duplicate of “Ad hominem”
+Evidenced	EV-ih-denst (3 syl)	fenced, tensed (loose)	commenced, condensed	“crime evidenced,” “facts evidenced”	proven, shown	Legal tone
+Illustrated	IL-uh-stray-tid (4 syl)	fabricated, elaborated	demonstrated, orchestrated	“beautifully illustrated,” “illustrated tale”	pictured, depicted	Visual/art
+Demonstrated	DEM-un-stray-tid (4 syl)	illustrated, orchestrated	celebrated, reiterated	“demonstrated fact,” “celebrated, demonstrated”	showed, proven, explained	Academic
+Whiplash	WIP-lash (2 syl)	clash, dash, flash	backlash, rehash	“car crash, whiplash,” “backlash/whiplash”	sudden shock, injury	Physical/emotional
+Cantankerous	kan-TANG-ker-us (4 syl)	rancorous (near)	scandalous, dangerous	“cantankerous old man”	irritable, cranky	Already in table
+Filibuster	FIL-ih-bus-tur (4 syl)	cluster, muster	bluster, duster	“political filibuster,” “speech cluster”	obstruction, delay tactic	Political
+Poverty	POV-ur-tee (3 syl)	novelty, oddity (loose)	depravity, brevity	“poverty line,” “poverty’s crime”	destitution, lack, want	Social/political
+Oceanic	oh-shee-AN-ik (4 syl)	mechanic, volcanic	titanic, organic	“oceanic vibe,” “volcanic/oceanic”	vast sea, overwhelming	Natural imagery
+Cancerous	KAN-sur-us (3 syl)	—	hazardous, amorous	“growth cancerous,” “hazardous, cancerous”	malignant, deadly	Medical
+Strippers	STRIP-urz (2 syl)	dippers, zippers, clippers	flippers, slippers	“strippers and zippers,” “money for strippers”	dancers, performers	Urban/slang
+Big Pimpin	BIG PIM-pin (3 syl)	—	sippin’, drippin’, tippin’	“livin’ Big Pimpin’,” “sippin’ and pimpin’”	Jay-Z track, lavish life	Hip-hop reference
+Trafficking	TRAF-ih-king (3 syl)	—	panicking, packaging	“human trafficking,” “drugs packaging”	smuggling, trade	Dark
+Lapping	LAP-ing (2 syl)	tapping, napping, mapping	snapping, trapping	“lapping waves,” “lapping it up”	licking, waves, repetition	Sensual/natural
+Delectable	deh-LEK-tuh-bul (4 syl)	respectable, rejectable	delectable, objectable	“delectable taste,” “respectable/delectable”	delicious, delightful	Sensual
+Investable	in-VES-tuh-bul (4 syl)	digestible (loose)	suggestible, questionable	“assets investable,” “best be investable”	profitable, viable	Finance
+Portfolio	port-FOH-lee-oh (4 syl)	folio, polio	audio, Romeo	“investment portfolio,” “Romeo/folio”	assets, collection	Finance
+Diversified	die-VER-suh-fide (4 syl)	classified, satisfied	modified, fortified	“portfolio diversified,” “profits fortified”	spread out, varied	Finance
+Eloquent	EL-uh-kwent (3 syl)	—	prevalent, benevolent	“eloquent speech,” “benevolent eloquent”	articulate, fluent	Rhetorical
+Elegant	EL-uh-guhnt (3 syl)	—	relevant, benevolent	“elevate elegant”	graceful, refined	Already in table
+Exquisite	ex-KWIZ-it (3 syl)	—	explicit, illicit	“explicit/exquisite”	refined, delicate	Already in table
+Illustrious	ih-LUS-tree-us (4 syl)	—	industrious, luxurious	“illustrious fame,” “luxurious/illustrious”	renowned, famous	Prestigious
+Bourgeoise	BOOR-zhwah (2 syl, Fr.)	—	trois (Fr.), moi (Fr.)	“bourgeoise elite,” “bourgeoise chic”	middle/upper class	Social
+Proletariat	pro-lih-TAIR-ee-ut (5 syl)	—	hilarious, charioteer (slant)	“rise proletariat,” “angry proletariat”	working class, laborers	Marxist tone
+Poverty-stricken	POV-ur-tee-STRIK-en (5 syl)	—	chicken, quicken (loose)	“poverty-stricken town,” “stricken and quicken”	destitute, deprived	Social
+Phonetically	fuh-NET-ih-klee (5 syl)	hypothetically, alphabetically	genetically, prophetically	“said phonetically,” “alphabetically/genetically”	sound-based, pronunciation	Linguistic
+Canonical	kuh-NON-ih-kul (4 syl)	ironical, symbolical	methodical, periodical	“canonical text,” “ironical/canonical”	accepted, orthodox	Religious/lit.
+Bombastic	bom-BAS-tik (3 syl)	sarcastic, elastic	drastic, spastic	“bombastic flow,” “sarcastic/bombastic”	boastful, pompous	Hip-hop slang
+Plague	PLAYG (1 syl)	vague, vague	intrigue, fatigue	“black plague,” “plague of greed”	pestilence, curse	Gothic/historic
+Bruno Cucinelli	BROO-no COO-chee-NEL-ee (6 syl)	—	Machiavelli, Pirelli	“Bruno Cucinelli style,” “fly like Pirelli”	luxury fashion, Italian design	Proper noun
+Moschino	mos-KEE-no (3 syl, It.)	casino, Bambino	cappuccino, jalapeño	“drip Moschino,” “fit Moschino”	luxury fashion	Proper noun
+Maraschino	mar-uh-SHEE-no (4 syl)	casino, Bambino	jalapeño, Moschino	“maraschino cherry,” “Moschino/Maraschino”	cherries, sweetness	Cocktail
+Soprano	suh-PRAH-no (3 syl)	mano, Urbano	piano, guano	“sing soprano,” “flow soprano”	high female voice	Opera
+Ski-fooza	skee-FOO-za (3 syl, It. slang)	—	loser, bruiser	“Ski-fooza move,” “dirty ski-fooza”	Italian slang insult	Proper
+Stugots	stoo-GOTS (2 syl, It. slang)	—	shots, plots, knots	“big stugots,” “tie in knots”	Sopranos slang (balls)	Vulgar slang
+Paraplegic	par-uh-PLEE-jik (4 syl)	strategic	epileptic, prosthetic	“paraplegic mind,” “strategic/paraplegic”	disabled, immobile	Medical
+Colostomy	kuh-LOSS-tuh-mee (4 syl)	—	economy, autonomy	“colostomy bag,” “medical autonomy”	surgical opening, medical	Clinical
+Endocrinology	EN-doh-cri-NOL-uh-jee (6 syl)	biology, psychology, theology	terminology, etymology	“study endocrinology,” “biology/psychology”	hormones, glands	Science
+Neurological	new-ruh-LOJ-i-kul (5 syl)	biological, psychological	pathological, technological	“damage neurological,” “biological/neurological”	brain, nerves	Science
+Conditional	con-DISH-uh-nul (4 syl)	traditional, additional	positional, transitional	“purely conditional,” “traditional conditional”	dependent, contingent	Logic
+Situational	sit-choo-AY-shuh-nul (5 syl)	motivational, educational	relational, conversational	“situational comedy,” “motivational/situational”	contextual, circumstantial	Modern
+Circumstantial	sur-kum-STAN-shul (5 syl)	financial, substantial	confidential, influential	“circumstantial evidence,” “financial circumstantial”	indirect, incidental	Legal tone
+Carlito Brigante	car-LEE-to brih-GAHN-tay (6 syl)	—	amante, picante	“Carlito Brigante,” “picante Brigante”	Scarface-style figure	Pop culture
+Hoity Toity	HOY-tee TOY-tee (4 syl)	—	pointy, noisy (slant)	“acting hoity toity,” “noisy/hoity toity”	snobbish, pretentious	Humorous
+Snobbery	SNOB					
