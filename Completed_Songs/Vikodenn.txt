@@ -1,0 +1,118 @@
+=== SUNO SONG CONFIG ===
+
+📝 LYRICS BOX (max 5000 chars):
+[INTRO]
+[Slow Vinyl Crackle FX]
+[Distorted Saxophone Riff]
+[Tape Flutter]
+(Bitch, I said touch it)
+Scary Terry Productions...
+
+[VERSE 1]
+[Smooth Croon-Rap]
+Love me the Summertime in Chicago, it is the epitome of greatness
+My Gulfstream just touched down on a ramp in Midway
+Since my answer to O'Hare be "Oh hell no, anywhere but there"
+In the back of the Maybach, I light up some marijuana [LIGHTER FLICK FX]
+Ugh, that Khalifa Kush, they call it KK (cough)
+I am too high to remember but it seems to do the job sufficiently
+Since I am high as shit trying to simultaneously parlay a bet
+And set up a soirée for this evening [ICE CUBES CLINKING FX]
+Didn't even notice the car is at my building
+Pop another pill then to the driver throw deuces like "later"
+As I stumble my way into the elevator [ELEVATOR DING FX]
+
+[CHORUS]
+[Deep Sub Bass Boost]
+[Layered Vocals]
+It is wise to remember, I got options
+Put my member between your thighs and swallow it
+Scary Terry stay Mister Big Pimpin'
+Or whatever you wanna call it
+Take two of these and call me in the morning
+Don't try to keep up with me
+Scary Terry always on the move and never stop balling [CASH REGISTER FX]
+
+[VERSE 2]
+[Aggressive Jazz Piano]
+[Muffled Party Ambience]
+When you get here, the doorman will send you up, you know the drill
+It is understandable when they stand and stare
+At the expensive and eclectic chandelier in the foyer
+To those new or just getting here, the booze and craft beer is in the living room
+Bubbly and drugs be in the study
+Should be enough to even make Scarface start blushing [MANIC LAUGH FX]
+And through the corridor, down at the end of the hallway
+You will find a world-class sommelier
+Cause y'all know I never play when it comes to Bordeaux and Cabernet [POURING WINE FX]
+I just keep nodding along at whatever that babbling bitch is saying
+As my gaze glances toward her tits flopping around
+Cause she is talking so animated
+Don't worry about noise, this the penthouse, we own all of it
+Into my mouth go all of the Adderall
+Cause that is all there is between Scary Terry's sanity
+And this lovely shindig becoming a violent calamity [GLASS BREAK FX]
+
+[CHORUS]
+[Deep Sub Bass Boost]
+[Layered Vocals]
+It is wise to remember, I got options
+Put my member between your thighs and swallow it
+Scary Terry stay Mister Big Pimpin'
+Or whatever you wanna call it
+Take two of these and call me in the morning
+Don't try to keep up with me
+Scary Terry always on the move and never stop balling
+
+[VERSE 3]
+[Menacing Flow]
+[Ambient Horn Stabs]
+Sipping tea on those teeny little saucers
+Like the Kermit meme conveying that it is none of my business
+While pondering the difficulty of being so retarded
+Honestly, looks exhausting
+If you wanna discuss something about my sociopathic ass
+Your disgusting slut of a wife licked my ass
+That's right, your bitch a salad tosser
+Scary Terry committed to only one lady
+And her name be Genocide (Jenny-cide)
+You know, like the incredibly violent Apartheid
+I am pretty sick aren't I? Thankfully I am smart
+Cause I just stay calm and ball harder
+Like Weezy F Baby aka Dwayne Carter
+Who authored Tha Carter III
+That which helped harden Scary Terry as a youngin a lot
+It was him and Gucci that taught me to be steady mobbing [GHOSTLY ECHO OUT]
+
+[OUTRO]
+[Distorted Saxophone Solo]
+[Fade Out with Tape Flutter]
+(Steady mobbing...)
+(Scary Terry...)
+
+[Character count: 3412/5000]
+
+🎨 STYLE BOX (max 200 chars):
+THUG RAP, JAZZ RAP, LUXURY RAP, Leisurely, Menacing, Opulent, Smooth, distorted saxophone, aggressive jazz piano, 808 bass, trap drums, [VINYL CRACKLE FX], [ELEVATOR DING FX]
+
+🎛️ SLIDERS & SETTINGS:
+Weirdness: 45% (Slightly elevated to capture the "distorted sax" and "manic ad-libs" without breaking the smooth flow)
+Style Influence: 60% (Keeps the "Leisurely" and "Jazz" elements consistent while allowing the vocals to sit in the pocket)
+
+🚫 EXCLUSIONS:
+fast tempo, rushing, pop vocals, rock guitar, clean, acoustic, happy, bright, edm, techno, mumble rap
+
+🎵 TITLE:
+"Scary Terry (Penthouse Options)"
+
+💡 PRODUCTION NOTES:
+This configuration is optimized for a "Leisurely Thug" vibe (approx 84 BPM feel).
+* **Corrections:** Expanded all "u" to "you," "wit" to "with." Corrected "suaré" to "soirée" and "Jenny side" to "Genocide" (with phonetic helper) to ensure the rhyme with "Apartheid" lands correctly.
+* **Sound Design:** Integrated specific luxury FX like `[POURING WINE FX]` and `[ELEVATOR DING FX]` to match the narrative.
+* **Instrumentation:** The Style Box prioritizes "distorted saxophone" and "aggressive jazz piano" as requested in your header.
+
+🎯 ADVANCED TECHNIQUES USED:
+* **Letter Case Optimization:** THUG RAP/JAZZ RAP in caps, descriptors in Title Case, instruments in lower case.
+* **Metatags:** `[Smooth Croon-Rap]` vs `[Aggressive Jazz Piano]` creates the requested contrast between smooth vocals and manic instrumentation.
+* **Contextual FX:** `[LIGHTER FLICK FX]` and `[ICE CUBES CLINKING FX]` placed specifically where the lyrics mention drugs and drinks.
+===
