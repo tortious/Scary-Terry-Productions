@@ -1,0 +1,126 @@
+{
+  "version": "sora-prompt-v2",
+  "runtime_seconds": 18,
+  "scene": {
+    "setting": {
+      "type": "Urban street and parking lot hangout near housing projects",
+      "location": "Nighttime Chicago city street with a lit parking lot and dilapidated multi-story apartment buildings around him and the skyline in the background",
+      "time_of_day": "Late night",
+      "environment": "Concrete, graffiti walls, neon signs, streetlights, a customized 1959 lowrider Impala with chrome details and candy paint, people hanging out and vibing, main character loading weaponry”,
+    },
+    "camera": {
+      "style": "Cinematic hip-hop music video style",
+      "lens": "24mm and 35mm cinema lenses",
+      "resolution": "Ultra-realistic 8k",
+      "motion": "Smooth tracking shots, low-angle passes, slow push-ins, Dutch angles and a few dynamic handheld moments around him entering the car",
+      "transitions": "Match cuts, whip pans around the lowrider, and smooth crossfades between close-ups and wide shots"
+    },
+    "visual_tone": "Gritty but glossy, high-contrast night lighting with neon reflections on chrome and paint"
+  },
+
+  "characters": {
+    "primary": [
+      {
+        "name": "@tortiou5",
+        "role": "Main character",
+        "appearance": {
+          "gender": "male",
+          "physique": "stocky, strong, clearly athletic build with solid arms and shoulders",
+          "hair": "messy, purposefully disheveled and nappy with frosted tips and defined texture",
+          "face": "confident, slightly mean-mugging expression with occasional smirks, occasionally bemused and in stages of bliss followed by rage",
+          "tattoos": "visible tattoos on arms and shoulders, seen clearly when moving and gesturing, libertine text tattoo, smiling face with eyepatch symbol, scary Terry productions tattoo text"
+        },
+        "wardrobe": {
+          "overall_style": "ratchet street flex with opulent comedic luxury attitude",
+          "outfit": {
+            "top": "black tank top with big, clear,  chic-lettering text on the front that reads: 'FUCKING FABULOUS'",
+            "bottom": "pastel chino shorts, pristine with luxury designer emblem, tailored and comfortable",
+            "shoes": "clean Ferragamo Gancini sneakers with a stealth wealth aesthetic",
+            "accessories": [
+              "thick canary diamond and gold chain",
+              "White gold and sapphire grill",
+              "a flashy ring or two"
+            ]
+          }
+        },
+        "props": {
+          "primary_prop": "gold tech 9 and matte black Uzi prop gun held like a flashy accessory for a rap video, never fired bullets only sparks, treated as a theatrical, over-the-top opulent status symbol",
+          "secondary": "car keys jingling and sometimes pointed toward the lowrider"
+        },
+        "behavior": {
+          "overall_vibe": "cocky, loud, unapologetically ratchet, moving like the star of the block",
+          "actions": [
+            "leans against the bouncing lowrider with one foot up, holding the gold Uzi prop casually across the chest",
+            "points at the text on the tank top and then at the camera with exaggerated attitude",
+            "walks in front of the Impala in slow motion, gesturing to the car and to himself",
+            "laughs and talks trash toward the camera, using big hand motions and expressive body language",
+            "briefly raises the gold Uzi prop in a non-threatening, stylized way as if showing it off, then rests it on his shoulder or hip"
+          ]
+        }
+      }
+    ],
+    "extras": [
+      {
+        "description": "A few background friends hyping @tortiou5 up, reacting, filming on phones, laughing and moving to an imaginary beat",
+        "behavior": "energetic, playful, adding to the ratchet vibe but staying visually secondary to the main character"
+      }
+    ]
+  },
+
+  "vehicles": {
+    "primary_vehicle": {
+      "type": "1959 lowrider Impala",
+      "description": "Slammed 1959 Chevy Impala lowrider with gleaming chrome, wire wheels, whitewall tires, and candy paint that reflects neon lights",
+      "behavior": [
+        "parked at an angle with front end slightly lifted",
+        "hydraulics bouncing the car up and down and tilting it, sometimes with the front corner higher than the rest",
+        "suspension movement synced loosely to an imaginary beat"
+      ]
+    }
+  },
+
+  "motion_and_shots": {
+    "shots": [
+      {
+        "type": "Establishing",
+        "description": "Wide shot of the parking lot at night, the 1959 Impala lowrider parked at an angle, then its hydraulics begin bouncing.",
+        "transition": "Whip pan into a closer shot around the front of the car"
+      },
+      {
+        "type": "Low-angle hero shot",
+        "description": "Low-angle shot from near the pavement looking up at @tortiou5 standing in front of the Impala, nappy afro silhouetted against the city lights, tank top text 'FUCKING FABULOUS' clearly visible.",
+        "transition": "Match cut into a tracking shot along the side of the car"
+      },
+      {
+        "type": "Side tracking shot",
+        "description": "Camera tracks along the side of the Impala as it bounces, chrome and paint catching neon reflections, then reveals @tortiou5 leaning on the rear quarter panel holding the gold Uzi prop.",
+        "transition": "Quick whip pan to a medium-close shot of his upper body"
+      },
+      {
+        "type": "Medium-close performance shot",
+        "description": "@tortiou5 gesturing at his tank top text, talking trash to the camera, flexing his arms and tattoos, gold chain moving as he talks.",
+        "transition": "Smooth crossfade to a close-up of the gold Uzi prop and jewelry"
+      },
+      {
+        "type": "Detail shot",
+        "description": "Close-up of the gold Uzi prop, gold chain, and bracelet as he moves his hands and points at the car, everything gleaming under streetlights and neon.",
+        "transition": "Cut back to wide shot with bouncing lowrider and friends reacting"
+      },
+      {
+        "type": "Final hero shot",
+        "description": "Wide shot of the Impala bouncing while @tortiou5 stands in front, arms spread slightly like he owns the block, friends hyping him up in the background.",
+        "transition": "Slow fade to black"
+      }
+    ]
+  },
+
+  "lighting_and_color": {
+    "lighting": "Strong streetlights and colored neon accents, rim lighting on the afro and shoulders, reflections on chrome and gold.",
+    "color_grade": "Deep blues and purples in the shadows, warm highlights on skin and metal, giving a high-contrast, stylish music video look."
+  },
+
+  "style_notes": {
+    "tone": "Confident, comedic, ratchet, and luxurious in a loud, street way.",
+    "focus": "Always keep @tortiou5, the tank top text 'FUCKING FABULOUS', the nappy afro, the gold Uzi prop, and the bouncing '59 Impala clearly visible in multiple shots."
+  }
+}<img width="740" height="3752" alt="image" src="https://github.com/user-attachments/assets/30a50347-6640-4d09-9d02-2ae6ccba2506" />
