@@ -1,0 +1,19 @@
+{
+  "version": "sora-prompt-v2",
+  "runtime_seconds": 15,
+  "scene": {
+    "setting": {
+      "type": "Urban street and parking lot hangout near housing projects",
+      "location": "Nighttime Chicago city street with a lit parking lot and dilapidated multi-story apartment buildings around him and the skyline in the background",
+      "time_of_day": "Late night",
+      "environment": "Concrete, graffiti walls, neon signs, streetlights, a customized 1959 lowrider Impala with chrome details and candy paint, people hanging out and vibing, main character loading weaponry”,
+    },
+    "camera": {
+      "style": "Cinematic hip-hop music video style",
+      "lens": "24mm and 35mm cinema lenses",
+      "resolution": "Ultra-realistic 8k",
+      "motion": "Smooth tracking shots, low-angle passes, slow push-ins, Dutch angles and a few dynamic handheld moments around him entering the car",
+      "transitions": "Match cuts, whip pans around the lowrider, and smooth crossfades between close-ups and wide shots"
+    },
+    "visual_tone": "Gritty but glossy, high-contrast night lighting with neon reflections on chrome and paint"
+  }
