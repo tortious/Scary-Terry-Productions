@@ -32,5 +32,7 @@ Exclude: dark, moody, minor key, distortion, screaming, metal, punk, trap, drill
 
 `
 Bright Motown-soul rap, vintage girl-group harmonies, upbeat tambourine shake, warm horn section fanfare, groovy bassline, 60s soul revue energy, handclap-and-fingersnap percussion, cheerful doo-wop backing vocals, polished retro production, studio-quality lead vocal, crisp articulate delivery, catchy call-and-response hooks, snazzy brass stabs, bouncy shuffle rhythm, major key throughout, feel-good dance-party vibes, Supremes-meet-Temptations warmth, measured confident flow, punchy punchlines, sassy showmanship, vintage analog warmth, dangerous soul masking ultraviolence, classy Hitsville sophistication
+`
+
 Exclude: dark, moody, minor key, distortion, screaming, metal, punk, trap, drill, 808 bass, lo-fi, mumble, slurred, sad, melancholy, slow ballad, ambient, ethereal, grime, industrial, aggressive, monotone, whispered, raw recording, modern synths, autotune, sparse, depressing, dissonant
 `
