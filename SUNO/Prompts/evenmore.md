@@ -1,42 +1,42 @@
 # Scary Terry Productions — Style Box Library Addendum III
 
-A continuation of the Suno style box library for the gangsta-trap / villain-rap catalog. This addendum adds 20 entries focused on chaotic catchy trap, lo-fi pocket-flow rap, chaotic boom-bap, and trippy psychedelic ethereal glitch-hop. Each entry includes a title, brief description, verified 850–950 character style box, and matching exclusion list.
+A clean replacement continuation of the Suno style box library for the gangsta-trap / villain-rap catalog. This addendum adds 20 fresh entries focused on chaotic catchy trap, lo-fi pocket-flow rap, chaotic boom-bap, and trippy psychedelic ethereal glitch-hop. Each entry includes a title, brief description, verified 850–950 character style box, and matching exclusion list.
 
 **Total entries:** 20
 
 ## Table of Contents
 
-1. [Static Carnival Trap](#111-static-carnival-trap)
-2. [Siren Toy-Box Trap](#112-siren-toy-box-trap)
-3. [Broken Clockwork Bounce](#113-broken-clockwork-bounce)
-4. [Riot Elevator Trap](#114-riot-elevator-trap)
-5. [Pinball Villain Trap](#115-pinball-villain-trap)
-6. [Lo-Fi Lecture Hall Pocket Rap](#116-lo-fi-lecture-hall-pocket-rap)
-7. [Coffee-Stain String Trap](#117-coffee-stain-string-trap)
-8. [Dusty Chessboard Boom-Bap](#118-dusty-chessboard-boom-bap)
-9. [Velvet Notebook Chill-Hop](#119-velvet-notebook-chill-hop)
-10. [Sidewalk Chalk Trap](#120-sidewalk-chalk-trap)
-11. [Junkyard Poltergeist Boom-Bap](#121-junkyard-poltergeist-boom-bap)
-12. [Dishwasher Percussion Boom-Bap](#122-dishwasher-percussion-boom-bap)
-13. [Thunder-Basement Boom-Bap](#123-thunder-basement-boom-bap)
-14. [Circus-Mirror Boom-Bap](#124-circus-mirror-boom-bap)
-15. [Scrapbook Sample Riot Boom-Bap](#125-scrapbook-sample-riot-boom-bap)
-16. [Astral Glitch-Hop / Violet Static](#126-astral-glitch-hop-violet-static)
-17. [Dream-Server Glitch-Hop](#127-dream-server-glitch-hop)
-18. [Prism Cathedral Glitch-Hop](#128-prism-cathedral-glitch-hop)
-19. [Hologram Lagoon Glitch-Hop](#129-hologram-lagoon-glitch-hop)
-20. [Ghost-Planet Glitch-Hop](#130-ghost-planet-glitch-hop)
+1. [Hijacked Ice-Cream Truck Trap](#111-hijacked-ice-cream-truck-trap)
+2. [Slot-Machine Getaway Trap](#112-slot-machine-getaway-trap)
+3. [Fire-Drill Harpsichord Trap](#113-fire-drill-harpsichord-trap)
+4. [Taxidermy Puppet Trap](#114-taxidermy-puppet-trap)
+5. [Escalator Whiplash Trap](#115-escalator-whiplash-trap)
+6. [Trust-Fund String Pocket Trap](#116-trust-fund-string-pocket-trap)
+7. [Microfiche Cafe Chill-Trap](#117-microfiche-cafe-chill-trap)
+8. [Raincoat Rhodes Pocket Rap](#118-raincoat-rhodes-pocket-rap)
+9. [Paperback Villain Chill-Hop](#119-paperback-villain-chill-hop)
+10. [Museum Cafeteria Trap](#120-museum-cafeteria-trap)
+11. [Laundromat Riot Boom-Bap](#121-laundromat-riot-boom-bap)
+12. [Pawnshop Avalanche Boom-Bap](#122-pawnshop-avalanche-boom-bap)
+13. [Train-Platform Stampede Boom-Bap](#123-train-platform-stampede-boom-bap)
+14. [Tailor-Shop Stampede Boom-Bap](#124-tailor-shop-stampede-boom-bap)
+15. [Bottle-Return Boom-Bap](#125-bottle-return-boom-bap)
+16. [Mushroom Observatory Glitch-Hop](#126-mushroom-observatory-glitch-hop)
+17. [Vapor-Moth Glitch-Hop](#127-vapor-moth-glitch-hop)
+18. [Neon Seance Glitch-Hop](#128-neon-seance-glitch-hop)
+19. [Jellyfish Static Glitch-Hop](#129-jellyfish-static-glitch-hop)
+20. [Pixel Mirage Glitch-Hop](#130-pixel-mirage-glitch-hop)
 
-## 111. Static Carnival Trap
+## 111. Hijacked Ice-Cream Truck Trap
 
-*Calliope stabs, broken arcade hooks, and hard 808 bounce for chaotic catchy villain rap.*
+*Warped jingle hooks, freezer-burn bells, and hard 808 bounce for chaotic catchy villain rap.*
 
-**Character count:** 928
+**Character count:** 939
 
 **Style Box:**
 
 ```text
-STATIC CARNIVAL TRAP, CHAOTIC VILLAIN RAP, dark hip-hop. Chaotic, Catchy, Menacing, Bright-Dirty, Hypnotic, Cocky, Glitchy, Bouncy, Sinister, Loud. Tempo around 132-140 BPM half-time feel, hard syncopated trap knock, clipped claps, skittering hat rolls, sudden stop-start breaks, rubbery sub pauses. detuned calliope stabs, broken arcade hooks, circus-organ shards, reverse-reverb tent swells, squeaky wheel percussion, cheap brass blares, glass bell splinters, deep clean 808 slides, hollow sub drops, snappy rim clicks, vinyl crackle, smoky midway-at-midnight haze. Deep, clean, melodic villain-rap delivery, not gravelly, cocky ringmaster menace riding the chaos with exact timing, smooth syncopated flows, clever punchlines snapping between drops, occasional manic laugh-flash then back to controlled grin. Punchy colorful mix, deep low end, wide carnival stereo, dangerous funhouse atmosphere, chaotic but instantly catchy.
+HIJACKED ICE-CREAM TRUCK TRAP, CHAOTIC JINGLE VILLAIN RAP, dark hip-hop. Chaotic, Catchy, Menacing, Wry, Bright-Dirty, Hypnotic, Cold, Bouncy, Glitchy, Cocky. Tempo around 130-138 BPM half-time feel, hard syncopated trap knock, clipped claps, skittering hat rolls, jingle-drop pauses, rubbery sub lurches. warped ice-cream-truck melody fragments, freezer-burn bell hooks, detuned toy flute, cracked handbell answers, popsicle-stick clicks, tire-squeal accents, reverse-reverb curb swells, low brass sneers, deep clean 808 slides, hollow sub drops, vinyl crackle, smoky summer-night haze. Deep, clean, melodic villain-rap delivery, not gravelly, smiling menace riding the catchy chaos with exact timing, smooth syncopated flows, petty punchlines snapping between jingle cuts, occasional manic grin then back to deadpan cruelty. Punchy colorful mix, deep low end, wide block-party stereo, threatening atmosphere, absurd and instantly catchy.
 ```
 
 **Exclusion List:**
@@ -45,88 +45,88 @@ STATIC CARNIVAL TRAP, CHAOTIC VILLAIN RAP, dark hip-hop. Chaotic, Catchy, Menaci
 whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, bright pop, EDM, acoustic ballad, cheerful dance music
 ```
 
-## 112. Siren Toy-Box Trap
+## 112. Slot-Machine Getaway Trap
 
-*Toy piano loops, warning chirps, and hard pocket drums for playful chaos with sharp hooks.*
+*Casino alarms, jackpot bells, and bouncy 808s for frantic hook-heavy crime music.*
 
-**Character count:** 873
+**Character count:** 924
 
 **Style Box:**
 
 ```text
-SIREN TOY-BOX TRAP, PLAYFUL CHAOS GANGSTA RAP, dark hip-hop. Chaotic, Catchy, Menacing, Wry, Bright, Cold, Hypnotic, Bouncy, Glitchy, Sharp. Tempo around 100-108 BPM, tight syncopated trap bounce, crisp claps, nimble hat pockets, toy-snare snaps, hard little silence cuts. toy piano loops, emergency chirp motifs, music-box shards, detuned whistle hooks, rubber-duck squeak percussion kept sinister, low brass growls, reverse-reverb nursery swells, deep clean 808 bass, hollow sub drops, vinyl crackle, smoky toy-store-after-dark haze. Deep, clean, melodic villain-rap delivery, not gravelly, smiling menace locked to the pocket, smooth syncopated flows, witty childish insults delivered like grown-man threats, occasional manic sparkle then back to cold deadpan. Tight glossy mix, deep low end, wide toy-box stereo, creepy playful atmosphere, strange and instantly catchy.
+SLOT-MACHINE GETAWAY TRAP, CASINO-FLOOR VILLAIN RAP, dark hip-hop. Chaotic, Catchy, Flashy, Menacing, Tense, Hypnotic, Slick, Cold, Bouncy, Lucky. Tempo around 102-110 BPM, hard syncopated trap bounce, crisp claps, rolling hats, jackpot-stop breaks, coin-drop pockets, elastic kick pressure. slot-machine bell hooks, roulette-wheel ticks, card-flick percussion, casino carpet synth pads, low piano stabs, security-alarm chirps, reverse-reverb vault swells, brass sting fragments, deep clean 808 bass, hollow sub drops, vinyl crackle, smoky back-room haze. Deep, clean, melodic villain-rap delivery, not gravelly, cocky getaway confidence locked to the bounce, smooth syncopated flows, sharp punchlines hitting like cherries lining up, occasional manic jackpot flash then back to cold table-stare calm. Glossy punchy mix, deep low end, wide neon-casino stereo, frantic but controlled atmosphere, chaotic and instantly catchy.
 ```
 
 **Exclusion List:**
 
 ```text
-whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, nursery pop, EDM, acoustic ballad, cheerful children’s music
+whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, casino lounge pop, EDM, bright dance music, acoustic ballad
 ```
 
-## 113. Broken Clockwork Bounce
+## 113. Fire-Drill Harpsichord Trap
 
-*Ticking gears, cuckoo stabs, and elastic 808 rhythm for frantic but controlled pocket rap.*
+*Alarm chirps, brittle keys, and stop-start drums for urgent but catchy villain flow.*
 
-**Character count:** 908
+**Character count:** 914
 
 **Style Box:**
 
 ```text
-BROKEN CLOCKWORK BOUNCE, CHAOTIC PRECISION VILLAIN RAP, dark hip-hop. Chaotic, Catchy, Mechanical, Menacing, Hypnotic, Cold, Clever, Bouncy, Tense, Polished. Tempo around 104-112 BPM, spring-loaded trap bounce, crisp claps, clock-tick hats, gear-skip kick patterns, abrupt negative-space breaks. crooked metronome clicks, detuned cuckoo-clock stabs, music-box gear whirs, warped harpsichord flecks, low pendulum drones, reverse-reverb time-snap swells, bright bell shards, deep clean 808 bass, hollow sub drops, tight rim clicks, vinyl crackle, smoky antique-shop haze. Deep, clean, melodic villain-rap delivery, not gravelly, exact clockmaker menace riding crooked rhythm, smooth syncopated flows, punchlines placed like timed traps, occasional manic gear-slip then back to icy precision. Crisp busy mix, deep low end, wide clock-tower stereo, frantic but controlled atmosphere, clever and instantly catchy.
+FIRE-DRILL HARPSICHORD TRAP, EMERGENCY VILLAIN RAP, dark hip-hop. Chaotic, Catchy, Urgent, Menacing, Cold, Hypnotic, Witty, Tense, Baroque, Bouncy. Tempo around 126-134 BPM half-time feel, hard trap knock, clipped claps, frantic hat rolls, alarm-gap dropouts, sudden silence cuts, tight sub pockets. brittle harpsichord riffs, fire-drill chirp hooks, school-hall bell fragments, sneaker-squeak percussion, clipboard slaps, low string stabs, reverse-reverb hallway swells, deep clean 808 slides, hollow sub drops, snappy rim clicks, vinyl crackle, smoky exit-stair haze. Deep, clean, melodic villain-rap delivery, not gravelly, calm emergency menace walking while everyone runs, smooth syncopated flows, cold jokes landing in stop-start pockets, occasional manic alarm-smirk then back to composed cruelty. Crisp aggressive mix, deep low end, wide corridor stereo, urgent school-night atmosphere, chaotic and catchy.
 ```
 
 **Exclusion List:**
 
 ```text
-whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, clock-shop novelty music, EDM, bright pop, acoustic ballad
+whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, school novelty song, EDM, bright pop, acoustic ballad
 ```
 
-## 114. Riot Elevator Trap
+## 114. Taxidermy Puppet Trap
 
-*Alarm bells, lurching cables, and bouncy 808 pressure for chaotic high-rise menace.*
+*Wooden clicks, glass-eye bells, and lopsided 808 bounce for eerie chaotic hooks.*
 
-**Character count:** 896
+**Character count:** 887
 
 **Style Box:**
 
 ```text
-RIOT ELEVATOR TRAP, LURCHING HIGH-RISE VILLAIN RAP, dark hip-hop. Chaotic, Catchy, Metallic, Menacing, Tense, Hypnotic, Cold, Bouncy, Abrupt, Sleek. Tempo around 126-134 BPM half-time feel, hard syncopated trap knock, clipped claps, rolling hats, emergency-stop dropouts, lurching sub pockets. alarm-bell hooks, elevator chime fragments, cable groans, steel-door slam percussion, warped lobby piano, flickering fluorescent pads, reverse-reverb shaft swells, deep clean 808 slides, hollow sub drops, brittle rim clicks, vinyl crackle, smoky stairwell haze. Deep, clean, melodic villain-rap delivery, not gravelly, calm executive menace inside the panic, smooth syncopated flows, smug punchlines landing on every lurch, occasional manic floor-drop then back to polished stillness. Punchy detailed mix, deep low end, wide metal-shaft stereo, luxury building emergency atmosphere, chaotic and catchy.
+TAXIDERMY PUPPET TRAP, GLASS-EYE VILLAIN RAP, dark hip-hop. Chaotic, Catchy, Eerie, Menacing, Wooden, Cold, Hypnotic, Wry, Off-Kilter, Bouncy. Tempo around 96-104 BPM, lopsided syncopated trap bounce, crisp claps, twitchy hat ticks, puppet-string pauses, uneven kick pressure. wooden jaw-click percussion, glass-eye bell tones, marionette string plucks, dusty parlor organ, crooked music-box hooks, low bassoon sneers, reverse-reverb cabinet swells, deep clean 808 bass, hollow sub drops, vinyl crackle, smoky antique-attic haze. Deep, clean, melodic villain-rap delivery, not gravelly, deadpan dollmaker menace riding crooked pockets, smooth syncopated flows, mean little punchlines delivered with stiff charm, occasional manic head-tilt then back to blank glassy calm. Tight eerie mix, deep low end, wide wooden-room stereo, attic-showroom atmosphere, off-putting but instantly catchy.
 ```
 
 **Exclusion List:**
 
 ```text
-whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, elevator jazz, EDM, bright pop, soft ballad
+whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, puppet-show music, EDM, bright pop, acoustic ballad
 ```
 
-## 115. Pinball Villain Trap
+## 115. Escalator Whiplash Trap
 
-*Flipper clicks, jackpot bells, and elastic bass bounce for hooky arcade menace.*
+*Mall machinery, step clicks, and sliding bass turns for chaotic polished bounce.*
 
-**Character count:** 896
+**Character count:** 926
 
 **Style Box:**
 
 ```text
-PINBALL VILLAIN TRAP, ARCADE MENACE RAP, dark hip-hop. Chaotic, Catchy, Flashy, Menacing, Hypnotic, Cocky, Metallic, Bouncy, Cold, Witty. Tempo around 102-110 BPM, springy syncopated trap bounce, crisp claps, flipper-tight hats, jackpot pauses, rubber-band kick pressure. pinball bumper bells, coin-slot clicks, flashing-table synth hooks, detuned arcade organ, glass-top taps, steel-ball roll percussion, reverse-reverb jackpot swells, deep clean 808 bass, hollow sub drops, snappy rim clicks, vinyl crackle, smoky arcade-backroom haze. Deep, clean, melodic villain-rap delivery, not gravelly, cocky arcade hustler menace riding the bounce, smooth syncopated flows, witty punchlines ricocheting through pockets, occasional manic bonus-round flare then back to cold concentration. Glossy punchy mix, deep low end, wide neon-table stereo, late-night arcade atmosphere, flashy and instantly catchy.
+ESCALATOR WHIPLASH TRAP, MALL-MACHINE VILLAIN RAP, dark hip-hop. Chaotic, Catchy, Metallic, Menacing, Sleek, Cold, Hypnotic, Polished, Bouncy, Abrupt. Tempo around 134-142 BPM half-time feel, hard syncopated trap knock, clipped claps, rolling hats, step-change stutters, sudden dropouts, sliding 808 pressure. escalator-step clicks, handrail squeaks, mall-speaker bell tones, kiosk synth flickers, low piano pulses, chrome percussion taps, reverse-reverb atrium swells, deep clean 808 slides, hollow sub drops, snappy rim clicks, vinyl crackle, smoky after-close haze. Deep, clean, melodic villain-rap delivery, not gravelly, calm retail predator menace riding the moving stairs, smooth syncopated flows, smug punchlines turning every landing into a hook, occasional manic lurch then back to clean rich-kid stillness. Glossy punchy mix, deep low end, wide atrium stereo, shopping-mall emergency atmosphere, chaotic and catchy.
 ```
 
 **Exclusion List:**
 
 ```text
-whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, chiptune pop, EDM, arcade novelty song, acoustic ballad
+whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, mall pop, EDM, elevator jazz, acoustic ballad
 ```
 
-## 116. Lo-Fi Lecture Hall Pocket Rap
+## 116. Trust-Fund String Pocket Trap
 
-*Dusty seminar keys, soft strings, and uncluttered drums built for syncopated witty flows.*
+*Lo-fi chamber strings, soft drums, and roomy pauses for syncopated cold rich-kid flows.*
 
-**Character count:** 915
+**Character count:** 939
 
 **Style Box:**
 
 ```text
-LO-FI LECTURE HALL POCKET RAP, ACADEMIC CHILL-HOP VILLAIN RAP, dark hip-hop. Lo-fi, Catchy, Scholarly, Menacing, Dusty, Witty, Cold, Relaxed, Hypnotic, Precise. Tempo around 82-90 BPM, dusty pocket drums, soft boom-bap kick-snare, lightly swung hats, crisp rim taps, generous bar-line pauses. sleepy upright piano loop, muted classroom strings, chalk-tap percussion, pencil-scratch shakers, page-turn textures, low Rhodes pad, reverse-reverb hallway swells, warm round sub-bass, tape hiss, vinyl crackle, coffee-stained seminar haze. Deep, clean, melodic villain-rap delivery, not gravelly, calm professorial confidence sitting behind the beat, smooth syncopated pocket flows, clever staccato delivery with room to breathe, dry punchlines placed like footnotes, occasional manic grin then back to composed note-taking. Warm intimate mix, deep low end, narrow dusty stereo opening wide on hooks, academic and catchy.
+TRUST-FUND STRING POCKET TRAP, LO-FI STEALTH-WEALTH VILLAIN RAP, dark hip-hop. Lo-fi, Catchy, Sassy, Menacing, Cold, Witty, Polished, Dusty, Minimal, Syncopated. Tempo around 84-92 BPM, soft trap knock, muted kicks, crisp claps, brushed hat ticks, open pocket gaps, staccato-friendly pauses. frayed chamber-string loop, dusty upright piano crumbs, suede-seat creaks, espresso-cup taps, low Rhodes fog, muted cello answers, reverse-reverb townhouse swells, deep clean 808 support, hollow sub drops, tape hiss, vinyl crackle, rainy brownstone haze. Deep, clean, melodic villain-rap delivery, not gravelly, bored trust-fund contempt leaning behind the beat, smooth syncopated pocket flows, clipped witty delivery, cold sassy punchlines with surgical spacing, occasional manic inheritance-smirk then back to blank entitlement. Warm intimate mix, deep low end, soft expensive stereo, academic coffee-house luxury atmosphere, low-key and catchy.
 ```
 
 **Exclusion List:**
@@ -135,254 +135,254 @@ LO-FI LECTURE HALL POCKET RAP, ACADEMIC CHILL-HOP VILLAIN RAP, dark hip-hop. Lo-
 whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, study playlist ambient, EDM, acoustic ballad, bright campus pop
 ```
 
-## 117. Coffee-Stain String Trap
+## 117. Microfiche Cafe Chill-Trap
 
-*Lo-fi strings, soft mug percussion, and roomy trap drums for clean pocket-heavy delivery.*
+*Library-machine hum, dusty keys, and clean pauses for clever syncopated pocket rap.*
 
-**Character count:** 899
+**Character count:** 908
 
 **Style Box:**
 
 ```text
-COFFEE-STAIN STRING TRAP, LO-FI CAFE VILLAIN RAP, dark hip-hop. Lo-fi, Catchy, Dusty, Menacing, Witty, Cold, Smooth, Syncopated, Minimal, Cozy. Tempo around 88-96 BPM, soft syncopated trap bounce, muted kicks, crisp claps, brushed hat ticks, patient pocket gaps, staccato-friendly pauses. worn chamber-string loop, upright piano crumbs, coffee-mug tap percussion, espresso-machine hiss, low Rhodes fog, chair-creak accents, reverse-reverb cafe swells, deep clean 808 support, hollow sub drops, vinyl crackle, rainy-window tape haze. Deep, clean, melodic villain-rap delivery, not gravelly, relaxed rich-kid contempt riding slightly behind the beat, smooth pocket flows, clipped witty phrases, cold sassy punchlines with exact spacing, occasional manic sip-smirk then back to deadpan calm. Warm polished lo-fi mix, deep low end, soft cafe stereo, academic coffee-house menace, understated and catchy.
+MICROFICHE CAFE CHILL-TRAP, LO-FI ARCHIVE VILLAIN RAP, dark hip-hop. Lo-fi, Catchy, Dusty, Clever, Menacing, Cold, Hypnotic, Smooth, Precise, Wry. Tempo around 80-88 BPM, relaxed trap-chill drums, soft kick, crisp rim-clap, loose hat ticks, generous pocket space, clean bar-line rests. microfiche machine hum, archive drawer clicks, dusty electric piano loop, muted library strings, coffee-cup tap percussion, page-scan whirs, reverse-reverb reading-room swells, warm 808 support, hollow sub drops, tape wobble, vinyl crackle, smoky basement-archive haze. Deep, clean, melodic villain-rap delivery, not gravelly, calm researcher menace sitting behind the beat, smooth syncopated flows, clever staccato phrases, dry punchlines pulled like old records, occasional manic footnote grin then back to composed silence. Warm dusty mix, deep low end, narrow study-room stereo widening on hooks, secretive and catchy.
 ```
 
 **Exclusion List:**
 
 ```text
-whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, coffeehouse folk, EDM, bright pop, soft adult contemporary
+whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, sleepy ambient, EDM, acoustic ballad, bright library pop
 ```
 
-## 118. Dusty Chessboard Boom-Bap
+## 118. Raincoat Rhodes Pocket Rap
 
-*Wooden-piece percussion, minor piano loops, and dusty drums for strategic pocket rap.*
+*Soft Rhodes, rain ticks, and patient drums for mean-spirited witty pocket flows.*
 
-**Character count:** 912
+**Character count:** 916
 
 **Style Box:**
 
 ```text
-DUSTY CHESSBOARD BOOM-BAP, STRATEGIC VILLAIN RAP, dark hip-hop. Lo-fi, Catchy, Dusty, Menacing, Clever, Cold, Patient, Hypnotic, Minimal, Tactical. Tempo around 80-88 BPM, hard but dry boom-bap kick-snare, loose swung hats, crisp rim taps, thoughtful head-nod pocket, deliberate move-by-move pauses. wooden chess-piece clicks, felt-board thumps, dusty minor piano loop, muted cello shadows, low clarinet sighs, clock-button percussion, reverse-reverb study-room swells, warm sub-bass, tape hiss, vinyl crackle, smoky library-table haze. Deep, clean, melodic villain-rap delivery, not gravelly, calm strategist menace riding the groove, smooth syncopated flows, staccato punchlines placed like forks and pins, witty threats with patient spacing, occasional manic checkmate grin then back to still calculation. Warm gritty mix, deep low end, tight dusty stereo, midnight chess-club atmosphere, cerebral and catchy.
+RAINCOAT RHODES POCKET RAP, LO-FI DRIZZLE VILLAIN RAP, dark hip-hop. Lo-fi, Catchy, Smooth, Menacing, Cold, Witty, Minimal, Dusty, Syncopated, Nocturnal. Tempo around 78-86 BPM, lazy pocket drums, soft boom-bap kick-snare, loose brushed hats, crisp rim taps, long conversational pauses, relaxed head-nod swing. damp Rhodes chords, raincoat zipper clicks, umbrella-tap percussion, puddle ripple shakers, muted upright bass, far-off train hum, reverse-reverb alley swells, warm round sub-bass, tape hiss, vinyl crackle, smoky wet-sidewalk haze. Deep, clean, melodic villain-rap delivery, not gravelly, low-volume arrogance tucked behind the beat, smooth syncopated flows, clever staccato delivery, cold mean jokes landing with empty space around them, occasional manic umbrella-flip then back to dry calm. Warm intimate mix, deep low end, soft rain-streaked stereo, quiet city-night atmosphere, understated and catchy.
 ```
 
 **Exclusion List:**
 
 ```text
-whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, chess novelty song, EDM, bright pop, acoustic ballad
+whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, rainy acoustic folk, EDM, bright pop, soft adult contemporary
 ```
 
-## 119. Velvet Notebook Chill-Hop
+## 119. Paperback Villain Chill-Hop
 
-*Soft Rhodes, notebook scratches, and lazy drums for witty low-volume pocket flows.*
+*Yellowed pages, muted bass, and dusty drums built for witty clipped syncopation.*
 
-**Character count:** 909
+**Character count:** 904
 
 **Style Box:**
 
 ```text
-VELVET NOTEBOOK CHILL-HOP, LO-FI VILLAIN RAP, dark hip-hop. Lo-fi, Catchy, Smooth, Menacing, Witty, Dusty, Cold, Hypnotic, Relaxed, Clever. Tempo around 78-86 BPM, lazy chill-hop drums, soft kick-snare, loose brushed hats, crisp rim clicks, roomy pocket for syncopation, long breathy pauses. velvet Rhodes chords, notebook-scratch percussion, dull pencil taps, muted upright bass, small celeste notes, rainy window hiss, reverse-reverb desk-lamp swells, warm deep sub-bass, tape wobble, vinyl crackle, smoky late-study haze. Deep, clean, melodic villain-rap delivery, not gravelly, calm cold confidence leaning into the pocket, smooth syncopated flows, clever staccato phrases, mean-spirited jokes delivered quietly but clearly, occasional manic margin-doodle spark then back to controlled blankness. Warm intimate mix, deep low end, soft narrow stereo, after-midnight notebook atmosphere, low-key and catchy.
+PAPERBACK VILLAIN CHILL-HOP, LO-FI USED-BOOKSTORE RAP, dark hip-hop. Lo-fi, Catchy, Dusty, Menacing, Witty, Cold, Cozy, Hypnotic, Clever, Relaxed. Tempo around 76-84 BPM, lazy chill-hop drums, soft kick-snare, swung hat brushes, crisp rim clicks, roomy pocket for staccato phrasing, patient pauses. yellowed-page flips, pencil-margin taps, dusty Wurlitzer chords, muted upright bass plucks, soft string smears, register-bell flecks, reverse-reverb bookshelf swells, warm deep sub-bass, tape wobble, vinyl crackle, smoky used-bookstore haze. Deep, clean, melodic villain-rap delivery, not gravelly, calm literary menace leaning into the pocket, smooth syncopated flows, clipped witty lines, elegant insults delivered like annotated threats, occasional manic page-corner grin then back to bored browsing. Warm gritty mix, deep low end, narrow dusty stereo, old-paper midnight atmosphere, clever and catchy.
 ```
 
 **Exclusion List:**
 
 ```text
-whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, sleepy ambient study music, EDM, bright pop, acoustic ballad
+whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, bookstore folk, EDM, bright pop, acoustic ballad
 ```
 
-## 120. Sidewalk Chalk Trap
+## 120. Museum Cafeteria Trap
 
-*Soft chalk scrapes, schoolyard bells, and clean trap bounce for playful pocket-heavy rap.*
+*Tray clacks, soft strings, and clean 808 space for understated syncopated villain rap.*
 
-**Character count:** 875
+**Character count:** 919
 
 **Style Box:**
 
 ```text
-SIDEWALK CHALK TRAP, LO-FI SCHOOLYARD VILLAIN RAP, dark hip-hop. Lo-fi, Catchy, Wry, Menacing, Dusty, Cold, Playful, Syncopated, Minimal, Bright-Dirty. Tempo around 90-98 BPM, clean pocket trap bounce, muted kicks, crisp claps, dry hat ticks, short chalk-line pauses, easy head-nod swing. sidewalk chalk scrape percussion, faded school-bell notes, dusty upright piano loop, soft string pad, sneaker-squeak accents, playground-chain rattles, reverse-reverb blacktop swells, deep clean 808 bass, hollow sub drops, tape hiss, vinyl crackle, smoky dusk-schoolyard haze. Deep, clean, melodic villain-rap delivery, not gravelly, cocky recess-yard menace grown-up and cold, smooth syncopated flows, clipped witty punchlines with room for pocket, occasional manic chalk-smile then back to bored rich-kid stare. Warm dusty mix, deep low end, wide playground stereo, clever and catchy.
+MUSEUM CAFETERIA TRAP, LO-FI GALLERY-LUNCH VILLAIN RAP, dark hip-hop. Lo-fi, Catchy, Odd, Menacing, Cold, Witty, Minimal, Dusty, Polished, Syncopated. Tempo around 88-96 BPM, clean low-volume trap bounce, muted kicks, crisp claps, brushed hat ticks, lunch-tray pauses, easy pocket gaps. cafeteria tray clacks, plastic-cup taps, soft gallery strings, dusty piano loop, vending-machine hum, distant docent bell, low Rhodes pad, reverse-reverb tiled-room swells, deep clean 808 bass, hollow sub drops, tape hiss, vinyl crackle, smoky museum-cafe haze. Deep, clean, melodic villain-rap delivery, not gravelly, bored cultured menace sitting behind the beat, smooth syncopated flows, clipped witty punchlines, mean rich-kid asides placed in clean pockets, occasional manic napkin-smirk then back to blank refinement. Warm detailed mix, deep low end, polite wide stereo, strange lunchroom-luxury atmosphere, subtle and catchy.
 ```
 
 **Exclusion List:**
 
 ```text
-whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, kids music, EDM, bright pop, acoustic ballad
+whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, cafeteria jingle, EDM, bright pop, acoustic ballad
 ```
 
-## 121. Junkyard Poltergeist Boom-Bap
+## 121. Laundromat Riot Boom-Bap
 
-*Rattling metal, dusty breaks, and ghostly sample cuts for chaotic boom-bap pressure.*
+*Spin-cycle rhythms, coin knocks, and dusty breaks for chaotic head-nod menace.*
 
-**Character count:** 893
+**Character count:** 920
 
 **Style Box:**
 
 ```text
-JUNKYARD POLTERGEIST BOOM-BAP, CHAOTIC SCRAP-YARD VILLAIN RAP, dark hip-hop. Chaotic, Dusty, Menacing, Catchy, Gritty, Hypnotic, Cold, Raw, Mechanical, Strange. Tempo around 86-94 BPM, hard boom-bap kick-snare, loose swung hats, clanking ghost notes, uneven break cuts, heavy head-nod pocket. scrap-metal rattles, chain-drag percussion, busted car-door thuds, detuned piano loop, haunted organ flecks, low trombone groans, reverse-reverb junkyard swells, dusty break drums, deep round sub-bass, hollow sub drops, vinyl crackle, smoky floodlight haze. Deep, clean, melodic villain-rap delivery, not gravelly, calm mechanic menace riding the wreckage, smooth syncopated flows, punchlines landing through metal crashes, occasional manic wrench-spark then back to cold scrapyard patience. Warm grimy mix, deep low end, wide rusted stereo, midnight junkyard atmosphere, chaotic boom-bap but catchy.
+LAUNDROMAT RIOT BOOM-BAP, SPIN-CYCLE VILLAIN RAP, dark hip-hop. Chaotic, Dusty, Catchy, Menacing, Mechanical, Wry, Cold, Hypnotic, Gritty, Bouncy. Tempo around 84-92 BPM, hard boom-bap kick-snare, loose swung hats, clattering ghost notes, dryer-door pauses, heavy head-nod pocket. spin-cycle wobble rhythms, quarter-slot clicks, detergent-cap percussion, washer thumps, fluorescent hum, detuned upright piano loop, warped organ smears, reverse-reverb tile swells, dusty break drums, deep warm sub-bass, hollow sub drops, vinyl crackle, steamy midnight haze. Deep, clean, melodic villain-rap delivery, not gravelly, calm laundromat menace riding the clatter, smooth syncopated flows, mean punchlines folded between machine knocks, occasional manic spin-cycle grin then back to bored folding-table stillness. Warm gritty mix, deep low end, wide tile-room stereo, domestic chaos atmosphere, ridiculous and instantly catchy.
 ```
 
 **Exclusion List:**
 
 ```text
-whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, industrial rock, EDM, horror screams, acoustic ballad
+whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, laundry novelty song, EDM, industrial rock, acoustic ballad
 ```
 
-## 122. Dishwasher Percussion Boom-Bap
+## 122. Pawnshop Avalanche Boom-Bap
 
-*Plate clacks, spray-arm rhythms, and dusty drums for absurd chaotic kitchen head-nod rap.*
+*Falling trinkets, dusty horns, and hard drums for cluttered chaotic sample rap.*
 
-**Character count:** 894
+**Character count:** 923
 
 **Style Box:**
 
 ```text
-DISHWASHER PERCUSSION BOOM-BAP, CHAOTIC KITCHEN VILLAIN RAP, dark hip-hop. Chaotic, Catchy, Dusty, Menacing, Wry, Mechanical, Cold, Hypnotic, Gritty, Funny-Dark. Tempo around 84-92 BPM, hard boom-bap kick-snare, swung hats, splashy ghost notes, plate-clack fills, lopsided head-nod pocket. dishwasher spray-arm rhythms, ceramic clinks, silverware rattle percussion, sink-drain drones, detuned upright piano stabs, greasy organ pads, reverse-reverb kitchen swells, dusty break drums, deep warm sub-bass, hollow sub drops, vinyl crackle, smoky back-kitchen haze. Deep, clean, melodic villain-rap delivery, not gravelly, deadpan domestic menace riding the clutter, smooth syncopated flows, mean witty punchlines between dish clacks, occasional manic rinse-cycle grin then back to bored calm. Warm gritty mix, deep low end, wide tile-room stereo, absurd kitchen-noir atmosphere, chaotic and catchy.
+PAWNSHOP AVALANCHE BOOM-BAP, CLUTTERED VILLAIN RAP, dark hip-hop. Chaotic, Dusty, Menacing, Catchy, Gritty, Wry, Cold, Hypnotic, Scrappy, Heavy. Tempo around 86-94 BPM, hard boom-bap kick-snare, loose hats, crooked break chops, clattering fills, sudden shelf-collapse pauses, thick head-nod pocket. pawnshop bell dings, falling trinket percussion, jewelry-case taps, busted amp hum, detuned horn crumbs, dusty piano loop, low guitar scrapes, reverse-reverb bargain-bin swells, dusty break drums, deep round sub-bass, hollow sub drops, vinyl crackle, smoky neon-window haze. Deep, clean, melodic villain-rap delivery, not gravelly, calm haggler menace riding the mess, smooth syncopated flows, cheap-shot punchlines stacked like stolen watches, occasional manic cash-register flash then back to cold appraisal. Warm grimy mix, deep low end, wide cluttered stereo, pawnshop-after-dark atmosphere, chaotic boom-bap and catchy.
 ```
 
 **Exclusion List:**
 
 ```text
-whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, kitchen novelty jingle, EDM, bright pop, acoustic ballad
+whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, pawnshop jingle, EDM, bright pop, acoustic ballad
 ```
 
-## 123. Thunder-Basement Boom-Bap
+## 123. Train-Platform Stampede Boom-Bap
 
-*Storm rumbles, loose breaks, and warped organ loops for messy but hooky basement rap.*
+*Rail clangs, public-address cuts, and dusty drums for frantic head-nod pressure.*
 
-**Character count:** 912
+**Character count:** 901
 
 **Style Box:**
 
 ```text
-THUNDER-BASEMENT BOOM-BAP, CHAOTIC STORM-CELL VILLAIN RAP, dark hip-hop. Chaotic, Dusty, Menacing, Catchy, Heavy, Brooding, Cold, Hypnotic, Raw, Nocturnal. Tempo around 82-90 BPM, hard boom-bap kick-snare, loose swung hats, cracked rimshots, thunder-gap pauses, basement head-nod pocket. window-rattle percussion, storm-drain gurgles, warped organ loop, detuned piano stabs, distant thunder rolls, low cello drones, reverse-reverb lightning swells, dusty break drums, deep round sub-bass, hollow sub drops, vinyl crackle, damp concrete haze. Deep, clean, melodic villain-rap delivery, not gravelly, calm basement menace under weather pressure, smooth syncopated flows, punchlines striking after gaps, occasional manic lightning flash then back to motionless storm-watch stare. Warm gritty mix, deep low end, wide basement stereo, rainwater-at-midnight atmosphere, messy enough to feel alive and instantly catchy.
+TRAIN-PLATFORM STAMPEDE BOOM-BAP, COMMUTER-CHAOS VILLAIN RAP, dark hip-hop. Chaotic, Dusty, Menacing, Catchy, Urban, Cold, Heavy, Hypnotic, Gritty, Tense. Tempo around 88-96 BPM, hard boom-bap kick-snare, loose swung hats, rail-clang ghost notes, platform-gap pauses, rushing head-nod pocket. train-brake squeals, turnstile clicks, public-address fragments without words, suitcase-wheel percussion, low piano stabs, rusty horn shadows, reverse-reverb tunnel swells, dusty break drums, deep warm sub-bass, hollow sub drops, vinyl crackle, smoky station haze. Deep, clean, melodic villain-rap delivery, not gravelly, calm commuter menace standing still in the stampede, smooth syncopated flows, punchlines arriving like delayed trains, occasional manic platform grin then back to stone-faced patience. Warm gritty mix, deep low end, wide tunnel stereo, late-night transit atmosphere, frantic but catchy.
 ```
 
 **Exclusion List:**
 
 ```text
-whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, storm soundscape, EDM, bright pop, acoustic ballad
+whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, train novelty song, EDM, bright pop, acoustic ballad
 ```
 
-## 124. Circus-Mirror Boom-Bap
+## 124. Tailor-Shop Stampede Boom-Bap
 
-*Warped samples, mirror taps, and dusty breaks for surreal chaotic head-nod villain rap.*
+*Scissor snaps, sewing machines, and dusty drums for chaotic bespoke head-nod rap.*
 
-**Character count:** 861
+**Character count:** 924
 
 **Style Box:**
 
 ```text
-CIRCUS-MIRROR BOOM-BAP, WARPED FUNHOUSE VILLAIN RAP, dark hip-hop. Chaotic, Catchy, Dusty, Menacing, Surreal, Cold, Hypnotic, Wry, Gritty, Bent. Tempo around 86-94 BPM, hard boom-bap kick-snare, loose hats, crooked swing, rimshot stutters, warped head-nod pocket. funhouse mirror taps, detuned calliope crumbs, stretched soul-sample yelps chopped into tones, low organ wobble, bent piano notes, rubber-floor squeaks, reverse-reverb mirror swells, dusty break drums, deep round sub-bass, hollow sub drops, vinyl crackle, smoky carnival-basement haze. Deep, clean, melodic villain-rap delivery, not gravelly, deadpan funhouse menace riding the crooked groove, smooth syncopated flows, punchlines bending then snapping straight, occasional manic reflection-flash then back to blank control. Warm warped mix, deep low end, wide distorted stereo, surreal and catchy.
+TAILOR-SHOP STAMPEDE BOOM-BAP, BESPOKE CHAOS VILLAIN RAP, dark hip-hop. Chaotic, Dusty, Catchy, Menacing, Stylish, Cold, Wry, Hypnotic, Sharp, Gritty. Tempo around 82-90 BPM, hard boom-bap kick-snare, loose swung hats, stitched ghost notes, scissor-snap fills, fitting-room pauses, heavy pocket. sewing-machine rhythms, tailor chalk taps, hanger clacks, fabric-rip accents, dusty jazz piano loop, muted trumpet crumbs, low upright-bass plucks, reverse-reverb dressing-room swells, dusty break drums, deep round sub-bass, hollow sub drops, vinyl crackle, smoky alteration-shop haze. Deep, clean, melodic villain-rap delivery, not gravelly, calm bespoke menace riding the clatter, smooth syncopated flows, cutting punchlines hemmed with exact timing, occasional manic cufflink spark then back to cold mirror-stare poise. Warm gritty mix, deep low end, wide cloth-lined stereo, chaotic tailor-room atmosphere, sharp and catchy.
 ```
 
 **Exclusion List:**
 
 ```text
-whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, circus novelty music, EDM, bright pop, acoustic ballad
+whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, fashion-show pop, EDM, bright pop, acoustic ballad
 ```
 
-## 125. Scrapbook Sample Riot Boom-Bap
+## 125. Bottle-Return Boom-Bap
 
-*Torn-paper chops, hard drums, and manic sample flips for chaotic punchline-heavy boom-bap.*
+*Glass clinks, conveyor belts, and dusty drums for crunchy chaotic pocket rap.*
 
-**Character count:** 887
+**Character count:** 918
 
 **Style Box:**
 
 ```text
-SCRAPBOOK SAMPLE RIOT BOOM-BAP, CHAOTIC CUT-PASTE VILLAIN RAP, dark hip-hop. Chaotic, Dusty, Menacing, Catchy, Clever, Raw, Hypnotic, Cold, Collaged, Sharp. Tempo around 88-96 BPM, hard boom-bap kick-snare, chopped break drums, loose hats, abrupt sample-stop pauses, punchline head-nod pocket. torn-paper rip percussion, glue-stick squeaks, chopped piano crumbs, old soul horn flecks, reversed string tags, typewriter clicks, tape-splice pops, reverse-reverb cutback swells, deep round sub-bass, hollow sub drops, vinyl crackle, smoky bedroom-sampler haze. Deep, clean, melodic villain-rap delivery, not gravelly, calm collage menace riding the cuts, smooth syncopated flows, staccato clever delivery, punchlines snapping like torn photos, occasional manic paste-up grin then back to editor-cold focus. Warm gritty mix, deep low end, wide sample-desk stereo, chaotic boom-bap and catchy.
+BOTTLE-RETURN BOOM-BAP, GLASS-CLINK VILLAIN RAP, dark hip-hop. Chaotic, Dusty, Catchy, Menacing, Wry, Mechanical, Cold, Hypnotic, Crunchy, Raw. Tempo around 84-92 BPM, hard boom-bap kick-snare, loose hats, glassy ghost notes, conveyor-stop pauses, sturdy head-nod pocket. bottle-return clinks, can-crush percussion, conveyor-belt hum, receipt-printer ticks, grocery-cart rattles, detuned electric piano loop, low trombone smudges, reverse-reverb back-room swells, dusty break drums, deep warm sub-bass, hollow sub drops, vinyl crackle, smoky supermarket-after-hours haze. Deep, clean, melodic villain-rap delivery, not gravelly, calm refund-counter menace riding the crunch, smooth syncopated flows, petty punchlines stacking like deposits, occasional manic glass-bin grin then back to blank coupon calm. Warm gritty mix, deep low end, wide stockroom stereo, absurd retail-noir atmosphere, chaotic boom-bap and catchy.
 ```
 
 **Exclusion List:**
 
 ```text
-whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, collage art-pop, EDM, bright pop, acoustic ballad
+whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, grocery jingle, EDM, bright pop, acoustic ballad
 ```
 
-## 126. Astral Glitch-Hop / Violet Static
+## 126. Mushroom Observatory Glitch-Hop
 
-*Ethereal pads, fractured drums, and violet synth trails for trippy glitch-hop villain rap.*
+*Spore pads, telescope bells, and fractured drums for trippy ethereal villain drift.*
 
-**Character count:** 874
+**Character count:** 917
 
 **Style Box:**
 
 ```text
-ASTRAL GLITCH-HOP, VIOLET STATIC VILLAIN RAP, dark hip-hop. Trippy, Ethereal, Glitchy, Catchy, Menacing, Dreamlike, Cold, Hypnotic, Weightless, Polished. Tempo around 82-90 BPM, fractured glitch-hop drums, soft kick snaps, off-grid hat grains, crisp rim taps, floating pocket gaps. violet static pads, astral Rhodes clouds, granular bell fragments, reversed harp sparks, liquid synth trails, low sub-orb drone, bitcrushed starfield dust, reverse-reverb nebula swells, deep warm 808 support, hollow sub drops, vinyl crackle, smoky planetarium haze. Deep, clean, melodic villain-rap delivery, not gravelly, lucid menace drifting inside the glitches, smooth syncopated flows, clever lines placed in airy pockets, occasional manic signal flare then back to cold orbit. Glossy spacious mix, deep low end, wide cosmic stereo, psychedelic night-sky atmosphere, ethereal and catchy.
+MUSHROOM OBSERVATORY GLITCH-HOP, PSYCHEDELIC ETHEREAL VILLAIN RAP, dark hip-hop. Trippy, Ethereal, Catchy, Menacing, Glitchy, Dreamlike, Cold, Hypnotic, Colorful, Weightless. Tempo around 86-94 BPM, fractured glitch-hop drums, shuffled kick-snare pulses, crisp micro-claps, granular hat sparks, floating pocket gaps. bioluminescent spore pads, telescope bell tones, warped kalimba flecks, liquid Rhodes clouds, reversed flute mist, low sub-orb drone, tiny data-click percussion, deep warm 808 support, hollow sub drops, vinyl crackle, smoky planetarium-forest haze. Deep, clean, melodic villain-rap delivery, not gravelly, lucid menace drifting through hallucinated space, smooth syncopated flows, strange punchlines blooming in delayed pockets, occasional manic spore-flash then back to calm star-map focus. Wide glossy mix, deep low end, soft prismatic stereo, fungus-under-starlight atmosphere, surreal and catchy.
 ```
 
 **Exclusion List:**
 
 ```text
-whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, ambient drone, EDM, bright synthpop, acoustic ballad
+whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, jam-band rock, EDM festival drop, bright pop, acoustic ballad
 ```
 
-## 127. Dream-Server Glitch-Hop
+## 127. Vapor-Moth Glitch-Hop
 
-*Soft digital choirs, clicking data dust, and swung glitch drums for surreal pocket flows.*
+*Fluttering synth wings, pastel static, and broken drums for soft psychedelic menace.*
 
-**Character count:** 892
+**Character count:** 914
 
 **Style Box:**
 
 ```text
-DREAM-SERVER GLITCH-HOP, DIGITAL GHOST VILLAIN RAP, dark hip-hop. Trippy, Ethereal, Glitchy, Catchy, Menacing, Synthetic, Cold, Hypnotic, Smooth, Strange. Tempo around 86-94 BPM, swung glitch-hop drums, clipped kick pulses, crisp snare taps, shuffled data hats, airy upload pauses. soft digital choir pads, glassy login chimes, modem-breath textures, granular piano dust, pixelated harp plucks, low server-room drone, reverse-reverb data swells, deep clean 808 support, hollow sub drops, tiny circuit clicks, vinyl crackle, smoky blue-screen haze. Deep, clean, melodic villain-rap delivery, not gravelly, calm cyber-phantom menace riding the pocket, smooth syncopated flows, staccato witty delivery floating through glitches, occasional manic cursor-blink then back to blank terminal calm. Detailed glossy mix, deep low end, wide synthetic stereo, dream-server atmosphere, surreal and catchy.
+VAPOR-MOTH GLITCH-HOP, ETHEREAL STATIC VILLAIN RAP, dark hip-hop. Trippy, Ethereal, Catchy, Glitchy, Menacing, Soft, Cold, Hypnotic, Psychedelic, Sleek. Tempo around 82-90 BPM, broken glitch-hop pocket, soft kick pulses, crisp micro-snare ticks, shuffled hats, fluttering beat gaps, weightless swing. moth-wing synth flutters, pastel static washes, reversed bell dust, woozy electric piano, glass harp fragments, low analog cloud drone, granular click percussion, deep clean 808 support, hollow sub drops, tape shimmer, vinyl crackle, smoky lavender-night haze. Deep, clean, melodic villain-rap delivery, not gravelly, calm nocturnal menace floating close to the lamp, smooth syncopated flows, strange silky punchlines placed inside glitches, occasional manic wing-flicker then back to delicate cold control. Glossy airy mix, deep low end, wide pastel stereo, dream-insect atmosphere, fragile and instantly catchy.
 ```
 
 **Exclusion List:**
 
 ```text
-whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, cyberpop, EDM, ambient sleep music, acoustic ballad
+whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, dream pop, EDM, acoustic ballad, soft ambient music
 ```
 
-## 128. Prism Cathedral Glitch-Hop
+## 128. Neon Seance Glitch-Hop
 
-*Choir pads, stained-glass synths, and chopped drums for sacred psychedelic menace.*
+*Ouija clicks, glowing pads, and fractured drums for psychedelic ghost-rap bounce.*
 
-**Character count:** 890
+**Character count:** 905
 
 **Style Box:**
 
 ```text
-PRISM CATHEDRAL GLITCH-HOP, PSYCHEDELIC VILLAIN RAP, dark hip-hop. Trippy, Ethereal, Glitchy, Menacing, Catchy, Sacred, Cold, Hypnotic, Luminous, Cinematic. Tempo around 80-88 BPM, chopped glitch-hop drums, soft boom-kick pulses, crisp rim snaps, fractured hat grains, cathedral-sized pauses. stained-glass synth chords, wordless choir pads, prism bell arpeggios, reversed organ tails, granular harp dust, low monk-like drone without chanting, reverse-reverb chapel swells, deep warm sub-bass, hollow sub drops, vinyl crackle, smoky incense-light haze. Deep, clean, melodic villain-rap delivery, not gravelly, calm blasphemous elegance riding the glitch pocket, smooth syncopated flows, clever punchlines glowing in silence, occasional manic light-split then back to statuesque cold. Huge glossy mix, deep low end, wide cathedral stereo, psychedelic sacred atmosphere, beautiful and catchy.
+NEON SEANCE GLITCH-HOP, PSYCHEDELIC SPIRIT VILLAIN RAP, dark hip-hop. Trippy, Ethereal, Catchy, Menacing, Glitchy, Occult, Cold, Hypnotic, Dreamlike, Strange. Tempo around 88-96 BPM, fractured glitch-hop bounce, crisp kick fragments, micro-claps, shuffled hats, spirit-board pauses, floating sub pockets. neon Ouija-click percussion, glowing choir-pad smears, reversed piano vapors, glass bell orbs, warped theremin ribbons, low sub-drone séance circle, granular candle-flicker ticks, deep clean 808 bass, hollow sub drops, vinyl crackle, smoky purple-room haze. Deep, clean, melodic villain-rap delivery, not gravelly, composed occult menace drifting above broken drums, smooth syncopated flows, cryptic punchlines landing through ghostly gaps, occasional manic planchette jerk then back to icy focus. Wide luminous mix, deep low end, prismatic dark-room stereo, neon séance atmosphere, eerie and catchy.
 ```
 
 **Exclusion List:**
 
 ```text
-whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, worship music, EDM, bright pop, acoustic ballad
+whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, horror screams, EDM, bright pop, acoustic ballad
 ```
 
-## 129. Hologram Lagoon Glitch-Hop
+## 129. Jellyfish Static Glitch-Hop
 
-*Watery synths, granular bells, and relaxed glitch drums for liquid ethereal villain rap.*
+*Aquatic synth bells, drifting pads, and skittered drums for liquid ethereal rap.*
 
-**Character count:** 902
+**Character count:** 916
 
 **Style Box:**
 
 ```text
-HOLOGRAM LAGOON GLITCH-HOP, LIQUID ETHEREAL VILLAIN RAP, dark hip-hop. Trippy, Watery, Glitchy, Catchy, Menacing, Dreamlike, Cold, Hypnotic, Smooth, Luminous. Tempo around 84-92 BPM, relaxed glitch-hop drums, soft syncopated kicks, crisp rim taps, shuffled hats, floating lagoon pauses. hologram pad washes, water-glass bell fragments, granular mallet trails, liquid Rhodes chords, reversed flute-like synth wisps, low sub-current drone, bubble-click percussion, reverse-reverb tide swells, deep clean 808 support, hollow sub drops, vinyl crackle, smoky cyan haze. Deep, clean, melodic villain-rap delivery, not gravelly, calm liquid menace gliding through the pocket, smooth syncopated flows, witty lines slipping between glitches, occasional manic ripple-flash then back to a cold blue stare. Glossy spacious mix, deep low end, wide lagoon stereo, psychedelic waterlight atmosphere, fluid and catchy.
+JELLYFISH STATIC GLITCH-HOP, LIQUID ETHEREAL VILLAIN RAP, dark hip-hop. Trippy, Ethereal, Catchy, Watery, Menacing, Glitchy, Cold, Hypnotic, Dreamlike, Sleek. Tempo around 84-92 BPM, skittered glitch-hop drums, soft kick pulses, crisp rim blips, shuffled hats, floating downbeat gaps, slow liquid swing. jellyfish-lantern synth bells, saltwater static pads, warped marimba bubbles, reversed harp droplets, low whale-like sub drone, granular splash-click percussion, glassy electric piano, deep clean 808 support, hollow sub drops, vinyl crackle, smoky deep-tank haze. Deep, clean, melodic villain-rap delivery, not gravelly, calm bioluminescent menace drifting through the pocket, smooth syncopated flows, poisonous punchlines glowing in soft delays, occasional manic tentacle-flash then back to slow cold glide. Glossy spacious mix, deep low end, wide aquatic stereo, alien aquarium atmosphere, hypnotic and catchy.
 ```
 
 **Exclusion List:**
 
 ```text
-whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, tropical pop, EDM, ambient spa music, acoustic ballad
+whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, tropical pop, EDM, acoustic ballad, ambient spa music
 ```
 
-## 130. Ghost-Planet Glitch-Hop
+## 130. Pixel Mirage Glitch-Hop
 
-*Planetary drones, spectral keys, and fractured drums for haunted ethereal glitch-hop hooks.*
+*Bit-crushed mirage pads, desert bells, and fractured drums for surreal airy menace.*
 
-**Character count:** 907
+**Character count:** 922
 
 **Style Box:**
 
 ```text
-GHOST-PLANET GLITCH-HOP, HAUNTED COSMIC VILLAIN RAP, dark hip-hop. Trippy, Ethereal, Glitchy, Menacing, Catchy, Cold, Lonely, Hypnotic, Cinematic, Weightless. Tempo around 78-86 BPM, fractured slow glitch-hop drums, soft kick thumps, crisp snare dust, sparse hat particles, gravity-free pauses. ghostly electric-piano chords, planetary drone swells, spectral bell tones, reversed string vapors, granular choir mist, distant satellite pings, low sub-orbit hum, reverse-reverb eclipse swells, deep warm 808 support, hollow sub drops, vinyl crackle, smoky black-sky haze. Deep, clean, melodic villain-rap delivery, not gravelly, calm astronaut menace drifting through empty space, smooth syncopated flows, cold punchlines placed like footprints in dust, occasional manic radio burst then back to silent orbit. Wide luminous mix, deep low end, huge cosmic stereo, haunted planet atmosphere, ethereal and catchy.
+PIXEL MIRAGE GLITCH-HOP, DESERT-HOLOGRAM VILLAIN RAP, dark hip-hop. Trippy, Ethereal, Catchy, Glitchy, Menacing, Dry, Cold, Hypnotic, Psychedelic, Cinematic. Tempo around 86-94 BPM, fractured glitch-hop drums, soft kick steps, crisp micro-claps, shuffled hats, pixel-drop pauses, drifting pocket swing. bit-crushed mirage pads, desert glass bells, warped oud fragments, reversed flute heat, granular sand-click percussion, low analog sun-drone, liquid Rhodes shimmer, deep clean 808 support, hollow sub drops, tape hiss, vinyl crackle, smoky heatwave haze. Deep, clean, melodic villain-rap delivery, not gravelly, calm hallucination menace walking through broken light, smooth syncopated flows, strange punchlines flickering like distant water, occasional manic pixel-spark then back to controlled mirage stillness. Wide glossy mix, deep low end, prismatic desert stereo, holographic wasteland atmosphere, airy and catchy.
 ```
 
 **Exclusion List:**
 
 ```text
-whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, space ambient, EDM, bright pop, acoustic ballad
+whispering, speed rap, fast delivery, mumbling, mumble rap, screaming, distortion, screamo, illegible vocals, gravelly raspy vocals, desert rock, EDM festival drop, bright pop, acoustic ballad
 ```
