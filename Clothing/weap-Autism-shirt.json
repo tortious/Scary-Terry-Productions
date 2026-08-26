@@ -1,0 +1,87 @@
+{
+  "garment": {
+    "type": "mens sleeveless tank top",
+    "fit": "fitted athletic cut",
+    "base_color": "deep matte black",
+    "trim": "bright turquoise piping around the neckline and arm openings",
+    "material": "premium heavyweight cotton jersey with a subtle soft texture"
+  },
+  "design_direction": {
+    "style": "luxury gangsta streetwear mixed with 1990s graphic fashion",
+    "mood": "aggressive, irreverent, colorful, expensive, bold, underground",
+    "composition": "large centered chest graphic with supporting abstract graphics distributed across the entire front"
+  },
+  "headline_text": {
+    "text": "WEAPONIZED AUTISM",
+    "placement": "upper and middle chest",
+    "layout": "two stacked centered lines",
+    "font_style": "bold autism-awareness building-block lettering, with each letter constructed from chunky interlocking puzzle-block shapes",
+    "letter_colors": [
+      "red",
+      "royal blue",
+      "yellow",
+      "lime green",
+      "turquoise",
+      "orange",
+      "purple",
+      "hot pink"
+    ],
+    "treatment": "individual multicolored letters with crisp black edging and subtle dimensional screen-print texture",
+    "legibility": "perfectly readable, correctly spelled, no distorted or missing letters"
+  },
+  "main_logo": {
+    "subject": "Rubik's Cube-inspired three-dimensional cube",
+    "placement": "centered directly beneath the headline",
+    "design": "large three-quarter-view cube composed of colorful interlocking building-block and puzzle-like panels",
+    "colors": [
+      "red",
+      "blue",
+      "green",
+      "yellow",
+      "orange",
+      "purple",
+      "pink",
+      "turquoise"
+    ],
+    "outline": "heavy black outline with thin warm-gold accent edging",
+    "style": "clean graphic illustration, bold streetwear logo, slightly dimensional but not cartoonish",
+    "importance": "dominant central emblem"
+  },
+  "all_over_details": {
+    "background_pattern": "sparse Memphis-style 1990s geometric graphics scattered across the black fabric",
+    "elements": [
+      "small triangles",
+      "zigzags",
+      "short paint-like strokes",
+      "abstract squiggles",
+      "tiny dots",
+      "geometric fragments"
+    ],
+    "colors": "coordinated neon jewel tones matching the lettering and cube",
+    "density": "moderate and deliberately spaced so the central text and logo remain dominant"
+  },
+  "finish": {
+    "print_quality": "high-end fashion screen print with crisp edges and rich saturated ink",
+    "overall_look": "designer streetwear rather than novelty merchandise",
+    "visual_balance": "symmetrical central hierarchy with intentionally chaotic supporting graphics",
+    "contrast": "very high contrast against the black garment"
+  },
+  "negative_prompts": [
+    "childish appearance",
+    "cheap novelty shirt",
+    "pastel-only palette",
+    "generic autism ribbon",
+    "large traditional puzzle-piece awareness symbol replacing the cube",
+    "misspelled text",
+    "garbled typography",
+    "extra words",
+    "tiny unreadable lettering",
+    "cartoon character",
+    "photorealistic cube",
+    "washed-out colors",
+    "low contrast",
+    "blurry print",
+    "crooked typography",
+    "minimalist corporate design"
+  ]
+}
