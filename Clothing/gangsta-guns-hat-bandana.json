@@ -1,0 +1,30 @@
+{
+  "attire": {
+    "garments": [
+      "black short-sleeve top",
+      "black face covering printed with repeated neon-style skull logos",
+      "black flat-brim cap embroidered with multicolor Scary Terry Productions logo"
+    ],
+    "colors": [
+      "black",
+      "cyan",
+      "magenta",
+      "orange",
+      "cream lettering",
+      "metallic gold"
+    ],
+    "fabrics_and_textures": [
+      "matte cotton-like shirt fabric",
+      "soft printed face-covering fabric",
+      "structured cap fabric",
+      "polished textured metallic surfaces on the held objects"
+    ],
+    "fit_and_silhouette": "close-fitting upper-body clothing with face largely covered",
+    "layering": "black top beneath patterned face covering and branded cap",
+    "accessories": [
+      "two gold-toned compact firearms held crossed in front of the chest"
+    ],
+    "footwear": "not visible",
+    "styling_notes": "coordinated black clothing with repeated Scary Terry Productions branding; forearms crossed centrally beneath the face"
+  }
+}
