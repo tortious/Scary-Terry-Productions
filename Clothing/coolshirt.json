@@ -1,0 +1,58 @@
+{
+  "product": {
+    "type": "T-shirt",
+    "style": "Round neck",
+    "sleeves": "Short sleeve",
+    "base_design": "Custom print",
+    "background_color": "Multi-color camo (magenta, orange, blue, and teal splotches)",
+    "hem_color": "Solid black"
+  },
+  "graphics": {
+    "front": [
+      {
+        "type": "Text bubble",
+        "text": "AWESOME",
+        "color": "Green-yellow",
+        "style": "Comic book speech bubble",
+        "position": "Center, just below the neckline"
+      },
+      {
+        "type": "Icon",
+        "description": "Screaming ghost mask (Ghostface, in black and white)",
+        "position": "Front, lower right",
+        "alignment": "Bottom-right"
+      },
+      {
+        "type": "Illustration",
+        "description": "Black and white human skull and crossbones",
+        "position": "Front, lower left",
+        "alignment": "Bottom-left"
+      },
+      {
+        "type": "Patch",
+        "text": "SCARY TERRY PRODUCTIONS",
+        "description": "Black text with white border and black font",
+        "position": "Center-bottom"
+      },
+      {
+        "type": "Graphic element",
+        "description": "Green paint drip pattern",
+        "position": "Along the bottom hem",
+        "style": "Liquid dripping effect"
+      }
+    ],
+    "sleeves": [
+      {
+        "type": "Icon",
+        "description": "QR code",
+        "position": "Left sleeve",
+        "color": "Black and white"
+      }
+    ]
+  },
+  "branding_elements": {
+    "logo_text": "SCARY TERRY PRODUCTIONS",
+    "theme": "Pop culture mix, including horror and comic themes",
+    "overall_mood": "Playful and alternative, with a mix of street art and vintage graphic styles"
+  }
+}
