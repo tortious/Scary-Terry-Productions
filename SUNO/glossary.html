@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Glossary — Rap Production, Sound Design &amp; Beatbox</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#101219;
+  --panel:#171B25;
+  --panel-2:#1D2230;
+  --line:#2A3142;
+  --ink:#E7EAF2;
+  --ink-2:#A3ACC0;
+  --ink-3:#727C93;
+
+  --c1:#FFB300;  /* core rap + production */
+  --c2:#FF6A45;  /* sound palette + drums */
+  --c3:#B98CFF;  /* pitch, scales, harmony */
+  --c4:#2FD3D8;  /* effects + processing */
+  --c5:#8BE04A;  /* beatbox + vocal sounds */
+  --c7:#FF4E72;  /* scary terry palette */
+  --c6:#8A93A6;  /* credits + limits */
+
+  --display:"Barlow Condensed", "Oswald", "Arial Narrow", system-ui, sans-serif;
+  --body:"Inter", ui-sans-serif, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --mono:"JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --pad:clamp(16px, 4vw, 40px);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth; scroll-padding-top:132px}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font-family:var(--body); font-size:16px; line-height:1.62;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--c4); outline-offset:3px; border-radius:4px}
+
+/* ---------- hero ---------- */
+.hero{
+  padding:calc(var(--pad) + 18px) var(--pad) 26px;
+  border-bottom:1px solid var(--line);
+  background:
+    radial-gradient(120% 150% at 8% -20%, rgba(255,179,0,.10), transparent 55%),
+    radial-gradient(90% 130% at 92% -10%, rgba(139,224,74,.09), transparent 60%),
+    var(--panel);
+}
+.eyebrow{
+  font-family:var(--mono); font-size:11px; letter-spacing:.22em; text-transform:uppercase;
+  color:var(--ink-3); margin:0 0 14px;
+}
+h1{
+  font-family:var(--display); font-weight:700; text-transform:uppercase;
+  font-size:clamp(38px, 8.5vw, 92px); line-height:.92; letter-spacing:-.005em;
+  margin:0 0 18px; max-width:16ch;
+}
+h1 em{font-style:normal; color:var(--c1)}
+h1 b{font-weight:700; color:var(--c5)}
+.lede{max-width:62ch; color:var(--ink-2); font-size:clamp(15px,1.6vw,17.5px); margin:0}
+.lede strong{color:var(--ink); font-weight:600}
+
+/* ---------- pad bank nav (signature) ---------- */
+.padbank{
+  display:grid; gap:10px; margin:30px 0 0;
+  grid-template-columns:repeat(auto-fit, minmax(160px,1fr));
+}
+.pad{
+  display:block; text-decoration:none; position:relative; isolation:isolate;
+  background:var(--panel-2); border:1px solid var(--line); border-radius:10px;
+  padding:14px 14px 13px; transition:transform .14s ease, border-color .14s ease, background .14s ease;
+}
+.pad:hover{transform:translateY(-3px); border-color:var(--pc); background:#222838}
+.pad .led{
+  width:100%; height:5px; border-radius:99px; background:var(--pc);
+  box-shadow:0 0 14px -2px var(--pc); margin-bottom:11px; opacity:.9;
+}
+.pad .idx{font-family:var(--mono); font-size:10.5px; color:var(--ink-3); letter-spacing:.14em}
+.pad .nm{
+  font-family:var(--display); text-transform:uppercase; font-weight:600;
+  font-size:19px; line-height:1.12; letter-spacing:.01em; margin-top:3px; color:var(--ink);
+}
+.pad .ct{font-family:var(--mono); font-size:10.5px; color:var(--pc); margin-top:7px; letter-spacing:.06em}
+
+/* ---------- sticky toolbar ---------- */
+.bar{
+  position:sticky; top:0; z-index:40; background:rgba(16,18,25,.93);
+  backdrop-filter:blur(10px); border-bottom:1px solid var(--line);
+  padding:11px var(--pad); display:flex; gap:12px; align-items:center; flex-wrap:wrap;
+}
+.search{
+  flex:1 1 260px; display:flex; align-items:center; gap:9px;
+  background:var(--panel-2); border:1px solid var(--line); border-radius:8px; padding:8px 12px;
+}
+.search span{font-family:var(--mono); font-size:11px; color:var(--ink-3); letter-spacing:.12em}
+.search input{
+  flex:1; background:none; border:0; color:var(--ink); font-family:var(--body); font-size:15px; outline:none;
+}
+.search input::placeholder{color:var(--ink-3)}
+.toggle{
+  display:inline-flex; align-items:center; gap:8px; cursor:pointer; user-select:none;
+  font-family:var(--mono); font-size:11px; letter-spacing:.1em; text-transform:uppercase;
+  color:var(--ink-2); background:var(--panel-2); border:1px solid var(--line);
+  border-radius:8px; padding:9px 13px;
+}
+.toggle input{accent-color:var(--c5); margin:0; width:14px; height:14px}
+.toggle:hover{color:var(--ink); border-color:#3A4560}
+.hits{font-family:var(--mono); font-size:11px; color:var(--ink-3); letter-spacing:.08em; white-space:nowrap}
+
+/* ---------- sections ---------- */
+main{padding:0 var(--pad) 90px}
+.sec{padding-top:64px; scroll-margin-top:110px}
+.sec-head{display:flex; align-items:flex-start; gap:14px; border-top:1px solid var(--line); padding-top:22px}
+.sec-num{
+  font-family:var(--mono); font-size:11px; letter-spacing:.16em; color:var(--sc);
+  padding-top:8px; white-space:nowrap;
+}
+.sec h2{
+  font-family:var(--display); text-transform:uppercase; font-weight:700;
+  font-size:clamp(28px,5vw,46px); line-height:1; letter-spacing:.005em; margin:0 0 6px; color:var(--ink);
+}
+.sec-sub{color:var(--ink-2); max-width:70ch; margin:0; font-size:15.5px}
+.sec-rule{height:3px; border-radius:99px; background:var(--sc); box-shadow:0 0 16px -3px var(--sc); margin:16px 0 0; opacity:.85}
+
+h3{
+  font-family:var(--display); text-transform:uppercase; font-weight:600; letter-spacing:.06em;
+  font-size:16px; color:var(--sc); margin:38px 0 4px;
+}
+h3::before{content:"▸ "; opacity:.6}
+.h3note{color:var(--ink-3); font-size:14px; margin:0 0 16px; max-width:72ch}
+
+/* ---------- entries ---------- */
+.entries{display:grid; gap:1px; background:var(--line); border:1px solid var(--line); border-radius:10px; overflow:hidden}
+.entry{background:var(--panel); padding:14px 16px; display:grid; grid-template-columns:minmax(180px,232px) 1fr; gap:6px 20px}
+.entry:hover{background:var(--panel-2)}
+.term{
+  font-family:var(--mono); font-weight:700; font-size:13px; letter-spacing:.02em;
+  color:var(--sc); text-transform:uppercase; padding-top:2px; align-self:start;
+  overflow-wrap:anywhere;
+}
+.def{margin:0; color:var(--ink); font-size:15.2px}
+.def em{color:var(--ink-2); font-style:italic}
+.def code{font-family:var(--mono); font-size:12.6px; background:var(--panel-2); border:1px solid var(--line); border-radius:4px; padding:1px 5px; color:var(--ink-2)}
+
+.chip{
+  display:inline-block; font-family:var(--mono); font-size:9.5px; letter-spacing:.1em;
+  text-transform:uppercase; border-radius:99px; padding:2px 7px; margin-left:6px; vertical-align:1px;
+  border:1px solid currentColor; font-weight:500;
+}
+.chip.new{color:var(--c5)}
+.chip.std{color:#63C98A}
+.chip.com{color:#E5A93B}
+.chip.unv{color:#E5705F}
+
+/* callouts */
+.note{
+  border-left:3px solid var(--sc); background:var(--panel); border-radius:0 10px 10px 0;
+  padding:16px 18px; margin:22px 0; color:var(--ink-2); font-size:15px;
+}
+.note b{color:var(--ink); font-weight:600}
+.note .lbl{
+  display:block; font-family:var(--mono); font-size:10.5px; letter-spacing:.16em;
+  text-transform:uppercase; color:var(--sc); margin-bottom:7px;
+}
+
+/* map table */
+.map{display:grid; gap:1px; background:var(--line); border:1px solid var(--line); border-radius:10px; overflow:hidden; margin-top:6px}
+.map-row{background:var(--panel); display:grid; grid-template-columns:minmax(150px,1fr) minmax(150px,1fr); gap:4px 18px; padding:12px 16px; align-items:center}
+.map-row.hd{background:var(--panel-2)}
+.map-row.hd div{font-family:var(--mono); font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--ink-3)}
+.map-row .a{font-family:var(--mono); font-size:13px; color:var(--c5); text-transform:uppercase; font-weight:700}
+.map-row .b{color:var(--ink-2); font-size:15px}
+
+/* instrument card fields */
+.fl{
+  display:block; font-family:var(--mono); font-size:9.5px; letter-spacing:.16em;
+  text-transform:uppercase; color:var(--ink-3); margin:10px 0 1px;
+}
+.def > .fl:first-child{margin-top:0}
+a.listen{
+  display:inline-block; margin-top:12px; font-family:var(--mono); font-size:11px;
+  letter-spacing:.08em; text-transform:uppercase; color:var(--sc);
+  text-decoration:none; border-bottom:1px solid currentColor; padding-bottom:1px;
+}
+a.listen:hover{opacity:.75}
+
+/* three-column reference tables */
+.tbl{display:grid; gap:1px; background:var(--line); border:1px solid var(--line); border-radius:10px; overflow:hidden}
+.frow{background:var(--panel); display:grid; grid-template-columns:minmax(150px,1fr) minmax(170px,1.35fr) minmax(120px,.95fr); gap:4px 20px; padding:12px 16px; align-items:baseline}
+.frow:hover{background:var(--panel-2)}
+.frow.hd{background:var(--panel-2)}
+.frow.hd div{font-family:var(--mono); font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--ink-3)}
+.frow .c1{font-family:var(--mono); font-size:12.5px; font-weight:700; text-transform:uppercase; color:var(--sc); letter-spacing:.02em}
+.frow .c2{color:var(--ink); font-size:15px}
+.frow .c3{color:var(--ink-2); font-size:14px}
+.frow.hidden{display:none}
+
+/* combo palettes */
+.combos{display:grid; gap:12px; grid-template-columns:repeat(auto-fit,minmax(270px,1fr)); margin-top:6px}
+.combo{background:var(--panel); border:1px solid var(--line); border-left:3px solid var(--sc); border-radius:0 10px 10px 0; padding:15px 16px}
+.combo h4{margin:0 0 10px; font-family:var(--display); text-transform:uppercase; font-size:18px; letter-spacing:.02em; color:var(--ink); font-weight:600}
+.combo .ing{display:flex; flex-wrap:wrap; gap:6px}
+.combo .ing span{font-family:var(--mono); font-size:11px; color:var(--ink-2); background:var(--panel-2); border:1px solid var(--line); border-radius:6px; padding:4px 8px}
+.combo.core{border-left-width:5px}
+.combo.core .ing span{color:var(--ink); border-color:var(--sc)}
+
+.legend{display:flex; flex-wrap:wrap; gap:10px; margin:18px 0 0}
+.legend div{
+  font-family:var(--mono); font-size:11px; letter-spacing:.06em; color:var(--ink-2);
+  border:1px solid var(--line); background:var(--panel); border-radius:8px; padding:8px 11px;
+}
+.legend b{font-weight:700}
+
+.empty{display:none; text-align:center; color:var(--ink-3); font-family:var(--mono); font-size:13px; padding:70px 0}
+body.filtering .sec.hidden, .entry.hidden, .note.hidden, .map.hidden, .h3note.hidden, h3.hidden, .legend.hidden, .tbl.hidden, .combos.hidden{display:none}
+body.show-empty .empty{display:block}
+
+footer{border-top:1px solid var(--line); padding:26px var(--pad) 60px; color:var(--ink-3); font-family:var(--mono); font-size:11px; letter-spacing:.1em}
+
+@media (max-width:720px){
+  .entry{grid-template-columns:1fr; gap:5px}
+  .term{padding-top:0}
+  .map-row{grid-template-columns:1fr}
+  .frow{grid-template-columns:1fr; gap:2px}
+  .frow.hd{display:none}
+  .frow .c2::before, .frow .c3::before{
+    content:attr(data-l) " "; font-family:var(--mono); font-size:9.5px;
+    letter-spacing:.14em; text-transform:uppercase; color:var(--ink-3);
+  }
+  html{scroll-padding-top:150px}
+}
+@media (prefers-reduced-motion:reduce){
+  *{transition:none !important; scroll-behavior:auto !important}
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <p class="eyebrow">Reference / v2 / rap · production · sound design · beatbox</p>
+  <h1>The <em>massive</em> glossary of beats, sound, and <b>mouth noise</b></h1>
+  <p class="lede">Two vocabularies live in here. One is the fairly standardized language of <strong>production, engineering, synthesis, and music theory</strong>. The other is the <strong>beatbox lexicon</strong>, where plenty of names are informal, performer-specific, or purely onomatopoeic. Everything in the beatbox sections carries a confidence tag so you always know which one you're reading.</p>
+
+  <nav class="padbank" aria-label="Sections">
+    <a class="pad" href="#s1" style="--pc:var(--c1)"><span class="led"></span><span class="idx">BANK A</span><div class="nm">Core rap &amp; production</div><div class="ct">beat · bars · flow · session shorthand</div></a>
+    <a class="pad" href="#s2" style="--pc:var(--c2)"><span class="led"></span><span class="idx">BANK B</span><div class="nm">Sound palette &amp; drums</div><div class="ct">808s · hats · texture · transitions</div></a>
+    <a class="pad" href="#s3" style="--pc:var(--c3)"><span class="led"></span><span class="idx">BANK C</span><div class="nm">Pitch, scales &amp; harmony</div><div class="ct">modes · chords · voicings · bass</div></a>
+    <a class="pad" href="#s4" style="--pc:var(--c4)"><span class="led"></span><span class="idx">BANK D</span><div class="nm">Effects &amp; processing</div><div class="ct">dynamics · time · pitch · vocals</div></a>
+    <a class="pad" href="#s5" style="--pc:var(--c5)"><span class="led"></span><span class="idx">BANK E</span><div class="nm">Beatbox &amp; vocal sounds</div><div class="ct">airflow · basses · whistles · FX</div></a>
+    <a class="pad" href="#s7" style="--pc:var(--c7)"><span class="led"></span><span class="idx">BANK F</span><div class="nm">Scary Terry palette</div><div class="ct">horror · world · foley · recipes</div></a>
+    <a class="pad" href="#s6" style="--pc:var(--c6)"><span class="led"></span><span class="idx">BANK G</span><div class="nm">Credits &amp; limits</div><div class="ct">who to learn from · what's unstable</div></a>
+  </nav>
+</header>
+
+<div class="bar">
+  <label class="search">
+    <span>FIND</span>
+    <input id="q" type="search" placeholder="Type a term — 808, Lydian, sidechain, lip roll…" autocomplete="off" aria-label="Filter glossary terms">
+  </label>
+  <label class="toggle"><input type="checkbox" id="onlyNew"> New in v2 only</label>
+  <span class="hits" id="hits"></span>
+</div>
+
+<main>
+<p class="empty" id="empty">No entries match that. Try a shorter word.</p>
+<section class="sec" id="s1" style="--sc:var(--c1)">
+  <div class="sec-head">
+    <div class="sec-num">BANK A</div>
+    <div>
+      <h2>Core rap &amp; production terms</h2>
+      <p class="sec-sub">The words that get thrown around in every session — beat, bars, flow, pocket — plus the studio shorthand that isn't genre-exclusive but is table stakes for keeping up.</p>
+    </div>
+  </div>
+  <div class="sec-rule"></div>
+
+  <h3>Beat, bars, tempo, groove</h3>
+  <div class="entries">
+    <div class="entry"><div class="term">Beat</div><p class="def">Two meanings. In strict theory it's the recurring pulse. In rap and beatmaking, "the beat" usually means the <b>whole instrumental</b>: drums, bass, melodic material, transitions, arrangement.</p></div>
+    <div class="entry"><div class="term">Bars</div><p class="def">Measures. Most rap is counted in 4/4, so one bar usually holds four quarter-note beats. "Sixteen bars" is the default verse length.</p></div>
+    <div class="entry"><div class="term">Tempo / BPM</div><p class="def">Speed of the pulse in beats per minute.</p></div>
+    <div class="entry" data-new="1"><div class="term">Half-time convention <span class="chip new">added</span></div><p class="def">Trap and drill are often written at 130–160 BPM but <em>felt</em> at half that, because the snare lands on beat 3 instead of 2 and 4. A "140 BPM" trap beat and a "70 BPM" one are frequently the same tempo counted differently — which matters when you're matching an acapella or a sample.</p></div>
+    <div class="entry"><div class="term">Groove</div><p class="def">The feel produced by timing, accent, swing, note length, and the interaction between drums, bass, and vocal phrasing.</p></div>
+    <div class="entry"><div class="term">Pocket</div><p class="def">A performer or part sitting rhythmically inside the groove in a way that feels locked and believable — slightly ahead pushes, slightly behind drags.</p></div>
+    <div class="entry"><div class="term">Swing</div><p class="def">Subdivisions weighted unevenly instead of perfectly straight. Usually a percentage control in a DAW or MPC (54%–62% is the classic boom-bap zone).</p></div>
+    <div class="entry" data-new="1"><div class="term">Syncopation <span class="chip new">added</span></div><p class="def">Accenting where the meter doesn't expect it — offbeats, "e" and "a" subdivisions, ties across the barline. It's the main engine of groove in almost all rap drum programming.</p></div>
+  </div>
+
+  <h3>MC vocabulary</h3>
+  <div class="entries">
+    <div class="entry"><div class="term">Flow</div><p class="def">The rhythmic and prosodic design of a rap delivery — accent placement, syllable density, rhyme placement, phrase length, syncopation, and how the voice sits against the instrumental meter. Treated in rap scholarship as a real musical dimension, not vague "style."</p></div>
+    <div class="entry"><div class="term">Triplet flow</div><p class="def">A flow habit grouping syllables in triplet-like patterns; a signature of trap-era rap.</p></div>
+    <div class="entry" data-new="1"><div class="term">Cadence <span class="chip new">added</span></div><p class="def">The specific rhythmic shape of a phrase — how a line starts, where it accelerates, and how it lands. Rappers often have several cadences they rotate inside one verse.</p></div>
+    <div class="entry" data-new="1"><div class="term">Double-time / half-time <span class="chip new">added</span></div><p class="def">Delivering roughly twice as many syllables per bar, or roughly half. Switching between them mid-verse is one of the cheapest ways to make a verse feel like it's building.</p></div>
+    <div class="entry" data-new="1"><div class="term">Multisyllabic rhyme <span class="chip new">added</span></div><p class="def">Rhyming two or more syllables at once ("<em>lateral damage</em> / <em>scattered advantage</em>") rather than just the final vowel. The backbone of technical rap.</p></div>
+    <div class="entry" data-new="1"><div class="term">Internal rhyme <span class="chip new">added</span></div><p class="def">Rhymes placed inside the line rather than only at the end, creating extra rhythmic hooks between downbeats.</p></div>
+    <div class="entry" data-new="1"><div class="term">Slant rhyme <span class="chip new">added</span></div><p class="def">Near-rhyme built on shared vowel color or consonant shape instead of exact matching. Most modern rap rhymes are slant rhymes performed <em>into</em> exactness by the delivery.</p></div>
+    <div class="entry" data-new="1"><div class="term">Enjambment <span class="chip new">added</span></div><p class="def">Letting a sentence run past the end of the bar instead of resolving at the barline. Creates forward motion and disguises predictable rhyme placement.</p></div>
+    <div class="entry" data-new="1"><div class="term">Entendre <span class="chip new">added</span></div><p class="def">A line carrying two or more simultaneous readings. "Double entendre" is two; punchline writers stack three or four.</p></div>
+    <div class="entry" data-new="1"><div class="term">Punchline <span class="chip new">added</span></div><p class="def">A line built for impact at its final word — usually setup, then reversal. The pause after it is part of the technique.</p></div>
+    <div class="entry" data-new="1"><div class="term">Breath control <span class="chip new">added</span></div><p class="def">Managing where you inhale so long phrases don't collapse. In the booth it's also an editing concern — audible breaths get shaped, ducked, or cut.</p></div>
+    <div class="entry"><div class="term">Hook</div><p class="def">The catchy musical/lyrical anchor of the song. Often the chorus, not always.</p></div>
+    <div class="entry"><div class="term">Ad-libs</div><p class="def">Short vocal insertions around the main line that add attitude, spacing, response, and branding. Non-lexical vocables are increasingly recognized as a real component of identity and flow.</p></div>
+    <div class="entry"><div class="term">Cypher</div><p class="def">A circle of rappers or dancers taking turns improvising or performing, often competitively.</p></div>
+    <div class="entry"><div class="term">Bite / biting</div><p class="def">Copying another rapper's bars, cadence, concept, or distinctive style too closely.</p></div>
+    <div class="entry" data-new="1"><div class="term">Freestyle <span class="chip new">added</span></div><p class="def">Historically "not written for a specific song"; in current usage it usually means improvised off the top. Both meanings are still in circulation and people argue about it constantly.</p></div>
+  </div>
+
+  <h3>Genre and era tags <span style="font-family:var(--mono);font-size:10px;letter-spacing:.1em;color:var(--c5);border:1px solid currentColor;border-radius:99px;padding:2px 7px;">NEW SUBSECTION</span></h3>
+  <p class="h3note">These are aesthetic families, not rigid rulesets — most modern records sit between two or three of them.</p>
+  <div class="entries">
+    <div class="entry"><div class="term">Boom-bap</div><p class="def">Classic East Coast, sample-driven aesthetic: punchy kicks, cracked snares, dusty breaks, swing, chopped jazz/soul/funk. Snare usually on 2 and 4. The name points at both the kick/snare profile and a whole production sensibility.</p></div>
+    <div class="entry"><div class="term">Break / breakbeat</div><p class="def">The drum-heavy section of a record, or a sampled drum passage used as a rhythmic foundation.</p></div>
+    <div class="entry" data-new="1"><div class="term">Trap <span class="chip new">added</span></div><p class="def">808 sub-bass, sparse snare/clap on 3, hat rolls and triplet subdivisions, dark or bell-like melodic loops, heavy space.</p></div>
+    <div class="entry" data-new="1"><div class="term">Drill <span class="chip new">added</span></div><p class="def">Sliding, portamento 808 patterns, sparse menacing melodies, distinctive hat/rimshot patterns. UK/Brooklyn drill typically sits around 138–145 BPM with a triplet-leaning skip.</p></div>
+    <div class="entry" data-new="1"><div class="term">Phonk <span class="chip new">added</span></div><p class="def">Memphis-rooted: cowbell melodies, distorted 808s, tape-degraded samples, chopped-and-screwed vocal texture.</p></div>
+    <div class="entry" data-new="1"><div class="term">Plugg / rage <span class="chip new">added</span></div><p class="def">Bright detuned bell and pad loops with loose, airy drum programming (plugg); or aggressive distorted synth leads over hard 808s (rage).</p></div>
+    <div class="entry" data-new="1"><div class="term">G-funk <span class="chip new">added</span></div><p class="def">West Coast: whining portamento lead synth, slow funk grooves, Moog-style bass, live-feel percussion.</p></div>
+    <div class="entry" data-new="1"><div class="term">Jersey club <span class="chip new">added</span></div><p class="def">Roughly 130–140 BPM, five-count kick pattern, bed-squeak sample, chopped vocal triggers. Regularly hybridized into rap records.</p></div>
+    <div class="entry" data-new="1"><div class="term">Cloud rap <span class="chip new">added</span></div><p class="def">Washed reverb-heavy pads, slow diffuse drums, hazy vocal processing.</p></div>
+  </div>
+
+  <h3>Arrangement and studio shorthand</h3>
+  <div class="entries">
+    <div class="entry"><div class="term">Intro / verse / hook / bridge / outro</div><p class="def">Arrangement functions. An "8-bar intro" means exactly that: eight measures before the main section arrives.</p></div>
+    <div class="entry"><div class="term">Turnaround</div><p class="def">A short figure that resets the loop and pushes into the next section.</p></div>
+    <div class="entry"><div class="term">Drop</div><p class="def">The point where the full groove, or a high-energy section, lands.</p></div>
+    <div class="entry" data-new="1"><div class="term">Beat switch <span class="chip new">added</span></div><p class="def">A deliberate change of instrumental mid-song — new tempo, key, or palette. Usually placed after a hook or at the top of a final verse.</p></div>
+    <div class="entry"><div class="term">Topline</div><p class="def">The lead vocal melody and phrasing concept written over an instrumental.</p></div>
+    <div class="entry"><div class="term">A/B section</div><p class="def">Two contrasting arrangement blocks.</p></div>
+    <div class="entry"><div class="term">Chop</div><p class="def">A sliced sample fragment. "Chopping" is rearranging those fragments into a new phrase.</p></div>
+    <div class="entry" data-new="1"><div class="term">Flip <span class="chip new">added</span></div><p class="def">Recontextualizing a sample so it reads as new material — repitching, reversing, re-harmonizing, or rebuilding the groove around it.</p></div>
+    <div class="entry"><div class="term">One-shot</div><p class="def">A single hit rather than a loop.</p></div>
+    <div class="entry"><div class="term">Loop</div><p class="def">A repeating audio or MIDI phrase.</p></div>
+    <div class="entry" data-new="1"><div class="term">Resampling <span class="chip new">added</span></div><p class="def">Bouncing your own processed material back to audio and treating it as a new sample. The core trick behind most "how did they get that texture" sounds.</p></div>
+    <div class="entry" data-new="1"><div class="term">Timestretch / repitch <span class="chip new">added</span></div><p class="def">Changing length without pitch (stretch) versus changing both together like a tape machine (repitch). Repitching keeps character; stretching keeps key.</p></div>
+    <div class="entry"><div class="term">Stem</div><p class="def">An exported subgroup — drums, bass, vocals, music.</p></div>
+    <div class="entry"><div class="term">Print</div><p class="def">Committing an effect or instrument to audio.</p></div>
+    <div class="entry"><div class="term">Comp</div><p class="def">Assembling the best pieces of multiple takes into one performance.</p></div>
+    <div class="entry" data-new="1"><div class="term">Punch-in <span class="chip new">added</span></div><p class="def">Recording over a small section of an existing take instead of redoing the whole pass.</p></div>
+    <div class="entry" data-new="1"><div class="term">Doubles / stacks <span class="chip new">added</span></div><p class="def">Re-performing a vocal line to layer with the original. Doubles thicken; stacks (many layers, often panned or harmonized) build hooks.</p></div>
+    <div class="entry"><div class="term">Bus / aux</div><p class="def">A routing path used for subgroup processing or shared send effects like reverb and delay.</p></div>
+    <div class="entry"><div class="term">Gain staging</div><p class="def">Managing levels through the signal chain to preserve headroom and avoid unwanted distortion or noise.</p></div>
+    <div class="entry"><div class="term">Headroom</div><p class="def">The safety space before clipping.</p></div>
+    <div class="entry"><div class="term">Clipping</div><p class="def">What happens when the system runs out of ceiling and the waveform gets cut off.</p></div>
+    <div class="entry"><div class="term">Sidechain</div><p class="def">One signal controlling the processing of another — most often compression or gating.</p></div>
+    <div class="entry" data-new="1"><div class="term">Quantize / humanize <span class="chip new">added</span></div><p class="def">Snapping notes to a grid, or nudging them off it. Quantize strength and swing amount are usually more useful than full 100% snapping.</p></div>
+    <div class="entry" data-new="1"><div class="term">Velocity <span class="chip new">added</span></div><p class="def">How hard a MIDI note is struck. Velocity variation is what separates a programmed hat pattern from a played one.</p></div>
+    <div class="entry" data-new="1"><div class="term">Automation <span class="chip new">added</span></div><p class="def">Recorded parameter movement over time — filter sweeps, volume rides, send throws, mute cuts.</p></div>
+    <div class="entry" data-new="1"><div class="term">Mixdown vs master <span class="chip new">added</span></div><p class="def">Mixdown balances the individual elements into a stereo file. Mastering treats that stereo file as a finished object — final tone, loudness, and format prep.</p></div>
+    <div class="entry" data-new="1"><div class="term">LUFS / true peak <span class="chip new">added</span></div><p class="def">Loudness measured the way streaming platforms measure it, plus the inter-sample peak ceiling that survives lossy encoding. Most platforms normalize toward roughly −14 LUFS, so mastering to −6 LUFS mostly buys you a turn-down, not more volume.</p></div>
+    <div class="entry" data-new="1"><div class="term">Reference track <span class="chip new">added</span></div><p class="def">A finished commercial record used as a tonal and loudness benchmark while mixing. Level-matched, or it's useless.</p></div>
+  </div>
+
+  <h3>Business shorthand that shows up in sessions <span style="font-family:var(--mono);font-size:10px;letter-spacing:.1em;color:var(--c5);border:1px solid currentColor;border-radius:99px;padding:2px 7px;">NEW SUBSECTION</span></h3>
+  <div class="entries">
+    <div class="entry" data-new="1"><div class="term">Type beat <span class="chip new">added</span></div><p class="def">A beat marketed as being in the style of a named artist. A distribution category more than a musical one.</p></div>
+    <div class="entry" data-new="1"><div class="term">Lease vs exclusive <span class="chip new">added</span></div><p class="def">A lease licenses non-exclusive use, usually with caps; an exclusive transfers the right to that beat to one buyer under agreed terms.</p></div>
+    <div class="entry" data-new="1"><div class="term">Split sheet <span class="chip new">added</span></div><p class="def">The document recording who wrote what percentage, signed in the room while everyone still agrees.</p></div>
+    <div class="entry" data-new="1"><div class="term">Clearance vs interpolation <span class="chip new">added</span></div><p class="def">Clearing means licensing the actual recording and the composition. Interpolation means re-performing the melody instead of using the recording — which still requires the publishing side, just not the master.</p></div>
+    <div class="entry" data-new="1"><div class="term">Producer tag <span class="chip new">added</span></div><p class="def">A short branded audio signature dropped at the top of the beat.</p></div>
+  </div>
+</section>
+<section class="sec" id="s2" style="--sc:var(--c2)">
+  <div class="sec-head">
+    <div class="sec-num">BANK B</div>
+    <div>
+      <h2>Sound palette, drums &amp; instruments</h2>
+      <p class="sec-sub">Everything that occupies space in the arrangement: the atmosphere underneath, the transitions between, the drums that carry it, and the instrument families that color it.</p>
+    </div>
+  </div>
+  <div class="sec-rule"></div>
+
+  <h3>Atmosphere, ear candy, and transitions</h3>
+  <div class="entries">
+    <div class="entry"><div class="term">Ambient sounds</div><p class="def">Environmental or background layers suggesting a space, weather, location, or emotional atmosphere. In rap they're usually subtle: room tone, vinyl wash, city ambience, tape hiss, drones, filtered crowd beds, rain, traffic, radio bleed, abstract pads.</p></div>
+    <div class="entry"><div class="term">Atmospheric noise</div><p class="def">Broader term for non-melodic background material adding depth, tension, or mood.</p></div>
+    <div class="entry"><div class="term">Ear candy</div><p class="def">Small, often momentary decorative details that aren't structurally necessary but make a production feel finished and replayable: filtered vocal tosses, reverse textures, glitches, impact tails, panned fills, ghost harmonies, short synth licks, micro-delays.</p></div>
+    <div class="entry"><div class="term">White noise</div><p class="def">Equal intensity across the audible spectrum; perceptually a hiss. Used for cymbal-like material, snare layers, risers, sweeps, tension beds, and transitional FX — usually filtered and automated rather than raw.</p></div>
+    <div class="entry" data-new="1"><div class="term">Pink / brown noise <span class="chip new">added</span></div><p class="def">Noise weighted toward the low end (pink falls 3 dB per octave, brown 6 dB). Pink reads warmer and more natural than white; brown reads like rumble or wind and works well under drops.</p></div>
+    <div class="entry"><div class="term">Impact</div><p class="def">A short, forceful accent marking an arrival, cut point, drop-in, or dramatic hit.</p></div>
+    <div class="entry"><div class="term">Whoosh</div><p class="def">A rushing motion effect implying speed, transition, movement, and entry.</p></div>
+    <div class="entry" data-new="1"><div class="term">Riser / downlifter <span class="chip new">added</span></div><p class="def">Ascending tension build into a section, or descending release out of one. Together with impacts and whooshes they're the actual backbone of section transitions, even when the harmony is sparse.</p></div>
+    <div class="entry" data-new="1"><div class="term">Drone <span class="chip new">added</span></div><p class="def">A sustained, usually low, unchanging tone under the arrangement. Adds continuity and dread cheaply.</p></div>
+    <div class="entry" data-new="1"><div class="term">Tape stop <span class="chip new">added</span></div><p class="def">Pitch and speed collapsing to a halt, imitating a stopped tape reel. A transition cliché that still works.</p></div>
+    <div class="entry" data-new="1"><div class="term">Reverse cymbal / reverse tail <span class="chip new">added</span></div><p class="def">Reversed audio swelling into a downbeat. Cheapest riser you already own.</p></div>
+    <div class="entry" data-new="1"><div class="term">Drop-out <span class="chip new">added</span></div><p class="def">Deliberately removing elements — often everything but vocal — right before a return. Silence is a transition effect.</p></div>
+    <div class="entry" data-new="1"><div class="term">Foley <span class="chip new">added</span></div><p class="def">Recorded real-world sound used musically: lighter flicks, chains, door slams, coins, camera shutters. Common as percussion substitutes in trap and drill.</p></div>
+  </div>
+
+  <h3>Groove archetypes</h3>
+  <div class="entries">
+    <div class="entry"><div class="term">Four-on-the-floor</div><p class="def">A steady kick on all four quarter-note beats of a 4/4 bar. Foundational in disco and house; borrowed into club rap, Jersey-influenced records, drill crossovers, and pop-rap.</p></div>
+    <div class="entry"><div class="term">Backbeat</div><p class="def">The accented beats that create the familiar crack in common time — usually 2 and 4. In boom-bap the snare or clap defines it.</p></div>
+    <div class="entry" data-new="1"><div class="term">Half-time feel <span class="chip new">added</span></div><p class="def">Snare on beat 3 only, which halves the perceived tempo while the hats keep the actual grid. The defining feel of trap.</p></div>
+    <div class="entry"><div class="term">Bossa nova / samba</div><p class="def">Brazilian rhythmic traditions built on syncopation and sway. In hip-hop the reference usually means borrowed chord-guitar patterns, syncopated percussion, brushed drums, nylon-string texture, or jazz/Brazilian harmonic color — not literal genre conversion.</p></div>
+    <div class="entry" data-new="1"><div class="term">Dembow <span class="chip new">added</span></div><p class="def">The reggaeton/dancehall kick–snare cell (often written "boom-ch-boom-chick"). Increasingly common under Latin-leaning rap.</p></div>
+    <div class="entry" data-new="1"><div class="term">Log drum <span class="chip new">added</span></div><p class="def">The pitched, sliding, hollow bass hit from amapiano — functionally an 808 with a percussive envelope and glide baked in.</p></div>
+  </div>
+
+  <h3>Drums and percussion</h3>
+  <div class="entries">
+    <div class="entry"><div class="term">Kick</div><p class="def">The low drum anchoring pulse and physical impact. Can be acoustic, sampled, synthesized, layered, or split into transient / body / sub components.</p></div>
+    <div class="entry"><div class="term">Snare</div><p class="def">Snap and backbeat.</p></div>
+    <div class="entry"><div class="term">Clap</div><p class="def">A handclap-style transient, frequently layered with the snare.</p></div>
+    <div class="entry"><div class="term">Rimshot / side-stick</div><p class="def">Sharper or woodier stick sounds.</p></div>
+    <div class="entry"><div class="term">Hi-hat</div><p class="def">Paired cymbals played closed, open, or with the pedal. Closed hats are short and tight; open hats ring longer and feel more expansive.</p></div>
+    <div class="entry"><div class="term">Electronic vs acoustic hats</div><p class="def">Sample/synthesis-based hats from drum machines are brighter, more controllable, more stylized. Recorded cymbals bring physical variation and complex overtones.</p></div>
+    <div class="entry" data-new="1"><div class="term">Hat roll <span class="chip new">added</span></div><p class="def">A burst of fast repeated hats — 1/16, 1/32, triplet, or accelerating. Velocity and slight pitch variation are what stop it sounding like a machine gun.</p></div>
+    <div class="entry" data-new="1"><div class="term">Choke <span class="chip new">added</span></div><p class="def">Cutting an open hat or cymbal short with the next hit, usually via a mute/choke group. Small detail, big groove difference.</p></div>
+    <div class="entry" data-new="1"><div class="term">Ghost note <span class="chip new">added</span></div><p class="def">A very quiet hit between the main ones. Fills the grid without adding perceived density.</p></div>
+    <div class="entry" data-new="1"><div class="term">Perc loop <span class="chip new">added</span></div><p class="def">A layered percussion pattern — shakers, congas, bongos, tambourine, rims — running under the main kit to add motion.</p></div>
+    <div class="entry" data-new="1"><div class="term">808 / 909 / 707 <span class="chip new">added</span></div><p class="def">Roland drum machines whose sample sets became genre-defining. The 808 anchored hip-hop, the 909 anchored house and techno; both are now sound categories more than machines.</p></div>
+    <div class="entry" data-new="1"><div class="term">Layering <span class="chip new">added</span></div><p class="def">Stacking two or three sounds to build one hit — transient from one, body from another, tail from a third. Check phase; two kicks summed wrong get quieter, not bigger.</p></div>
+  </div>
+
+  <h3>808 bass</h3>
+  <div class="entries">
+    <div class="entry"><div class="term">808 bass</div><p class="def">Originally the bass drum of the Roland TR-808. In modern rap it means a tuned, sustained low-end sound derived from or inspired by that kick — pitched melodically, distorted, saturated, layered with a kick, or glided. A modern 808 isn't "a kick"; it's the sub-bass instrument of the track.</p></div>
+    <div class="entry" data-new="1"><div class="term">Glide / portamento <span class="chip new">added</span></div><p class="def">Sliding continuously between 808 notes instead of retriggering. The defining gesture of drill basslines; controlled by glide time and overlapping notes in the piano roll.</p></div>
+    <div class="entry" data-new="1"><div class="term">Tuning the 808 <span class="chip new">added</span></div><p class="def">Setting the 808's root to the key of the track. An untuned 808 fights the melody harmonically even when the pattern is right.</p></div>
+    <div class="entry" data-new="1"><div class="term">Sub vs harmonics <span class="chip new">added</span></div><p class="def">The fundamental lives below roughly 60 Hz where phones and laptops can't reproduce it. Distortion or saturation generates upper harmonics so the ear infers the missing fundamental — which is why heavy 808s translate and clean ones vanish on small speakers.</p></div>
+    <div class="entry" data-new="1"><div class="term">Kick/808 relationship <span class="chip new">added</span></div><p class="def">Three standard approaches: sidechain the 808 to the kick, place them so they never overlap, or high-pass the kick and let the 808 own everything below it.</p></div>
+  </div>
+
+  <h3>Instrument families</h3>
+  <div class="entries">
+    <div class="entry"><div class="term">Synth</div><p class="def">Electronically generated and modified sound. In rap that spans pads, keys, leads, plucks, bells, Reese basses, and pure texture.</p></div>
+    <div class="entry"><div class="term">Melody</div><p class="def">The line listeners perceive as the tune or lead contour.</p></div>
+    <div class="entry"><div class="term">Bassline</div><p class="def">The low-pitched line supporting groove and harmony.</p></div>
+    <div class="entry"><div class="term">Chord</div><p class="def">Multiple notes sounding together as a harmonic unit.</p></div>
+    <div class="entry"><div class="term">Brass</div><p class="def">Lip-vibrated winds — trumpet, trombone, horn, tuba. In hip-hop they usually signal power, triumph, tension, or sample-era richness.</p></div>
+    <div class="entry"><div class="term">Woodwind</div><p class="def">Flute and reed instruments — clarinet, oboe, bassoon, saxophone. In rap they read airy, jazzy, eerie, soulful, or cinematic depending on arrangement and processing.</p></div>
+    <div class="entry" data-new="1"><div class="term">Keys family <span class="chip new">added</span></div><p class="def">Rhodes and Wurlitzer (warm, bell-like, neo-soul staple), Clavinet (funk bite), Hammond organ with Leslie, upright and felt piano, celesta and mallets.</p></div>
+    <div class="entry" data-new="1"><div class="term">Plucks and bells <span class="chip new">added</span></div><p class="def">Short-decay pitched sounds carrying trap and plugg melodies — kalimba, marimba, music box, FM bells, detuned saw plucks.</p></div>
+    <div class="entry" data-new="1"><div class="term">Pads <span class="chip new">added</span></div><p class="def">Slow-attack sustained harmonic beds. Often the only thing holding the harmony together once the melody is chopped.</p></div>
+    <div class="entry" data-new="1"><div class="term">Vocal chops <span class="chip new">added</span></div><p class="def">Sliced vocal fragments played melodically as an instrument. Formant shifting keeps them from sounding like chipmunks when pitched far.</p></div>
+    <div class="entry" data-new="1"><div class="term">Strings <span class="chip new">added</span></div><p class="def">Sustained sections for weight, staccato/pizzicato for rhythm, solo violin or cello for intimacy. Layered strings are the fastest way to make a sparse beat feel expensive.</p></div>
+  </div>
+</section>
+<section class="sec" id="s3" style="--sc:var(--c3)">
+  <div class="sec-head">
+    <div class="sec-num">BANK C</div>
+    <div>
+      <h2>Pitch, scales, modes &amp; harmony</h2>
+      <p class="sec-sub">What people actually mean when they say a beat is "in a key," why the note name isn't the feeling, and the chord vocabulary that separates a two-finger loop from a record.</p>
+    </div>
+  </div>
+  <div class="sec-rule"></div>
+
+  <div class="note">
+    <span class="lbl">Read this before the scale list</span>
+    <b>Specific note names do not carry fixed emotions in modern equal temperament.</b> C, D, E and the rest are pitch classes. The feeling listeners perceive comes from mode, harmony, scale-degree function, register, tempo, timbre, articulation, and cultural context — not the letter. Major/minor differences are well documented in perception research and modal color is widely taught, but "C sounds like X forever" is not a law of music. What producers call the "vibe of a note" is usually one of four other things: the <b>key center</b>, the <b>scale-degree function</b>, the <b>register</b>, or the <b>ergonomics</b> of that instrument in that key.
+  </div>
+
+  <h3>Practical color tendencies</h3>
+  <p class="h3note">Not rules. Working shorthand that holds up often enough to be useful.</p>
+  <div class="entries">
+    <div class="entry"><div class="term">Major</div><p class="def">Brighter, more open on average.</p></div>
+    <div class="entry"><div class="term">Minor</div><p class="def">Darker, more introspective on average.</p></div>
+    <div class="entry"><div class="term">Lydian</div><p class="def">Dreamy, lifted — the raised fourth.</p></div>
+    <div class="entry"><div class="term">Phrygian</div><p class="def">Tense, dark — the lowered second.</p></div>
+    <div class="entry"><div class="term">Dorian</div><p class="def">Minor, but more hopeful and mobile than natural minor — the raised sixth.</p></div>
+    <div class="entry"><div class="term">Mixolydian</div><p class="def">Major, but earthier and bluesier — the lowered seventh.</p></div>
+    <div class="entry" data-new="1"><div class="term">Aeolian / Locrian <span class="chip new">added</span></div><p class="def">Aeolian is natural minor. Locrian, with its lowered second <em>and</em> lowered fifth, has no stable tonic triad and is rarely used as a key center — mostly a passing color.</p></div>
+  </div>
+
+  <h3>Scales and modes</h3>
+  <div class="entries">
+    <div class="entry"><div class="term">Major scale</div><p class="def">The familiar seven-note diatonic collection — bright, stable, open.</p></div>
+    <div class="entry"><div class="term">Minor scale</div><p class="def">Usually natural minor in casual producer talk, though harmonic and melodic minor are also in play.</p></div>
+    <div class="entry"><div class="term">Mode</div><p class="def">A scale derived from a parent collection but with a different tonal center and interval structure. The diatonic modes: Ionian (major), Dorian, Phrygian, Lydian, Mixolydian, Aeolian (natural minor), Locrian.</p></div>
+    <div class="entry"><div class="term">Pentatonic</div><p class="def">A five-note collection. Common in pop, rock, blues, trap melodies, drill, and hooks because it's singable, memorable, and avoids some friction points of denser scales. Major and minor pentatonic are the workhorses.</p></div>
+    <div class="entry"><div class="term">Whole-tone</div><p class="def">Six notes, all whole steps. Floating, ambiguous, dreamy, uncanny — it lacks the leading-tone gravity of diatonic harmony.</p></div>
+    <div class="entry"><div class="term">Octatonic</div><p class="def">Eight notes alternating semitone and whole tone. Tense, unstable, cinematic, symmetrical — useful for dark, modern, or horror-coded color.</p></div>
+    <div class="entry"><div class="term">Pelog</div><p class="def">A heptatonic tuning/scale family from Javanese gamelan with unequal intervals, usually realized in performance through five-note subsets. In beatmaking, "pelog-ish" means borrowing that uneven, non-major/non-minor gamelan-adjacent flavor rather than reproducing traditional practice.</p></div>
+    <div class="entry" data-new="1"><div class="term">Harmonic minor <span class="chip new">added</span></div><p class="def">Natural minor with a raised seventh, creating the augmented-second leap between ♭6 and ♮7. Reads dramatic, "Eastern," or classical-menacing.</p></div>
+    <div class="entry" data-new="1"><div class="term">Melodic minor <span class="chip new">added</span></div><p class="def">Raised sixth and seventh ascending. Traditionally reverts descending; in jazz and modern production it's usually treated as a fixed collection.</p></div>
+    <div class="entry" data-new="1"><div class="term">Blues scale <span class="chip new">added</span></div><p class="def">Minor pentatonic plus the ♭5 "blue note." Bends and microtonal inflection matter more than the written pitches.</p></div>
+    <div class="entry" data-new="1"><div class="term">Phrygian dominant <span class="chip new">added</span></div><p class="def">Fifth mode of harmonic minor — lowered second over a major third. A staple of dark trap and drill melodies.</p></div>
+    <div class="entry" data-new="1"><div class="term">Double harmonic / Hungarian minor <span class="chip new">added</span></div><p class="def">Two augmented seconds in one scale. Extremely characterful, easy to overuse.</p></div>
+    <div class="entry" data-new="1"><div class="term">Hirajoshi / in scale <span class="chip new">added</span></div><p class="def">Japanese pentatonic families with distinctive semitone placement. Frequently borrowed for koto- and kalimba-style loops — worth learning by ear rather than by formula.</p></div>
+    <div class="entry" data-new="1"><div class="term">Chromaticism <span class="chip new">added</span></div><p class="def">Using notes outside the key as passing or coloring tones. One chromatic approach note into a target does more for a flat melody than a whole new scale.</p></div>
+  </div>
+
+  <h3>Chords, voicings, inversions</h3>
+  <div class="entries">
+    <div class="entry"><div class="term">Diatonic triads</div><p class="def">Three-note chords built from a scale by stacking thirds; the basic harmonic palette of a key.</p></div>
+    <div class="entry"><div class="term">Seventh chords</div><p class="def">Another third on top, producing maj7, min7, dom7, half-diminished, and diminished-seventh colors. Crucial in R&amp;B, jazz rap, neo-soul, and sample-flip production, where plain triads read as thin.</p></div>
+    <div class="entry"><div class="term">Voicing</div><p class="def">How chord tones are arranged in register and spacing. The same chord can sound dense, open, glossy, crunchy, intimate, or cinematic depending on voicing alone.</p></div>
+    <div class="entry"><div class="term">Inversion</div><p class="def">A chord tone other than the root in the bass. First inversion = third in bass; second = fifth; seventh chords add a third inversion with the seventh in the bass. Inversions smooth voice-leading, change bass movement, and shift emotional weight without changing the chord label.</p></div>
+    <div class="entry" data-new="1"><div class="term">Extensions (9, 11, 13) <span class="chip new">added</span></div><p class="def">Notes stacked past the seventh. The 9th adds shimmer, the ♯11 adds lift, the 13th adds warmth. In practice you usually drop the fifth to make room.</p></div>
+    <div class="entry" data-new="1"><div class="term">Sus2 / sus4 <span class="chip new">added</span></div><p class="def">The third replaced by a second or fourth, leaving the chord neither major nor minor. Perfect for loops that need to stay ambiguous under a vocal.</p></div>
+    <div class="entry" data-new="1"><div class="term">Add9 / 6/9 <span class="chip new">added</span></div><p class="def">Triads with an added ninth or added sixth-and-ninth, keeping the third but adding color without the weight of a full seventh chord.</p></div>
+    <div class="entry" data-new="1"><div class="term">Slash chord <span class="chip new">added</span></div><p class="def">Written as chord/bass note, e.g. <code>Am/G</code>. In beats it's how you get a descending bassline under a static chord loop.</p></div>
+    <div class="entry" data-new="1"><div class="term">Quartal voicing <span class="chip new">added</span></div><p class="def">Stacking fourths instead of thirds. Open, modern, ambiguous — the McCoy Tyner / neo-soul keyboard sound.</p></div>
+    <div class="entry" data-new="1"><div class="term">Drop 2 <span class="chip new">added</span></div><p class="def">Taking the second-highest note of a close voicing and dropping it an octave. The default way to make four-note chords sit well on keys or guitar.</p></div>
+    <div class="entry" data-new="1"><div class="term">Voice leading <span class="chip new">added</span></div><p class="def">Moving individual chord tones the shortest distance between chords. The single highest-leverage skill for making a loop sound written rather than clicked in.</p></div>
+    <div class="entry" data-new="1"><div class="term">Modal interchange <span class="chip new">added</span></div><p class="def">Borrowing chords from the parallel major or minor — ♭VI, ♭VII, iv in a major key. Where most "how did that chord get there" moments come from.</p></div>
+    <div class="entry" data-new="1"><div class="term">Secondary dominant <span class="chip new">added</span></div><p class="def">A dominant chord aimed at a scale degree other than the tonic (V/V, V/vi). Adds pull inside an otherwise flat progression.</p></div>
+    <div class="entry" data-new="1"><div class="term">Tritone substitution <span class="chip new">added</span></div><p class="def">Replacing a dominant with the dominant a tritone away, producing chromatic bass motion into the target.</p></div>
+    <div class="entry" data-new="1"><div class="term">Pedal point <span class="chip new">added</span></div><p class="def">Holding one bass note while harmony moves above it. Extremely common in rap, where the 808 sits on the tonic through a whole loop.</p></div>
+    <div class="entry" data-new="1"><div class="term">Loop harmony vs functional harmony <span class="chip new">added</span></div><p class="def">Most rap harmony is a two-to-four-chord loop with no cadence and no resolution — the interest comes from rhythm, timbre, and vocal placement. Applying classical cadence logic to a beat loop usually just makes it stop feeling like a loop.</p></div>
+  </div>
+
+  <h3>Bass and register</h3>
+  <div class="entries">
+    <div class="entry"><div class="term">Bassline (in practice)</div><p class="def">The low-register line outlining roots, counterlines, glides, pedal points, or rhythmic motion. In rap it's often minimalist but essential: sustained 808s, syncopated sub phrases, octave jumps, slide notes, pedal drones, call-and-response against the kick. When a producer says a beat "has no movement," they usually mean the bass–drum relationship is too static.</p></div>
+    <div class="entry" data-new="1"><div class="term">Register language <span class="chip new">added</span></div><p class="def">Rough working bands: <b>sub</b> below ~60 Hz (felt), <b>low</b> 60–200 Hz (weight), <b>low-mid</b> 200–500 Hz (mud/body), <b>mid</b> 500 Hz–2 kHz (definition), <b>presence</b> 2–6 kHz (intelligibility, harshness), <b>air</b> above 8 kHz (sheen).</p></div>
+    <div class="entry" data-new="1"><div class="term">Equal temperament / A440 <span class="chip new">added</span></div><p class="def">The standard modern tuning system dividing the octave into twelve equal semitones, referenced to A = 440 Hz. It's the reason no key is acoustically "special" anymore — the pitch-class caveat at the top of this section follows directly from it.</p></div>
+  </div>
+</section>
+<section class="sec" id="s4" style="--sc:var(--c4)">
+  <div class="sec-head">
+    <div class="sec-num">BANK D</div>
+    <div>
+      <h2>Effects &amp; processing</h2>
+      <p class="sec-sub">Dynamics, spectrum, time, modulation, saturation, pitch, and the vocal chain — grouped by what they actually manipulate rather than by plugin folder.</p>
+    </div>
+  </div>
+  <div class="sec-rule"></div>
+
+  <h3>Dynamics</h3>
+  <div class="entries">
+    <div class="entry"><div class="term">Compression</div><p class="def">Reduces level above a threshold, narrowing dynamic range and often raising average loudness, consistency, and punch. Core controls: threshold, ratio, attack, release, knee, makeup gain. Slower attack lets a transient through; faster attack clamps it.</p></div>
+    <div class="entry"><div class="term">Limiter</div><p class="def">Effectively a compressor with a very high or infinite ratio, used to stop peaks exceeding a ceiling.</p></div>
+    <div class="entry"><div class="term">Expander</div><p class="def">The opposite of compression — increases dynamic contrast, often making quiet material quieter.</p></div>
+    <div class="entry"><div class="term">Gate</div><p class="def">Extreme downward expansion that attenuates or mutes signal below a threshold.</p></div>
+    <div class="entry"><div class="term">De-esser</div><p class="def">A sidechain-sensitive compressor specialized for reducing sibilance.</p></div>
+    <div class="entry"><div class="term">Transient shaper</div><p class="def">A dynamics processor targeting attack and sustain specifically, rather than overall level.</p></div>
+    <div class="entry" data-new="1"><div class="term">Multiband compression <span class="chip new">added</span></div><p class="def">Compression applied independently per frequency band, so a loud low end doesn't duck the whole track.</p></div>
+    <div class="entry" data-new="1"><div class="term">Dynamic EQ <span class="chip new">added</span></div><p class="def">An EQ band that only moves when the signal crosses a threshold. Better than static EQ for problems that come and go — an occasional harsh consonant, a resonant note in a bass part.</p></div>
+    <div class="entry" data-new="1"><div class="term">Glue compression <span class="chip new">added</span></div><p class="def">Gentle bus compression (low ratio, slow attack, program-dependent release) to make separate elements read as one performance.</p></div>
+    <div class="entry" data-new="1"><div class="term">Clipper vs limiter <span class="chip new">added</span></div><p class="def">A limiter turns peaks down; a clipper cuts their tops off. Soft clipping an 808 or a drum bus before the limiter buys loudness without the pumping a limiter would introduce.</p></div>
+    <div class="entry"><div class="term">Parallel compression</div><p class="def">Blending a heavily compressed copy under the dry signal — density without fully killing transients.</p></div>
+  </div>
+  <div class="note">
+    <span class="lbl">In practice, for rap</span>
+    Compression for vocal consistency · parallel compression for density · sidechain compression to duck bass under kick · gates and expanders to clean noisy recordings and tighten room spill · de-essing to smooth harsh consonants · transient shaping to add punch to kicks, snares, and percussion without the collateral damage of heavy compression.
+  </div>
+
+  <h3>EQ, filters, and stereo</h3>
+  <div class="entries">
+    <div class="entry"><div class="term">EQ</div><p class="def">Changes the balance of frequency ranges — carving mud, adding presence, brightening hats, controlling harshness, shaping reverb tails.</p></div>
+    <div class="entry"><div class="term">Filters</div><p class="def"><b>High-pass</b> removes lows, <b>low-pass</b> removes highs, <b>band-pass</b> isolates a region, <b>notch</b> attenuates a narrow trouble spot.</p></div>
+    <div class="entry"><div class="term">Panning</div><p class="def">Position in the stereo field; width controls change how mono or wide the image reads.</p></div>
+    <div class="entry"><div class="term">Spectral effects</div><p class="def">A loose category in casual producer talk — tools that shape tone or frequency-space rather than time or dynamics.</p></div>
+    <div class="entry" data-new="1"><div class="term">Mid/side processing <span class="chip new">added</span></div><p class="def">Treating the centre and the sides of a stereo image separately. Lets you widen highs while keeping bass and vocal locked in the middle.</p></div>
+    <div class="entry" data-new="1"><div class="term">Mono bass <span class="chip new">added</span></div><p class="def">Collapsing everything below roughly 100–150 Hz to mono. Prevents phase cancellation on club systems and vinyl.</p></div>
+    <div class="entry" data-new="1"><div class="term">Haas widening <span class="chip new">added</span></div><p class="def">A delay under ~30 ms on one side reads as width rather than echo. Cheap and effective — and the first thing to break in mono, so check.</p></div>
+    <div class="entry" data-new="1"><div class="term">Phase / polarity <span class="chip new">added</span></div><p class="def">Polarity flips the waveform; phase relates to timing offset. Layered drums and multi-mic recordings lose low end when these fight.</p></div>
+    <div class="entry" data-new="1"><div class="term">Resonance / Q <span class="chip new">added</span></div><p class="def">How narrow an EQ band or how emphasized a filter cutoff is. High resonance on a sweeping filter is a musical effect in itself.</p></div>
+  </div>
+
+  <h3>Time-based effects</h3>
+  <div class="entries">
+    <div class="entry"><div class="term">Reverb</div><p class="def">Simulates the persistence of reflected sound in a space. Algorithmic or convolution-based; can create rooms, halls, plates, shimmer tails, or deliberately artificial textures.</p></div>
+    <div class="entry"><div class="term">Analog / mechanical reverb</div><p class="def">Classic physical devices — springs, plates — or digital emulations of them.</p></div>
+    <div class="entry"><div class="term">Delay</div><p class="def">Repeats audio after a set time. Short delays thicken; long synced delays create rhythmic call-and-response.</p></div>
+    <div class="entry"><div class="term">Echo</div><p class="def">Often a natural-language synonym for delay, though people sometimes reserve it for more obvious, spacious repeats. Filtered feedback delays are a staple of dub, trap transitions, ad-lib throws, and psychedelic rap texture.</p></div>
+    <div class="entry" data-new="1"><div class="term">Pre-delay <span class="chip new">added</span></div><p class="def">The gap before the reverb starts. 20–60 ms keeps a vocal intelligible while still placing it in a big space.</p></div>
+    <div class="entry" data-new="1"><div class="term">Decay / size / damping <span class="chip new">added</span></div><p class="def">How long the tail lasts, how large the simulated space is, and how quickly high frequencies die inside it. Damping is what stops a big reverb sounding like a bathroom.</p></div>
+    <div class="entry" data-new="1"><div class="term">Ducked reverb <span class="chip new">added</span></div><p class="def">Sidechaining the reverb return to the dry vocal so the tail only blooms in the gaps. How modern rap vocals stay dry-sounding and huge at once.</p></div>
+    <div class="entry" data-new="1"><div class="term">Gated reverb <span class="chip new">added</span></div><p class="def">A reverb tail cut short by a gate — abrupt, dramatic, unmistakably eighties on snares, but useful on any hit that needs size without smear.</p></div>
+    <div class="entry" data-new="1"><div class="term">Reverse reverb <span class="chip new">added</span></div><p class="def">Reversed tail swelling into the source. Classic pre-vocal entrance move.</p></div>
+    <div class="entry" data-new="1"><div class="term">Throw <span class="chip new">added</span></div><p class="def">Automating a send so one word or ad-lib gets delayed or drenched while the rest stays dry.</p></div>
+    <div class="entry" data-new="1"><div class="term">Slapback / ping-pong / tape delay <span class="chip new">added</span></div><p class="def">Single short repeat (slapback), repeats alternating between speakers (ping-pong), or repeats that degrade and drift in pitch (tape). Dotted-1/8 sync is the default rhythmic delay setting for a reason.</p></div>
+  </div>
+
+  <h3>Modulation</h3>
+  <div class="entries">
+    <div class="entry"><div class="term">Chorus</div><p class="def">Duplicates and slightly delays/modulates a signal so one source feels like several.</p></div>
+    <div class="entry"><div class="term">Flanger</div><p class="def">Mixes the signal with a very short modulated delay, producing sweeping comb-filter motion.</p></div>
+    <div class="entry"><div class="term">Phaser</div><p class="def">Uses phase-shifting filters rather than delay lines for notchy movement.</p></div>
+    <div class="entry"><div class="term">Tremolo</div><p class="def">Modulates amplitude — pulsing volume.</p></div>
+    <div class="entry"><div class="term">Vibrato</div><p class="def">Modulates pitch rather than level.</p></div>
+    <div class="entry"><div class="term">Rotary</div><p class="def">Simulates the motion and Doppler-like character of a spinning speaker cabinet.</p></div>
+    <div class="entry" data-new="1"><div class="term">Auto-pan <span class="chip new">added</span></div><p class="def">LFO-driven stereo movement. Tempo-synced, it becomes a rhythmic element rather than an effect.</p></div>
+    <div class="entry" data-new="1"><div class="term">Ring modulation <span class="chip new">added</span></div><p class="def">Multiplies two signals, producing sum and difference frequencies. Inharmonic, metallic, robotic — great for FX, rough on melodies.</p></div>
+    <div class="entry" data-new="1"><div class="term">LFO <span class="chip new">added</span></div><p class="def">Low-frequency oscillator: the slow waveform driving most modulation. Rate, depth, shape, and sync are the four controls that matter.</p></div>
+  </div>
+
+  <h3>Saturation and distortion</h3>
+  <div class="entries">
+    <div class="entry"><div class="term">Saturation</div><p class="def">Distortion historically associated with overdriving analog components — tubes, transformers, tape. Adds harmonics, mild compression, density, and glue.</p></div>
+    <div class="entry"><div class="term">Tape saturation</div><p class="def">Tape-like nonlinearity, softening, and compression behavior.</p></div>
+    <div class="entry"><div class="term">Valve / tube saturation</div><p class="def">Same idea, different vocabulary — "valve" is the British term for tube.</p></div>
+    <div class="entry"><div class="term">Overdrive</div><p class="def">Warmer, smoother, less aggressive distortion.</p></div>
+    <div class="entry"><div class="term">Distortion</div><p class="def">The broad category for stronger nonlinear alteration.</p></div>
+    <div class="entry"><div class="term">Fuzz</div><p class="def">Extreme, buzzy, broken, smeared distortion texture.</p></div>
+    <div class="entry"><div class="term">Clipping (digital vs analog)</div><p class="def">Waveform truncation past the available ceiling. Digital clipping is hard and abrupt; analog-style clipping transitions more softly.</p></div>
+    <div class="entry"><div class="term">Bitcrusher</div><p class="def">Reduces bit depth and/or sample rate for gritty, aliased, vintage-digital or aggressively degraded sound.</p></div>
+    <div class="entry" data-new="1"><div class="term">Harmonic exciter <span class="chip new">added</span></div><p class="def">Generates upper harmonics to add perceived brightness without simply boosting EQ. Easy to overdo on vocals.</p></div>
+    <div class="entry" data-new="1"><div class="term">Wavefolding <span class="chip new">added</span></div><p class="def">Folds the waveform back on itself past a threshold, producing complex inharmonic content. West Coast synthesis staple, increasingly used on 808s.</p></div>
+  </div>
+
+  <h3>Pitch and vocal effects</h3>
+  <div class="entries">
+    <div class="entry"><div class="term">Transpose</div><p class="def">Moving notes up or down by a set interval.</p></div>
+    <div class="entry"><div class="term">Pitch shifter</div><p class="def">Changes pitch of audio after recording or in real time.</p></div>
+    <div class="entry"><div class="term">Harmonizer</div><p class="def">Generates added pitched voices above or below the original, by interval or by key.</p></div>
+    <div class="entry"><div class="term">Vocoder</div><p class="def">Imposes the spectral/rhythmic character of one signal — typically speech — onto the harmonic body of another, typically a synth or pad. The "talking synth" sound.</p></div>
+    <div class="entry"><div class="term">Talkbox</div><p class="def">A related vocalized effect achieved physically: sound is fed into the performer's mouth through a tube, the mouth shapes the harmonics, and a mic captures the result.</p></div>
+    <div class="entry" data-new="1"><div class="term">Hard tune <span class="chip new">added</span></div><p class="def">Pitch correction with retune speed set fast enough that transitions between notes become audible steps. Retune speed and the chosen scale are the two settings that define the sound.</p></div>
+    <div class="entry" data-new="1"><div class="term">Formant shifting <span class="chip new">added</span></div><p class="def">Moving the resonant character of a voice independently of its pitch. Keeps heavily pitched vocals from sounding like chipmunks, or deliberately makes them monstrous.</p></div>
+    <div class="entry" data-new="1"><div class="term">Doubler <span class="chip new">added</span></div><p class="def">Generates artificial doubles with small pitch and timing offsets. Not a replacement for a real double, but useful on ad-libs.</p></div>
+    <div class="entry" data-new="1"><div class="term">Telephone / lo-fi EQ <span class="chip new">added</span></div><p class="def">Aggressive band-pass plus distortion, imitating a phone line or radio. Standard for intros and contrast sections.</p></div>
+  </div>
+
+  <h3>Utility terms worth knowing <span style="font-family:var(--mono);font-size:10px;letter-spacing:.1em;color:var(--c5);border:1px solid currentColor;border-radius:99px;padding:2px 7px;">NEW SUBSECTION</span></h3>
+  <div class="entries">
+    <div class="entry" data-new="1"><div class="term">Dry / wet <span class="chip new">added</span></div><p class="def">The balance between unprocessed and processed signal. On a send, keep the effect 100% wet and control the blend with the send level.</p></div>
+    <div class="entry" data-new="1"><div class="term">Insert vs send <span class="chip new">added</span></div><p class="def">An insert processes the whole channel; a send copies signal to a shared bus. Reverb and delay usually belong on sends so several sources share one space.</p></div>
+    <div class="entry" data-new="1"><div class="term">Oversampling <span class="chip new">added</span></div><p class="def">Running a nonlinear process at a higher internal sample rate to reduce aliasing. Matters most on distortion, clippers, and limiters.</p></div>
+    <div class="entry" data-new="1"><div class="term">Latency / PDC <span class="chip new">added</span></div><p class="def">Processing delay, and the DAW's plugin delay compensation that realigns it. Look-ahead limiters and linear-phase EQs are the usual culprits when tracking feels laggy.</p></div>
+    <div class="entry" data-new="1"><div class="term">Dither <span class="chip new">added</span></div><p class="def">Low-level noise added when reducing bit depth, to avoid quantization distortion. Applied once, at the very last export.</p></div>
+  </div>
+</section>
+<section class="sec" id="s5" style="--sc:var(--c5)">
+  <div class="sec-head">
+    <div class="sec-num">BANK E</div>
+    <div>
+      <h2>Beatbox &amp; vocal sounds</h2>
+      <p class="sec-sub">Different rules apply here. Many of these names are community labels, onomatopoeic aliases, or performer-branded techniques. Some are stable scene-wide; others vary by teacher, region, or a single Discord.</p>
+    </div>
+  </div>
+  <div class="sec-rule"></div>
+
+  <div class="legend">
+    <div><b class="chip std" style="margin:0 6px 0 0">Standard</b> stable across the scene</div>
+    <div><b class="chip com" style="margin:0 6px 0 0">Community</b> widely used, definition drifts</div>
+    <div><b class="chip unv" style="margin:0 6px 0 0">Unverified</b> performer-specific or uncertain naming</div>
+  </div>
+
+  <div class="note">
+    <span class="lbl">Two housekeeping notes</span>
+    Where a description came from your own notes, it's preserved in cleaned-up glossary form. Where naming is obscure or unstable, the entry says so rather than inventing one universal definition. And a spelling fix: <b>"poluphonic voice"</b> is almost certainly <b>polyphonic voice</b>.
+  </div>
+
+  <h3>Airflow and mechanics <span style="font-family:var(--mono);font-size:10px;letter-spacing:.1em;color:var(--c5);border:1px solid currentColor;border-radius:99px;padding:2px 7px;">NEW SUBSECTION</span></h3>
+  <p class="h3note">The physical vocabulary underneath almost every named sound below. Learning these makes unfamiliar technique names decodable instead of memorizable.</p>
+  <div class="entries">
+    <div class="entry" data-new="1"><div class="term">Outward vs inward <span class="chip std">Standard</span> <span class="chip new">added</span></div><p class="def">Whether the sound is made pushing air out or drawing it in. Inward sounds are how beatboxers sustain long passages — you're inhaling while still producing rhythm, which is why inward bass and inward snares dominate battle routines.</p></div>
+    <div class="entry" data-new="1"><div class="term">Airflow economy <span class="chip com">Community</span> <span class="chip new">added</span></div><p class="def">Structuring a pattern so outward and inward sounds alternate, letting you breathe inside the beat rather than between phrases.</p></div>
+    <div class="entry" data-new="1"><div class="term">Place of articulation <span class="chip std">Standard</span> <span class="chip new">added</span></div><p class="def">Where in the mouth the sound is formed — bilabial (both lips), labiodental (lip to teeth), alveolar (tongue to ridge behind teeth), velar (back of tongue to soft palate), uvular, glottal. Nearly all snare and hat variants are just articulation swaps.</p></div>
+    <div class="entry" data-new="1"><div class="term">Plosive / fricative / ejective <span class="chip std">Standard</span> <span class="chip new">added</span></div><p class="def">Pressure released suddenly (plosive — kicks, K snares), air forced through a narrow gap (fricative — hats, brushes), or pressure generated by the closed glottis rather than the lungs (ejective — the sharp, dry, "sample-like" hits).</p></div>
+    <div class="entry" data-new="1"><div class="term">False vocal folds <span class="chip std">Standard</span> <span class="chip new">added</span></div><p class="def">The structures above the true vocal cords, vibrated to produce growl, throat bass, and distortion. Should feel effortful in the throat but never painful — pain means you're using the true folds and should stop.</p></div>
+    <div class="entry" data-new="1"><div class="term">Resonance / cavity shaping <span class="chip std">Standard</span> <span class="chip new">added</span></div><p class="def">Changing the size and shape of the mouth cavity to filter the same source into different timbres. This is why "oo," "ee," and "ah" positions turn one throat sound into three.</p></div>
+    <div class="entry" data-new="1"><div class="term">Vocal health <span class="chip std">Standard</span> <span class="chip new">added</span></div><p class="def">Hydration, warm-up, and stopping at the first sign of pain or hoarseness. Throat bass and heavy inward work are the techniques most likely to injure people who push through discomfort.</p></div>
+  </div>
+
+  <h3>Notation and the classic pattern <span style="font-family:var(--mono);font-size:10px;letter-spacing:.1em;color:var(--c5);border:1px solid currentColor;border-radius:99px;padding:2px 7px;">NEW SUBSECTION</span></h3>
+  <div class="entries">
+    <div class="entry" data-new="1"><div class="term">Written notation <span class="chip com">Community</span> <span class="chip new">added</span></div><p class="def">The scene's informal shorthand: <code>b</code> = kick, <code>t</code> or <code>ts</code> = closed hi-hat, <code>tss</code> = open hat, <code>pf</code> = lip-oscillation snare, <code>k</code> = K snare. Not standardized, but readable almost anywhere.</p></div>
+    <div class="entry" data-new="1"><div class="term">"Boots and cats" <span class="chip com">Community</span> <span class="chip new">added</span></div><p class="def">The teaching mnemonic for the basic pattern — <code>b t k t</code> — where the words train the mouth into kick, hat, snare, hat before you know the names.</p></div>
+  </div>
+
+  <h3>Foundational percussion sounds</h3>
+  <div class="entries">
+    <div class="entry"><div class="term">Kick drum <span class="chip std">Standard</span></div><p class="def">The basic bass-drum imitation and usually the first foundational sound learned. "Kick" also names a whole family of kick techniques.</p></div>
+    <div class="entry" data-new="1"><div class="term">Closed / open hi-hat <span class="chip std">Standard</span> <span class="chip new">added</span></div><p class="def">Short <code>t</code>/<code>ts</code> fricative versus the sustained <code>tss</code>. Together with the kick and snare these are the three sounds every routine is built on.</p></div>
+    <div class="entry" data-new="1"><div class="term">PF snare <span class="chip std">Standard</span> <span class="chip new">added</span></div><p class="def">The classic outward snare made by a sharp lip release. The first snare most people learn and still the most versatile.</p></div>
+    <div class="entry"><div class="term">K snare <span class="chip std">Standard</span></div><p class="def">A snare-like hit built around a sharp /k/ release and mouth pressure.</p></div>
+    <div class="entry" data-new="1"><div class="term">Inward K snare <span class="chip std">Standard</span> <span class="chip new">added</span></div><p class="def">The K snare performed on an inward airstream — sharper, drier, and the standard way to keep snares going through long inward passages.</p></div>
+    <div class="entry"><div class="term">Couch snare <span class="chip com">Community</span></div><p class="def">Usually a softer, padded, dry snare with a cushioned attack rather than a papery crack. Exact technique varies by teacher.</p></div>
+    <div class="entry"><div class="term">Dry kick <span class="chip com">Community</span></div><p class="def">A kick with minimal resonance or lip body — short, tight, sample-like.</p></div>
+    <div class="entry"><div class="term">Rimshot <span class="chip std">Standard</span></div><p class="def">A snare-side-stick style click or crack; in beatbox usually a small woody accent that cuts more than it booms.</p></div>
+    <div class="entry"><div class="term">Click roll <span class="chip std">Standard</span></div><p class="def">A sustained roll from repeating inward or lateral tongue clicks. Useful for fills, bass accompaniment, or aggressive texture.</p></div>
+    <div class="entry"><div class="term">Sucker punch <span class="chip com">Community</span></div><p class="def">A punchy burst-snare or kick-snare hybrid emphasizing sudden pressure release and attack. Community slang, not standardized pedagogy.</p></div>
+    <div class="entry"><div class="term">Inward bass pitched PF snare <span class="chip com">Community</span></div><p class="def">A compound effect — a high-pitched inward snare burst layered against or around a breathless PF-style punch snare, used to vary sustained inward bass passages.</p></div>
+    <div class="entry"><div class="term">Kenny Urban fart snare <span class="chip unv">Unverified</span></div><p class="def">From your notes: an elongated BMG-style snare shaped using air from the top lip rather than a neutral push.</p></div>
+    <div class="entry" data-new="1"><div class="term">Spit / cough snare <span class="chip com">Community</span> <span class="chip new">added</span></div><p class="def">Aggressive snare variants driven by a forceful glottal or expulsive burst. Loud, dry, and hard on the throat if overused.</p></div>
+  </div>
+
+  <h3>Basses and rolls</h3>
+  <div class="entries">
+    <div class="entry"><div class="term">Lip bass <span class="chip std">Standard</span></div><p class="def">A bass timbre from lip vibration rather than throat-fold distortion — usually buzzier and more mid-forward than deep throat basses.</p></div>
+    <div class="entry"><div class="term">Lip roll <span class="chip std">Standard</span></div><p class="def">One of the central modern bass sounds: loose lip oscillation driven by air pressure, often with a side preference and many variants.</p></div>
+    <div class="entry"><div class="term">Reverse lip roll <span class="chip com">Community</span></div><p class="def">The lip-roll concept inverted in airflow direction or shaping. Community definitions vary.</p></div>
+    <div class="entry"><div class="term">Outward sub bass <span class="chip std">Standard</span></div><p class="def">A low bass on outward airflow with low-frequency emphasis — usually less distorted than inward bass and more pressure-dependent.</p></div>
+    <div class="entry"><div class="term">Inward bass <span class="chip std">Standard</span></div><p class="def">The powerful inward-airflow bass family that dominates modern battle beatbox. Can be sustained and pitched, and sits between growl and synth-bass territory.</p></div>
+    <div class="entry"><div class="term">Throat bass <span class="chip std">Standard</span></div><p class="def">Low, distorted, throat-driven bass — broader and rougher than clean voiced singing, with more chest and throat engagement.</p></div>
+    <div class="entry"><div class="term">OD bass <span class="chip com">Community</span></div><p class="def">"Overdrive" bass: saturated and aggressive, built from compressed outward or inward throat/lip resonance.</p></div>
+    <div class="entry"><div class="term">Villain OD bass <span class="chip unv">Unverified</span></div><p class="def">From your notes: OD bass performed on the outward lip, with an inward variant resembling an inward click roll on the lips.</p></div>
+    <div class="entry"><div class="term">Fart bass <span class="chip com">Community</span></div><p class="def">A deliberately raspy, loose, lip-driven bass whose timbre resembles a rude noise rather than a clean sub.</p></div>
+    <div class="entry"><div class="term">Snore bass <span class="chip com">Community</span></div><p class="def">A bass built from snore-like oral/throat turbulence; can be mixed with hum or inward percussion.</p></div>
+    <div class="entry"><div class="term">Kenôzen grumble snore bass <span class="chip unv">Unverified</span></div><p class="def">From your notes: a collapsing pressure-column outward snore/grumble effect that can be layered with inward kick and humming for covers.</p></div>
+    <div class="entry"><div class="term">Hollow clop <span class="chip com">Community</span></div><p class="def">A cavity-heavy clopping bass/percussive hit with hollow resonance.</p></div>
+    <div class="entry"><div class="term">D-Low bubble roll <span class="chip unv">Unverified</span></div><p class="def">From your notes: a side-positioned inward lip-roll setup where the lip flaps back and forth rather than vibrating like a standard lip roll. Related to lip-roll mechanics but distinct in feel.</p></div>
+    <div class="entry"><div class="term">Slizzer roll <span class="chip unv">Unverified</span></div><p class="def">Community roll/bass alias, usually a liquid, zipping, side-oriented lip/tongue roll family. Definition varies by teacher.</p></div>
+    <div class="entry"><div class="term">Snore vs throat vs inward <span class="chip std">Standard</span></div><p class="def">The easiest distinction is source: snore bass emphasizes snore-like turbulence, throat bass emphasizes throat distortion, inward bass emphasizes inward airflow and modern battle sustain.</p></div>
+    <div class="entry" data-new="1"><div class="term">Tongue bass <span class="chip com">Community</span> <span class="chip new">added</span></div><p class="def">A bass produced by tongue oscillation against the palate or teeth rather than the lips or folds. Sits lower in effort than throat bass, which makes it useful for long passages.</p></div>
+    <div class="entry" data-new="1"><div class="term">Pitched bass <span class="chip std">Standard</span> <span class="chip new">added</span></div><p class="def">Any bass technique controlled melodically by adding hum or shifting cavity size — the step between "having a bass" and playing basslines.</p></div>
+  </div>
+
+  <h3>Whistles, pitched, and polyphonic sounds</h3>
+  <div class="entries">
+    <div class="entry"><div class="term">Polyphonic voice <span class="chip std">Standard</span></div><p class="def">Producing more than one apparent pitch or pitch-stream at once — via overtone emphasis, false-fold interaction, or a split between a sung fundamental and shaped harmonics.</p></div>
+    <div class="entry"><div class="term">Overtone singing <span class="chip std">Standard</span></div><p class="def">Harmonic filtering that makes upper overtones salient enough to read as simultaneous pitched lines.</p></div>
+    <div class="entry"><div class="term">Whistle register <span class="chip std">Standard</span></div><p class="def">The extreme upper vocal register above ordinary falsetto and head voice — the Mariah Carey reference. A vocal-register term, not a beatbox sound.</p></div>
+    <div class="entry"><div class="term">Cricket whistle / Beatfox chirp <span class="chip unv">Unverified</span></div><p class="def">From your notes: a tooth-whistle setup with the front teeth deep into the lower lip, plus tongue roll or uvula vibration, producing a chirping insect-like whistle.</p></div>
+    <div class="entry"><div class="term">Throat whistle <span class="chip unv">Unverified</span></div><p class="def">An obscure whistle effect associated in your notes with Trung Bao. Not a standardized published term.</p></div>
+    <div class="entry"><div class="term">Double pucker whistle <span class="chip unv">Unverified</span></div><p class="def">From your notes: a pucker whistle split into two openings to produce two vibrations, potentially two simultaneous notes.</p></div>
+    <div class="entry"><div class="term">Shah bird whistle <span class="chip unv">Unverified</span></div><p class="def">The "National Geographic effect" — an outward bird whistle layered with humming or another simultaneous voicing. Exact physiology unclear.</p></div>
+    <div class="entry"><div class="term">Electric guitar chord <span class="chip unv">Unverified</span></div><p class="def">From your notes: falsetto inward bass with the mouth in a siren-like resonance position, producing a crunchy harmonized chordal effect.</p></div>
+    <div class="entry"><div class="term">Bubble synth <span class="chip com">Community</span></div><p class="def">From your notes: a throat kick combined with a siren or "oo" resonance cavity, producing a rounded electronic bubble-like timbre.</p></div>
+    <div class="entry"><div class="term">Show-Go bubble synth technique <span class="chip unv">Unverified</span></div><p class="def">A sequence-building version of the above, shaping throat-kick bursts with consonants.</p></div>
+    <div class="entry"><div class="term">Uvula synth <span class="chip unv">Unverified</span></div><p class="def">From your notes: a head-voice burst combined with uvula oscillation.</p></div>
+    <div class="entry"><div class="term">Inward siren <span class="chip std">Standard</span></div><p class="def">The familiar siren contour performed on an inward airstream.</p></div>
+    <div class="entry"><div class="term">Clown horn <span class="chip com">Community</span></div><p class="def">Rapid alternation between outward and inward siren directions, imitating a balloon-squeeze horn.</p></div>
+    <div class="entry" data-new="1"><div class="term">Humming layer <span class="chip std">Standard</span> <span class="chip new">added</span></div><p class="def">Sustaining a sung pitch underneath percussive sounds so a routine carries melody and rhythm at once. The foundation of most "cover"-style beatboxing.</p></div>
+  </div>
+
+  <h3>FX, textures, and onomatopoeic sounds</h3>
+  <p class="h3note">Treat these as sound-imitation labels, not academic categories. They name the resulting timbre far more reliably than they name the anatomy.</p>
+  <div class="entries">
+    <div class="entry"><div class="term">Glug <span class="chip com">Community</span></div><p class="def">Gulping, liquid, bottle-neck, swallowed-water accent.</p></div>
+    <div class="entry"><div class="term">Creak <span class="chip com">Community</span></div><p class="def">Dry friction or door-hinge squeal.</p></div>
+    <div class="entry"><div class="term">Chomp <span class="chip com">Community</span></div><p class="def">Bite-like mouth-percussion attack.</p></div>
+    <div class="entry"><div class="term">Bodyfall <span class="chip com">Community</span></div><p class="def">Low thudding impact suggesting a body hitting the ground.</p></div>
+    <div class="entry"><div class="term">Poof <span class="chip com">Community</span></div><p class="def">Soft air burst — smoke puff, muted explosion, disappearing accent.</p></div>
+    <div class="entry"><div class="term">Pop <span class="chip std">Standard</span></div><p class="def">Short explosive click/burst with little tail.</p></div>
+    <div class="entry"><div class="term">Ribbit <span class="chip com">Community</span></div><p class="def">Frog-like croak or springy chirp.</p></div>
+    <div class="entry"><div class="term">Ahoogah <span class="chip com">Community</span></div><p class="def">Cartoon horn imitation.</p></div>
+    <div class="entry"><div class="term">Whip crack <span class="chip com">Community</span></div><p class="def">Whip-like transient with sharp attack and trailing air.</p></div>
+    <div class="entry"><div class="term">Brush <span class="chip com">Community</span></div><p class="def">Brush-hit texture, airy friction, soft snare-brush imitation.</p></div>
+    <div class="entry"><div class="term">Beam <span class="chip com">Community</span></div><p class="def">Sci-fi beam or energy-shot timbre.</p></div>
+    <div class="entry"><div class="term">Konk <span class="chip com">Community</span></div><p class="def">Blunt midrange impact with cartoonish attack.</p></div>
+    <div class="entry"><div class="term">Laser <span class="chip com">Community</span></div><p class="def">Zappy pitched sci-fi shot.</p></div>
+    <div class="entry"><div class="term">Poink <span class="chip com">Community</span></div><p class="def">Springy comic pluck or sproing accent.</p></div>
+    <div class="entry"><div class="term">Ghost <span class="chip com">Community</span></div><p class="def">Airy, breathy, whispery, spectral accent.</p></div>
+    <div class="entry"><div class="term">Flutter <span class="chip com">Community</span></div><p class="def">Rapidly repeated flap or tremolo-like texture.</p></div>
+    <div class="entry"><div class="term">Slide <span class="chip com">Community</span></div><p class="def">Gliding pitch move or friction glide.</p></div>
+    <div class="entry"><div class="term">Splinter <span class="chip com">Community</span></div><p class="def">Brittle crack/snap effect.</p></div>
+    <div class="entry"><div class="term">Telemetry <span class="chip unv">Unverified</span></div><p class="def">Obscure community alias — likely a glitchy beeping or data-transmission-style effect. Not standardized.</p></div>
+    <div class="entry"><div class="term">Valoop <span class="chip unv">Unverified</span></div><p class="def">Uncertain spelling and term; possibly a performer-specific loop/valve/roll label. Not standardized.</p></div>
+    <div class="entry"><div class="term">Ratchet <span class="chip com">Community</span></div><p class="def">Fast ratcheting repeated clicks or hits.</p></div>
+    <div class="entry"><div class="term">Ruckle <span class="chip unv">Unverified</span></div><p class="def">Obscure alias — likely a rough click-roll or crackle family.</p></div>
+    <div class="entry"><div class="term">Jaw harper <span class="chip unv">Unverified</span></div><p class="def">Probably a jaw-harp imitation using oral resonance.</p></div>
+    <div class="entry"><div class="term">Trill <span class="chip std">Standard</span></div><p class="def">Rapid alternation or rolled-pitch effect.</p></div>
+    <div class="entry"><div class="term">Goo <span class="chip com">Community</span></div><p class="def">Wet, rounded, squelchy oral texture.</p></div>
+    <div class="entry"><div class="term">Wronk <span class="chip com">Community</span></div><p class="def">Comic low-mid splat or wobble.</p></div>
+    <div class="entry"><div class="term">Zipper <span class="chip com">Community</span></div><p class="def">A tearing or zip-like sequence of fast transients, usually tongue or lip based.</p></div>
+    <div class="entry"><div class="term">Helium tongue zipper <span class="chip unv">Unverified</span></div><p class="def">From your notes: a tongue-to-top-lip inward burst producing a zipper sound sharper and thinner than the standard.</p></div>
+    <div class="entry"><div class="term">Sega sound <span class="chip com">Community</span></div><p class="def">Slang for an 8-bit, game-console-style synth or lead imitation.</p></div>
+    <div class="entry"><div class="term">D-Low scratch <span class="chip unv">Unverified</span></div><p class="def">Performer-named scratch effect popularized in battle circles; setup varies by learner and teacher.</p></div>
+    <div class="entry"><div class="term">ZeDe scratch <span class="chip unv">Unverified</span></div><p class="def">Likely a performer-specific scratch imitation label.</p></div>
+    <div class="entry"><div class="term">Pash shimmerl <span class="chip unv">Unverified</span></div><p class="def">Uncertain spelling; likely a performer-specific shimmer or texture combo.</p></div>
+    <div class="entry"><div class="term">Contrix babeli combo <span class="chip unv">Unverified</span></div><p class="def">Uncertain spelling and non-standardized — almost certainly a named combo rather than a generic category.</p></div>
+    <div class="entry"><div class="term">Synth sound <span class="chip std">Standard</span></div><p class="def">Umbrella term for timbres designed to imitate electronic synthesizers rather than acoustic percussion or natural voices.</p></div>
+    <div class="entry" data-new="1"><div class="term">Vocal scratching <span class="chip std">Standard</span> <span class="chip new">added</span></div><p class="def">Turntablist imitation with named sub-moves borrowed from DJ vocabulary: baby scratch (back-and-forth), transform (chopped by a gating consonant), chirp, flare, crab.</p></div>
+  </div>
+
+  <h3>Named hybrids from your notes</h3>
+  <div class="entries">
+    <div class="entry"><div class="term">Roxorloops / Tatsuya Daft Punk thing <span class="chip unv">Unverified</span></div><p class="def">Bongo-like patterning plus robotized, talky synth coloration. A performer-associated combo, not a universal term.</p></div>
+    <div class="entry"><div class="term">Ralik hi-hat <span class="chip unv">Unverified</span></div><p class="def">From your notes: a duck-sound pressure setup into which hi-hats are slipped, giving a buffered growl-hat feel.</p></div>
+    <div class="entry"><div class="term">Bubble synth family <span class="chip com">Community</span></div><p class="def">Codfish-like rounded synth timbres, Show-Go consonant-shaped bursts, uvula synth variants, and siren-position throat-kick hybrids.</p></div>
+    <div class="entry"><div class="term">Chirp / cricket whistle family <span class="chip com">Community</span></div><p class="def">Whistle-register and tooth-whistle constructions that read as birds, insects, or natural ambience rather than drums.</p></div>
+    <div class="entry"><div class="term">OD / inward / lip-roll families <span class="chip std">Standard</span></div><p class="def">The main "bass engine" families in advanced beatbox today, with heavy overlap across battle routines and cover-style performance.</p></div>
+  </div>
+
+  <h3>Performance and battle vocabulary <span style="font-family:var(--mono);font-size:10px;letter-spacing:.1em;color:var(--c5);border:1px solid currentColor;border-radius:99px;padding:2px 7px;">NEW SUBSECTION</span></h3>
+  <div class="entries">
+    <div class="entry" data-new="1"><div class="term">Mic technique <span class="chip std">Standard</span> <span class="chip new">added</span></div><p class="def">Cupping the mic to seal and boost low end, controlling distance for proximity effect, angling off-axis for plosives, and managing your own gain by backing off on loud sounds. Half the sound of a battle set is mic control.</p></div>
+    <div class="entry" data-new="1"><div class="term">Routine <span class="chip std">Standard</span> <span class="chip new">added</span></div><p class="def">A structured, rehearsed sequence built around drops, switches, and a payoff — the unit of performance in showcases and battles.</p></div>
+    <div class="entry" data-new="1"><div class="term">Battle formats <span class="chip std">Standard</span> <span class="chip new">added</span></div><p class="def">Showcase (solo set for judges), elimination rounds, wildcard (a submitted video that earns entry), tag team, crew, and loopstation as a separate category.</p></div>
+    <div class="entry" data-new="1"><div class="term">Loopstation terms <span class="chip std">Standard</span> <span class="chip new">added</span></div><p class="def">Track, overdub, undo, one-shot pad, and the discipline of committing — a layer recorded slightly out of time is stuck there for the whole set. The Boss RC-505 is the scene-standard unit.</p></div>
+    <div class="entry" data-new="1"><div class="term">Sound layering <span class="chip com">Community</span> <span class="chip new">added</span></div><p class="def">Producing two sounds simultaneously — hum under percussion, bass under hats, whistle over throat. The main thing separating advanced from intermediate performers.</p></div>
+  </div>
+
+  <h3>Translating beatbox into production language</h3>
+  <p class="h3note">The most useful way to classify a beatbox sound isn't by its channel nickname — it's by what job it does in the arrangement.</p>
+  <div class="map">
+    <div class="map-row hd"><div>Sound family</div><div>Production function</div></div>
+    <div class="map-row"><div class="a">Kick family</div><div class="b">Low transient anchors</div></div>
+    <div class="map-row"><div class="a">Snare family</div><div class="b">Backbeat and transient cracks</div></div>
+    <div class="map-row"><div class="a">Hat / click family</div><div class="b">Subdivision and groove detail</div></div>
+    <div class="map-row"><div class="a">Bass family</div><div class="b">Low end and sustain — the 808 role</div></div>
+    <div class="map-row"><div class="a">Whistle / polyphonic / synth</div><div class="b">Melodic and lead material</div></div>
+    <div class="map-row"><div class="a">FX family</div><div class="b">Transitions, texture, comedy, realism, cinematic accents</div></div>
+  </div>
+  <div class="note">
+    That translation layer matters because one performer's "bubble roll," "wronk," or "ghost zipper" may function in a routine exactly the way a producer's <b>impact</b>, <b>transition FX</b>, <b>sub-bass growl</b>, or <b>lead synth fill</b> functions in a beat. When a name is unfamiliar, ask what slot it fills — that's almost always answerable even when the anatomy isn't.
+  </div>
+</section>
+<section class="sec" id="s7" style="--sc:var(--c7)">
+  <div class="sec-head">
+    <div class="sec-num">BANK F</div>
+    <div>
+      <h2>Scary Terry palette</h2>
+      <p class="sec-sub">A working reference for the cinematic-horror-trap / boom-bap / jazz-rap sound world: instruments, foley, vocal FX, and production textures — what each one does, where to place it, and where you can actually hear it.</p>
+    </div>
+  </div>
+  <div class="sec-rule"></div>
+
+  <div class="note">
+    <span class="lbl">On the "where you'd hear it" line</span>
+    For well-documented instruments the examples are confirmed. For niche or experimental instruments that are rare or unconfirmed in mainstream rap, that's said plainly rather than guessed — most of those come from film scoring, and <b>using them in rap is exactly what makes the catalog distinctive.</b>
+  </div>
+
+  <div class="legend">
+    <div><b class="chip std" style="margin:0 6px 0 0">In rap</b> confirmed hip-hop usage</div>
+    <div><b class="chip com" style="margin:0 6px 0 0">Scene-adjacent</b> established in a subgenre or beat scene</div>
+    <div><b class="chip unv" style="margin:0 6px 0 0">Untapped</b> no rap precedent — the point of difference</div>
+  </div>
+
+  <h3>Cinematic &amp; horror instruments</h3>
+  <div class="entries">
+
+    <div class="entry"><div class="term">Waterphone <span class="chip unv">Untapped</span></div><p class="def">
+      <span class="fl">Sound</span>Metallic groans, whale-like shrieks, ghostly pitch bends.
+      <span class="fl">Vibe</span>Dread, psychological horror, stalking-prey tension.
+      <span class="fl">Use</span>First ten seconds of an intro, right before the 808 enters, at a beat switch, or reversed into a snare hit.
+      <span class="fl">Where you'd hear it</span>A horror-film-score staple across countless thrillers. Not a standard hip-hop element — bringing it into rap is a genuine point of difference.
+      <a class="listen" href="https://www.youtube.com/results?search_query=waterphone+demo+horror+sound" target="_blank" rel="noopener">Hear it ↗</a></p></div>
+
+    <div class="entry"><div class="term">Bassoon <span class="chip unv">Untapped</span></div><p class="def">
+      <span class="fl">Sound</span>Low, woody, nasal — like a sarcastic villain laughing.
+      <span class="fl">Vibe</span>Calculating menace, mafia strategist, intellectual dread.
+      <span class="fl">Use</span>Lead or counter-melody, call-and-response with piano, short dry stabs right before the 808 hits.
+      <span class="fl">Where you'd hear it</span>Orchestral and classical — the famous bassoon solo opening Stravinsky's <em>The Rite of Spring</em>. Not a hip-hop staple, which is the appeal.
+      <a class="listen" href="https://www.youtube.com/results?search_query=bassoon+solo+rite+of+spring" target="_blank" rel="noopener">Hear it ↗</a></p></div>
+
+    <div class="entry"><div class="term">Contrabass clarinet <span class="chip unv">Untapped</span></div><p class="def">
+      <span class="fl">Sound</span>Deeper and creepier than a standard clarinet.
+      <span class="fl">Vibe</span>Villain-theme menace.
+      <span class="fl">Use</span>Repeating two-to-four-note hook, or a low drone under a hook.
+      <span class="fl">Where you'd hear it</span>Mostly orchestral and experimental scoring. No confirmed mainstream rap use.
+      <a class="listen" href="https://www.youtube.com/results?search_query=contrabass+clarinet+demo" target="_blank" rel="noopener">Hear it ↗</a></p></div>
+
+    <div class="entry"><div class="term">Tubular bells <span class="chip com">Scene-adjacent</span></div><p class="def">
+      <span class="fl">Sound</span>Massive, resonant, cathedral-like bells.
+      <span class="fl">Vibe</span>Apocalypse, judgment, finality.
+      <span class="fl">Use</span>One bell hit every eight bars to accent an important lyric. Never overuse.
+      <span class="fl">Where you'd hear it</span>Mike Oldfield's <em>Tubular Bells</em> is the theme to <em>The Exorcist</em>. Horror-trap and Memphis-revival producers use them for the same dread effect.
+      <a class="listen" href="https://www.youtube.com/results?search_query=tubular+bells+sound+demo" target="_blank" rel="noopener">Hear it ↗</a></p></div>
+
+    <div class="entry"><div class="term">Prepared piano <span class="chip unv">Untapped</span></div><p class="def">
+      <span class="fl">Sound</span>Objects placed on and between the strings turn the piano into bells, percussion, and broken machinery.
+      <span class="fl">Vibe</span>Controlled chaos, unsettling, experimental.
+      <span class="fl">Use</span>Main melody source for glitch beats, or single hits used like gunmetal percussion.
+      <span class="fl">Where you'd hear it</span>Pioneered by John Cage in concert music. Essentially unused in mainstream rap — a genuinely rare texture to bring in.
+      <a class="listen" href="https://www.youtube.com/results?search_query=john+cage+prepared+piano+demonstration" target="_blank" rel="noopener">Hear it ↗</a></p></div>
+
+    <div class="entry"><div class="term">Glass harmonica <span class="chip unv">Untapped</span></div><p class="def">
+      <span class="fl">Sound</span>Rotating glass bowls rubbed with wet fingers — impossibly smooth, ghostly tone.
+      <span class="fl">Vibe</span>Haunted mansion, beautiful insanity, luxury horror.
+      <span class="fl">Use</span>Ambient hook pad, layered under piano, reversed into transitions.
+      <span class="fl">Where you'd hear it</span>Invented and popularized by Benjamin Franklin; Mozart wrote for it (<em>Adagio for Glass Harmonica</em>, K. 356). No known mainstream rap example.
+      <a class="listen" href="https://www.youtube.com/results?search_query=glass+harmonica+mozart+adagio" target="_blank" rel="noopener">Hear it ↗</a></p></div>
+
+    <div class="entry"><div class="term">Cristal Baschet <span class="chip unv">Untapped</span></div><p class="def">
+      <span class="fl">Sound</span>Glass rods rubbed and amplified through metal cones and resonators.
+      <span class="fl">Vibe</span>Alien, floating, psychedelic.
+      <span class="fl">Use</span>Ethereal melody line under sparse, spacious trap drums.
+      <span class="fl">Where you'd hear it</span>A 1950s sculptural instrument used mostly in film and experimental scoring. Not established in rap.
+      <a class="listen" href="https://www.youtube.com/results?search_query=cristal+baschet+demonstration" target="_blank" rel="noopener">Hear it ↗</a></p></div>
+
+    <div class="entry"><div class="term">Bowed vibraphone <span class="chip unv">Untapped</span></div><p class="def">
+      <span class="fl">Sound</span>Vibraphone bars bowed instead of struck — shimmering, endlessly sustained.
+      <span class="fl">Vibe</span>Frozen air, crystal caves, spiritual.
+      <span class="fl">Use</span>Background texture layered behind vocals.
+      <span class="fl">Where you'd hear it</span>Common in contemporary classical and film scoring. Not a hip-hop staple.
+      <a class="listen" href="https://www.youtube.com/results?search_query=bowed+vibraphone+demonstration" target="_blank" rel="noopener">Hear it ↗</a></p></div>
+
+    <div class="entry"><div class="term">Church organ (low stops) <span class="chip com">Scene-adjacent</span></div><p class="def">
+      <span class="fl">Sound</span>Deep, funeral-drill, gothic minor chords.
+      <span class="fl">Vibe</span>Gothic intimidation, demonic Memphis energy.
+      <span class="fl">Use</span>Hold a minor chord under the hook.
+      <span class="fl">Where you'd hear it</span>A recurring texture in Memphis-revival phonk and horrorcore-leaning trap; organ stabs are common in that underground lane.
+      <a class="listen" href="https://www.youtube.com/results?search_query=dark+church+organ+trap+beat" target="_blank" rel="noopener">Hear it ↗</a></p></div>
+  </div>
+
+  <h3>World &amp; ethnic instruments</h3>
+  <div class="entries">
+
+    <div class="entry"><div class="term">Duduk <span class="chip unv">Untapped</span></div><p class="def">
+      <span class="fl">Sound</span>Breathy Armenian double-reed woodwind, almost like a person quietly singing through wood.
+      <span class="fl">Vibe</span>Lonely, ancient, mournful — mafia and desert menace.
+      <span class="fl">Use</span>Long bent notes with reverb over sparse drums. Ideal under a somber storytelling verse.
+      <span class="fl">Where you'd hear it</span>Widely used in film scoring — Djivan Gasparyan's playing appears in <em>Gladiator</em> and <em>Blood Diamond</em>. Not established in hip-hop, so it's a genuine differentiator.
+      <a class="listen" href="https://www.youtube.com/results?search_query=djivan+gasparyan+duduk" target="_blank" rel="noopener">Hear it ↗</a></p></div>
+
+    <div class="entry"><div class="term">Koto <span class="chip std">In rap</span></div><p class="def">
+      <span class="fl">Sound</span>Japanese plucked zither — crisp, cold, precise plucks with atmosphere.
+      <span class="fl">Vibe</span>Surgical, stealth, exotic luxury.
+      <span class="fl">Use</span>Short riffs every four bars, especially right before a punchline.
+      <span class="fl">Where you'd hear it</span><b>RZA has used koto directly in Wu-Tang-affiliated production</b> — "Koto Chotan" (with Masta Killa &amp; Tash Mahogany) is built around koto and named for it. Wu-Tang's catalog draws broadly on East-Asian instrumentation as part of its kung-fu-film aesthetic.
+      <a class="listen" href="https://www.youtube.com/results?search_query=koto+solo+performance" target="_blank" rel="noopener">Hear it ↗</a></p></div>
+
+    <div class="entry"><div class="term">Erhu <span class="chip com">Scene-adjacent</span></div><p class="def">
+      <span class="fl">Sound</span>Chinese two-string bowed fiddle — one of the closest instruments to the human voice.
+      <span class="fl">Vibe</span>Regret, isolation, cinematic sorrow.
+      <span class="fl">Use</span>Emotional solo or bridge melody.
+      <span class="fl">Where you'd hear it</span>Common in Chinese film scoring. No confirmed major rap placement, though it turns up as a sample source in lo-fi and beat-tape circles.
+      <a class="listen" href="https://www.youtube.com/results?search_query=erhu+solo+performance" target="_blank" rel="noopener">Hear it ↗</a></p></div>
+
+    <div class="entry"><div class="term">Sarangi <span class="chip unv">Untapped</span></div><p class="def">
+      <span class="fl">Sound</span>Rich, human-voice-like Indian bowed instrument.
+      <span class="fl">Vibe</span>Haunted, intimate, human.
+      <span class="fl">Use</span>Vocal-like countermelody.
+      <span class="fl">Where you'd hear it</span>Core to Hindustani classical music. Not established in rap.
+      <a class="listen" href="https://www.youtube.com/results?search_query=sarangi+solo+demonstration" target="_blank" rel="noopener">Hear it ↗</a></p></div>
+
+    <div class="entry"><div class="term">Nyckelharpa <span class="chip unv">Untapped</span></div><p class="def">
+      <span class="fl">Sound</span>Swedish keyed fiddle with sympathetic strings that resonate on their own.
+      <span class="fl">Vibe</span>Viking noir, ancient mystery, cold forests.
+      <span class="fl">Use</span>Dark melodic loop.
+      <span class="fl">Where you'd hear it</span>Traditional Scandinavian folk instrument. No rap precedent.
+      <a class="listen" href="https://www.youtube.com/results?search_query=nyckelharpa+demonstration" target="_blank" rel="noopener">Hear it ↗</a></p></div>
+
+    <div class="entry"><div class="term">Hardanger fiddle <span class="chip unv">Untapped</span></div><p class="def">
+      <span class="fl">Sound</span>Norwegian violin variant with extra sympathetic resonating strings.
+      <span class="fl">Vibe</span>Mystical, Nordic.
+      <span class="fl">Use</span>Emotional hook melody.
+      <span class="fl">Where you'd hear it</span>Norwegian folk tradition. No rap precedent.
+      <a class="listen" href="https://www.youtube.com/results?search_query=hardanger+fiddle+demonstration" target="_blank" rel="noopener">Hear it ↗</a></p></div>
+
+    <div class="entry"><div class="term">Cimbalom <span class="chip unv">Untapped</span></div><p class="def">
+      <span class="fl">Sound</span>Large hammered dulcimer — like a piano made of metallic strings.
+      <span class="fl">Vibe</span>Spy thriller, international crime, secret organizations. <em>John Wick</em> energy.
+      <span class="fl">Use</span>Fast tremolo rolls or eerie arpeggios chopped into trap melodies.
+      <span class="fl">Where you'd hear it</span>A go-to in modern spy and thriller scoring. Not established in rap — would read as fresh.
+      <a class="listen" href="https://www.youtube.com/results?search_query=cimbalom+performance" target="_blank" rel="noopener">Hear it ↗</a></p></div>
+
+    <div class="entry"><div class="term">Accordion (minor key) <span class="chip com">Scene-adjacent</span></div><p class="def">
+      <span class="fl">Sound</span>Reedy, breathing chords.
+      <span class="fl">Vibe</span>Italian mafia, street carnival darkness.
+      <span class="fl">Use</span>Under a mafia-trap hook alongside muted trumpet.
+      <span class="fl">Where you'd hear it</span>Occasionally sampled in mob and noir-themed production — common in beat-tape and drill-adjacent mafioso-rap microtrends. No single iconic mainstream example confirmed.
+      <a class="listen" href="https://www.youtube.com/results?search_query=dark+minor+key+accordion" target="_blank" rel="noopener">Hear it ↗</a></p></div>
+
+    <div class="entry"><div class="term">Hang drum / handpan <span class="chip com">Scene-adjacent</span></div><p class="def">
+      <span class="fl">Sound</span>Metallic hand percussion with rich, floating overtones.
+      <span class="fl">Vibe</span>Meditative, introspective, expensive-sounding.
+      <span class="fl">Use</span>Melodic layer over sliding 808s in chill or lo-fi trap.
+      <span class="fl">Where you'd hear it</span>Popular in lo-fi and chill-hop beat communities, though rarely credited on major-label rap records.
+      <a class="listen" href="https://www.youtube.com/results?search_query=handpan+hang+drum+performance" target="_blank" rel="noopener">Hear it ↗</a></p></div>
+
+    <div class="entry"><div class="term">Kalimba (thumb piano) <span class="chip com">Scene-adjacent</span></div><p class="def">
+      <span class="fl">Sound</span>Bright, plucked metal tines.
+      <span class="fl">Vibe</span>Innocent but eerie. A contrast tool.
+      <span class="fl">Use</span>High melodic accent, or a full lo-fi/chill-trap lead.
+      <span class="fl">Where you'd hear it</span>A genuine trend in modern lo-fi hip-hop and chill trap beat packs. No major-label single is widely credited with a kalimba lead specifically.
+      <a class="listen" href="https://www.youtube.com/results?search_query=kalimba+melody+demo" target="_blank" rel="noopener">Hear it ↗</a></p></div>
+
+    <div class="entry"><div class="term">Jaw harp <span class="chip unv">Untapped</span></div><p class="def">
+      <span class="fl">Sound</span>Metallic twang, plucked against the teeth.
+      <span class="fl">Vibe</span>Weird, playful, quirky villain.
+      <span class="fl">Use</span>Rhythmic accent in western or outlaw-themed beats.
+      <span class="fl">Where you'd hear it</span>A folk instrument worldwide. No rap precedent — purely a texture tool. <em>(Bank E lists "jaw harper" as the beatbox imitation of this.)</em>
+      <a class="listen" href="https://www.youtube.com/results?search_query=jaw+harp+jew%27s+harp+demo" target="_blank" rel="noopener">Hear it ↗</a></p></div>
+
+    <div class="entry"><div class="term">Frame drum <span class="chip unv">Untapped</span></div><p class="def">
+      <span class="fl">Sound</span>Deep, resonant hand drum.
+      <span class="fl">Vibe</span>Ritualistic.
+      <span class="fl">Use</span>Sparse percussion layer under a verse.
+      <span class="fl">Where you'd hear it</span>Ancient folk percussion tradition. No rap precedent.
+      <a class="listen" href="https://www.youtube.com/results?search_query=frame+drum+performance" target="_blank" rel="noopener">Hear it ↗</a></p></div>
+  </div>
+
+  <h3>Electronic &amp; unusual-pitch instruments</h3>
+  <div class="entries">
+
+    <div class="entry"><div class="term">Theremin <span class="chip std">In rap</span></div><p class="def">
+      <span class="fl">Sound</span>Continuous, hand-controlled pitch-bending electronic tone, played without touching the instrument.
+      <span class="fl">Vibe</span>Sci-fi horror, surreal, UFO menace.
+      <span class="fl">Use</span>Risers and transitions, or a spooky melodic line.
+      <span class="fl">Where you'd hear it</span><b>Confirmed in hip-hop</b> — Erykah Badu's <em>New Amerykah Part Two: Return of the Ankh</em> (2010) features theremin played by Kirsten Agresta, on an album made with J Dilla, Questlove, and Madlib. More broadly famous on the Beach Boys' <em>Good Vibrations</em> and Led Zeppelin's <em>Whole Lotta Love</em>.
+      <a class="listen" href="https://www.youtube.com/results?search_query=theremin+performance+demo" target="_blank" rel="noopener">Hear it ↗</a></p></div>
+
+    <div class="entry"><div class="term">Ondes Martenot <span class="chip unv">Untapped</span></div><p class="def">
+      <span class="fl">Sound</span>An early 1920s electronic instrument that glides between notes with human-like smoothness.
+      <span class="fl">Vibe</span>Floating, vintage sci-fi, heavenly melancholy.
+      <span class="fl">Use</span>Sustained pad or lead.
+      <span class="fl">Where you'd hear it</span>Famous in film scoring — used extensively by Jonny Greenwood, and in Messiaen's classical works. Not established in rap.
+      <a class="listen" href="https://www.youtube.com/results?search_query=ondes+martenot+demonstration" target="_blank" rel="noopener">Hear it ↗</a></p></div>
+  </div>
+
+  <h3>Jazz &amp; lounge instruments</h3>
+  <div class="entries">
+
+    <div class="entry"><div class="term">Rhodes piano <span class="chip std">In rap</span></div><p class="def">
+      <span class="fl">Sound</span>Warm electric piano.
+      <span class="fl">Vibe</span>Late-night, expensive, jazzy, sophisticated.
+      <span class="fl">Use</span>Best used as the main chord bed underneath vocals.
+      <span class="fl">Where you'd hear it</span>A hip-hop and neo-soul cornerstone — all over J Dilla's catalog, D'Angelo, and countless boom-bap and jazz-rap beats since the golden era. The most "already inside the genre" pick on this list.
+      <a class="listen" href="https://www.youtube.com/results?search_query=rhodes+piano+hip+hop+chords+demo" target="_blank" rel="noopener">Hear it ↗</a></p></div>
+
+    <div class="entry"><div class="term">Detuned trumpet <span class="chip com">Scene-adjacent</span></div><p class="def">
+      <span class="fl">Sound</span>Vintage jazz horn pitched slightly off.
+      <span class="fl">Vibe</span>1940s crime film, drunken lounge, Italian mob.
+      <span class="fl">Use</span>Jazz loops and fills, especially layered with vinyl crackle.
+      <span class="fl">Where you'd hear it</span>A defining texture of mafioso and noir-styled production — the Raekwon/Ghostface-adjacent cinematic mob-rap lane built on sampled horn loops. No single confirmed iconic example, but the aesthetic is well established.
+      <a class="listen" href="https://www.youtube.com/results?search_query=muted+jazz+trumpet+loop+sample" target="_blank" rel="noopener">Hear it ↗</a></p></div>
+
+    <div class="entry"><div class="term">Detuned saxophone <span class="chip com">Scene-adjacent</span></div><p class="def">
+      <span class="fl">Sound</span>Smoky sax warped with tape wobble.
+      <span class="fl">Vibe</span>Noir, melancholy, urban decay.
+      <span class="fl">Use</span>Hooks and outros.
+      <span class="fl">Where you'd hear it</span>A common texture in lo-fi and jazz-rap beat culture. No single flagship mainstream example confirmed.
+      <a class="listen" href="https://www.youtube.com/results?search_query=lofi+detuned+saxophone+loop" target="_blank" rel="noopener">Hear it ↗</a></p></div>
+  </div>
+
+  <h3>Percussion &amp; foley — "expensive and dangerous"</h3>
+  <p class="h3note">Less about melody, more about texture. Layer them low for atmosphere, or use them as rhythmic replacements for standard hats and snares. <a class="listen" href="https://www.youtube.com/results?search_query=cinematic+foley+sound+effects+library" target="_blank" rel="noopener">Foley library reference ↗</a></p>
+  <div class="tbl">
+    <div class="frow hd"><div>Sound</div><div>Effect</div><div>Best placement</div></div>
+    <div class="frow"><div class="c1">Anvil hits</div><div class="c2" data-l="Effect">Industrial crime-lord impact</div><div class="c3" data-l="Place">Accent hit on a hard bar</div></div>
+    <div class="frow"><div class="c1">Sword unsheathing</div><div class="c2" data-l="Effect">Tension riser</div><div class="c3" data-l="Place">Right before a drop</div></div>
+    <div class="frow"><div class="c1">Pool balls cracking</div><div class="c2" data-l="Effect">Clean, sharp street-luxury percussion</div><div class="c3" data-l="Place">Hi-hat replacement</div></div>
+    <div class="frow"><div class="c1">Dice roll / casino chips</div><div class="c2" data-l="Effect">Hustler ambience</div><div class="c3" data-l="Place">Transition or intro</div></div>
+    <div class="frow"><div class="c1">Zippo lighter flick</div><div class="c2" data-l="Effect">Subtle percussive detail</div><div class="c3" data-l="Place">Snare ghost layer</div></div>
+    <div class="frow"><div class="c1">Metal chain drag</div><div class="c2" data-l="Effect">Menacing texture</div><div class="c3" data-l="Place">Intro</div></div>
+    <div class="frow"><div class="c1">Car door slam</div><div class="c2" data-l="Effect">Percussive accent</div><div class="c3" data-l="Place">Kick layer or transition</div></div>
+    <div class="frow"><div class="c1">Shell casings on concrete</div><div class="c2" data-l="Effect">High-end texture</div><div class="c3" data-l="Place">Hi-hat replacement</div></div>
+    <div class="frow"><div class="c1">Leather glove creak</div><div class="c2" data-l="Effect">Subtle intimidation</div><div class="c3" data-l="Place">Quiet verse texture</div></div>
+    <div class="frow"><div class="c1">Bottle clink + reverse reverb</div><div class="c2" data-l="Effect">Mob lounge atmosphere</div><div class="c3" data-l="Place">Transition</div></div>
+    <div class="frow"><div class="c1">Gun-cock / slide-rack / revolver spin</div><div class="c2" data-l="Effect">Percussive tension without the gunshot cliché</div><div class="c3" data-l="Place">Rhythmic percussion in place of gunshot samples</div></div>
+  </div>
+
+  <h3>Vocal effects</h3>
+  <div class="tbl">
+    <div class="frow hd"><div>Effect</div><div>How it hits</div><div>Placement</div></div>
+    <div class="frow"><div class="c1">Deep pitch-dropped ad-libs</div><div class="c2" data-l="How">Use only on key words, not every bar</div><div class="c3" data-l="Place">Punchlines</div></div>
+    <div class="frow"><div class="c1">Reverse whispered ad-lib</div><div class="c2" data-l="How">Reverse a phrase directly into the snare or drop</div><div class="c3" data-l="Place">Transitions</div></div>
+    <div class="frow"><div class="c1">Radio dispatcher voice</div><div class="c2" data-l="How">"Unit 33, suspect moving…" — sets a scene fast</div><div class="c3" data-l="Place">Intro or skit</div></div>
+    <div class="frow"><div class="c1">Police-scanner texture</div><div class="c2" data-l="How">Low-volume background atmosphere</div><div class="c3" data-l="Place">Under a verse</div></div>
+    <div class="frow"><div class="c1">Demonic formant shift</div><div class="c2" data-l="How">Lower formants carefully to avoid mud</div><div class="c3" data-l="Place">Hook ad-libs</div></div>
+    <div class="frow"><div class="c1">Gang chant, octave down</div><div class="c2" data-l="How">Pitched-down group vocal as a response</div><div class="c3" data-l="Place">Drop tag or hook</div></div>
+    <div class="frow"><div class="c1">Breath-as-percussion</div><div class="c2" data-l="How">Chop breaths into rhythmic hits</div><div class="c3" data-l="Place">Hi-hat layer</div></div>
+  </div>
+
+  <h3>Production textures &amp; transitions</h3>
+  <div class="tbl">
+    <div class="frow hd"><div>Texture</div><div>Effect</div><div>Best use</div></div>
+    <div class="frow"><div class="c1">Reverse reverb</div><div class="c2" data-l="Effect">Audio swells into the hit</div><div class="c3" data-l="Use">Before snares or vocals, or any one-shot</div></div>
+    <div class="frow"><div class="c1">Vinyl crackle</div><div class="c2" data-l="Effect">Dusty record noise</div><div class="c3" data-l="Use">Entire intro</div></div>
+    <div class="frow"><div class="c1">Tape stop</div><div class="c2" data-l="Effect">Beat briefly slows to a halt</div><div class="c3" data-l="Use">Punchline transitions</div></div>
+    <div class="frow"><div class="c1">Glitch reverb</div><div class="c2" data-l="Effect">Reverb chops and stutters</div><div class="c3" data-l="Use">Beat switch</div></div>
+    <div class="frow"><div class="c1">Half-time effect</div><div class="c2" data-l="Effect">Everything suddenly feels slower</div><div class="c3" data-l="Use">Hook</div></div>
+    <div class="frow"><div class="c1">Reverse 808 inhale</div><div class="c2" data-l="Effect">A reversed 808 fades in before the real hit</div><div class="c3" data-l="Use">Right before the drop</div></div>
+  </div>
+
+  <h3>Ambience &amp; sound-design beds</h3>
+  <p class="h3note">Layer these <b>low in the mix</b> — the goal is atmosphere just below conscious perception, not a sound effect anyone notices directly.</p>
+  <div class="tbl">
+    <div class="frow hd"><div>Sound</div><div>Vibe</div><div>Placement</div></div>
+    <div class="frow"><div class="c1">Hydrophone recordings</div><div class="c2" data-l="Vibe">Aquatic, alien</div><div class="c3" data-l="Place">Ambient intro</div></div>
+    <div class="frow"><div class="c1">Geiger counter clicks</div><div class="c2" data-l="Vibe">Tension, paranoia</div><div class="c3" data-l="Place">Sparse percussion layer</div></div>
+    <div class="frow"><div class="c1">EMF interference / electrical hum</div><div class="c2" data-l="Vibe">Industrial, cyberpunk</div><div class="c3" data-l="Place">Intro or transition</div></div>
+    <div class="frow"><div class="c1">Contact-mic recordings</div><div class="c2" data-l="Vibe">Mechanical, intimate — metal, glass, wood</div><div class="c3" data-l="Place">Percussive texture</div></div>
+    <div class="frow"><div class="c1">Tape machine start/stop</div><div class="c2" data-l="Vibe">Vintage, nostalgic</div><div class="c3" data-l="Place">Track open or close</div></div>
+    <div class="frow"><div class="c1">Typewriter keys</div><div class="c2" data-l="Vibe">Calculated, methodical</div><div class="c3" data-l="Place">Hi-hat replacement</div></div>
+    <div class="frow"><div class="c1">Ice cracking</div><div class="c2" data-l="Vibe">Cold, dramatic</div><div class="c3" data-l="Place">Beat drop</div></div>
+    <div class="frow"><div class="c1">Ship-hull groans</div><div class="c2" data-l="Vibe">Massive, ominous</div><div class="c3" data-l="Place">Background atmosphere</div></div>
+    <div class="frow"><div class="c1">Subway tunnel ambience</div><div class="c2" data-l="Vibe">Urban, lonely</div><div class="c3" data-l="Place">Intro bed</div></div>
+    <div class="frow"><div class="c1">Forest at night</div><div class="c2" data-l="Vibe">Isolated, suspenseful — insects, distant owls</div><div class="c3" data-l="Place">Storytelling intro</div></div>
+    <div class="frow"><div class="c1">Old film projector</div><div class="c2" data-l="Vibe">Noir, nostalgic</div><div class="c3" data-l="Place">Lo-fi boom-bap intro</div></div>
+    <div class="frow"><div class="c1">Mechanical watch ticking</div><div class="c2" data-l="Vibe">Luxury, inevitability</div><div class="c3" data-l="Place">Quiet storytelling verse</div></div>
+    <div class="frow"><div class="c1">Casino murmur / whiskey ice / distant siren / rain on windshield</div><div class="c2" data-l="Vibe">Rich criminal movie scene</div><div class="c3" data-l="Place">Layered low under a hook</div></div>
+  </div>
+
+  <h3>Signature combo palettes</h3>
+  <div class="combos">
+    <div class="combo core">
+      <h4>Scary Terry core identity</h4>
+      <div class="ing"><span>Waterphone swells</span><span>Rhodes chords</span><span>Detuned trumpet stabs</span><span>Eerie bassoon</span><span>Duduk countermelody</span><span>Music box accents</span><span>Vinyl crackle</span><span>Reverse reverb</span><span>Tape stop</span><span>Deep cinematic 808s</span><span>Crisp boom-bap snares</span><span>Sparse phonk cowbell</span><span>Glockenspiel / tubular bells</span></div>
+    </div>
+    <div class="combo">
+      <h4>Mafia trap</h4>
+      <div class="ing"><span>Accordion</span><span>Muted trumpet</span><span>Upright bass slide</span><span>Casino chips</span><span>Deep ad-libs</span></div>
+    </div>
+    <div class="combo">
+      <h4>Demonic Memphis trap</h4>
+      <div class="ing"><span>Church organ</span><span>Tubular bells</span><span>Reverse chants</span><span>Cowbell</span><span>Tape hiss</span></div>
+    </div>
+    <div class="combo">
+      <h4>Luxury villain trap</h4>
+      <div class="ing"><span>Koto</span><span>Cimbalom</span><span>Glass clinks</span><span>Leather creaks</span><span>Clean piano stabs</span></div>
+    </div>
+    <div class="combo">
+      <h4>Street horror trap</h4>
+      <div class="ing"><span>Bassoon</span><span>Waterphone</span><span>Chain drag</span><span>Low choir</span><span>Distorted 808</span></div>
+    </div>
+    <div class="combo">
+      <h4>Cyber-gangsta trap</h4>
+      <div class="ing"><span>Theremin</span><span>Vocoder growls</span><span>Servo motor noise</span><span>Glitch percussion</span><span>Sub drops</span></div>
+    </div>
+  </div>
+
+  <h3>Sound design recipes</h3>
+  <div class="entries">
+    <div class="entry"><div class="term">Reverse 808 inhale</div><p class="def">Reverse a short 808 and fade it in right before the real 808 hits. Makes the drop feel like it's sucking the air out of the room.</p></div>
+    <div class="entry"><div class="term">Gun-cocking rhythm, no cliché</div><p class="def">Build percussion from metallic clicks, slide racks, revolver spins, and chamber snaps instead of gunshot samples. Same tension, none of the wear.</p></div>
+    <div class="entry"><div class="term">Luxury menace ambience bed</div><p class="def">Stack low: casino floor murmur, elevator ding, ice in a whiskey glass, leather seat creak, distant siren, rain on a windshield, money-counter machine.</p></div>
+    <div class="entry"><div class="term">Reverse reverb entrance</div><p class="def">Take any one-shot — koto, bassoon, duduk, piano, vocal ad-lib — add reverb, print it, reverse it, and place it directly before the dry hit. Instant cinematic villain entrance.</p></div>
+    <div class="entry"><div class="term">Broken music box in the trap house</div><p class="def">Simple minor melody on music box, detune slightly, add vinyl wobble, layer an 808 underneath.</p></div>
+  </div>
+</section>
+<section class="sec" id="s6" style="--sc:var(--c6)">
+  <div class="sec-head">
+    <div class="sec-num">BANK G</div>
+    <div>
+      <h2>Credits &amp; limits</h2>
+      <p class="sec-sub">Where this vocabulary comes from, and which parts of it you should not trust as fixed.</p>
+    </div>
+  </div>
+  <div class="sec-rule"></div>
+
+  <h3>Sources for the standardized half</h3>
+  <p class="h3note">The production, engineering, synthesis, and theory entries lean on educational and manufacturer documentation — the kind published by DAW and plugin makers (Ableton, iZotope, Native Instruments, Apple) and by music-school programs. Those definitions are reasonably stable and you can look them up.</p>
+
+  <h3>The beatbox tutorial lineage</h3>
+  <p class="h3note">Channels and artists named in your notes: TylaDubya · Kevin316 · The Orthobox · HUMAN BEATBOX · 80Fitz · Tom Thum · RUBIK · Cirby Beatbox · Lemons · MrWobbles · Nemesis Beatbox · Sid Fx · Sevan Beatbox · PingPong Productions · Deepak Ravichandran · FGGT · Mika Vilpas · Swissbeatbox · Beatbox International · Beatbox Fight Zone · BEATBOX BATTLE · Alem · MB14 · Dharni · Trung Bao. These are valuable practical learning references — they are not terminological standards bodies. In beatbox culture names drift, overlap, and mutate as techniques spread.</p>
+
+  <div class="note">
+    <span class="lbl">Lowest-confidence entries</span>
+    <b>telemetry · valoop · contrix babeli combo · pash shimmerl</b>, some performer-tagged scratches, and certain whistle and throat sounds whose names are community shorthand rather than formal categories. For those, this glossary gives the safest high-confidence reading — what kind of sound and function the term usually points at — rather than a false claim of one official anatomy.
+  </div>
+
+  <h3>How to pin down an unstable term <span style="font-family:var(--mono);font-size:10px;letter-spacing:.1em;color:var(--c5);border:1px solid currentColor;border-radius:99px;padding:2px 7px;">NEW SUBSECTION</span></h3>
+  <div class="entries">
+    <div class="entry" data-new="1"><div class="term">Find the origin video <span class="chip new">added</span></div><p class="def">Most performer-named sounds trace to one tutorial or one battle set. The earliest demonstration is the definition; everything after it is interpretation.</p></div>
+    <div class="entry" data-new="1"><div class="term">Describe the mechanism, not the name <span class="chip new">added</span></div><p class="def">"Inward, lips, side of the mouth, flapping rather than vibrating" survives across communities. "Bubble roll" does not.</p></div>
+    <div class="entry" data-new="1"><div class="term">Ask what slot it fills <span class="chip new">added</span></div><p class="def">Kick, snare, hat, bass, lead, or FX. Function is stable even when naming isn't — which is what the translation table in Bank E is for.</p></div>
+    <div class="entry" data-new="1"><div class="term">Log your own variants <span class="chip new">added</span></div><p class="def">If you develop a sound that doesn't match any published name, write down the airflow, articulation point, and cavity shape. That note will outlast whatever nickname it picks up.</p></div>
+  </div>
+</section>
+
+</main>
+
+<footer>END OF GLOSSARY · SEARCH IS LOCAL · NOTHING LEAVES THIS FILE</footer>
+
+<script>
+(function(){
+  var q=document.getElementById('q'), onlyNew=document.getElementById('onlyNew'),
+      hits=document.getElementById('hits'), empty=document.getElementById('empty');
+  function run(){
+    var t=q.value.trim().toLowerCase(), nOnly=onlyNew.checked, filtering=!!t||nOnly, shown=0;
+    document.body.classList.toggle('filtering',filtering);
+    document.querySelectorAll('.sec').forEach(function(sec){
+      var any=false;
+      sec.querySelectorAll('.entry,.frow:not(.hd)').forEach(function(e){
+        var ok=(!t||e.textContent.toLowerCase().indexOf(t)>-1)&&(!nOnly||e.dataset.new==='1');
+        e.classList.toggle('hidden',!ok); if(ok){any=true;shown++;}
+      });
+      sec.querySelectorAll('.tbl').forEach(function(tb){
+        tb.classList.toggle('hidden',filtering&&!tb.querySelector('.frow:not(.hd):not(.hidden)'));
+      });
+      sec.querySelectorAll('.combos,.combo').forEach(function(c){c.classList.toggle('hidden',filtering);});
+      sec.querySelectorAll('.note,.map,.legend,.h3note').forEach(function(e){e.classList.toggle('hidden',filtering);});
+      sec.querySelectorAll('h3').forEach(function(h){
+        if(!filtering){h.classList.remove('hidden');return;}
+        var n=h.nextElementSibling; while(n&&n.tagName!=='H3'){ if((n.classList.contains('entries')||n.classList.contains('tbl'))&&n.querySelector('.entry:not(.hidden),.frow:not(.hd):not(.hidden)')){h.classList.remove('hidden');return;} n=n.nextElementSibling; }
+        h.classList.add('hidden');
+      });
+      sec.classList.toggle('hidden',filtering&&!any);
+    });
+    hits.textContent=filtering?(shown+' entr'+(shown===1?'y':'ies')):'';
+    document.body.classList.toggle('show-empty',filtering&&shown===0);
+  }
+  q.addEventListener('input',run); onlyNew.addEventListener('change',run);
+})();
+</script>
+</body>
+</html>
