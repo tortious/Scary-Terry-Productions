@@ -1,6 +1,6 @@
 # THE BLACK RITUAL COLLECTION
 
-## 18 Original Cinematic Horror-Trap Productions — 36 Suno V6 Variations
+**18 Original Cinematic Horror-Trap Productions — 36 Suno V6 Variations**
 
 **Production direction:** Three 6 Mafia's sinister Memphis atmosphere, Shyne's commanding vocal weight, and Bump J's cold Chicago delivery—reinterpreted through original arrangements, experimental sound design, and cinematic horror.
 
@@ -775,7 +775,7 @@ The instrumental pocket should remain stable while the rapper's phrasing moves a
 
 ### 2. Deep-pitched vocal effects
 
-A critical distinction: **the primary lead vocal should not be excessively pitch-shifted.**
+A critical distinction: the primary lead vocal should not be excessively pitch-shifted.
 
 The intended effect is a clearly intelligible baritone supported by selectively manipulated secondary layers.
 
